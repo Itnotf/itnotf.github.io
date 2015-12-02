@@ -242,7 +242,8 @@
 <h3 id="NOTICE">NOTICE</h3><ul>
 <li>markdown解析标题的时候，<code>#</code> 后面需要加上一个空格</li>
 <li>在Wiz上编辑blog的时候，记得复制一下，粘贴一下纯文本，不然会有意外的格式被带进去</li>
-<li>git需要web用户下面执行，先切一下-，- <code>sudo su web &amp;&amp; hexo g &amp;&amp; hexo d &amp;&amp; exit</code>77</li>
+<li>放弃php执行外部命令了，php执行用户是Apache，想法是先切换到web用户下，再执行<code>hexo d -g</code>，无奈不知道怎么实现……</li>
+<li>还是先配crontab执行</li>
 </ul>
 
       
