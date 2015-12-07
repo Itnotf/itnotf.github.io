@@ -3,17 +3,45 @@
 <head>
   <meta charset="utf-8">
   
-  <title>这里没有鱼</title>
+  <title>laravel教程 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="这里没有鱼">
-<meta property="og:url" content="http://blog.xingxuchu.com/index.html">
+  <meta name="description" content="virtualBox 5.x
+vagrant 1.7.4
+PHP7
+
+Laravel Homestead
+
+shadowsocks+proxifier,全局走socks5代理
+vagrant init laravel/homestead-7; vagrant up --provider virtualbox
+or vagrant box add laravel/homestead-7,选择1
+or">
+<meta property="og:type" content="article">
+<meta property="og:title" content="laravel教程">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/12/06/laravel教程/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description">
+<meta property="og:description" content="virtualBox 5.x
+vagrant 1.7.4
+PHP7
+
+Laravel Homestead
+
+shadowsocks+proxifier,全局走socks5代理
+vagrant init laravel/homestead-7; vagrant up --provider virtualbox
+or vagrant box add laravel/homestead-7,选择1
+or">
+<meta property="og:updated_time" content="2015-12-07T13:08:51.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="这里没有鱼">
-<meta name="twitter:description">
+<meta name="twitter:title" content="laravel教程">
+<meta name="twitter:description" content="virtualBox 5.x
+vagrant 1.7.4
+PHP7
+
+Laravel Homestead
+
+shadowsocks+proxifier,全局走socks5代理
+vagrant init laravel/homestead-7; vagrant up --provider virtualbox
+or vagrant box add laravel/homestead-7,选择1
+or">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -204,76 +232,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-php-fpm权限问题" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/07/php-fpm权限问题/" class="article-date">
-  	<time datetime="2015-12-07T11:58:59.000Z" itemprop="datePublished">2015-12-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/07/php-fpm权限问题/">php-fpm权限问题</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
-<blockquote>
-<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
-</blockquote>
-<p>所以拿到post过来的数据直接写入web目录是没有权限的。</p>
-<ul>
-<li>给目录赋予nobody的写权限</li>
-<li>写入其他目录中，之后用shell脚本处理</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-laravel教程" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-laravel教程" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2015/12/06/laravel教程/" class="article-date">
@@ -289,12 +248,27 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/06/laravel教程/">laravel教程</a>
+    <h1 class="article-title" itemprop="name">
+      laravel教程
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/laravel/">laravel</a></li></ul>
+	</div>
+
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/教程/">教程</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -321,449 +295,71 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/laravel/">laravel</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/教程/">教程</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-也是醉了" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/04/也是醉了/" class="article-date">
-  	<time datetime="2015-12-04T13:23:41.000Z" itemprop="datePublished">2015-12-04</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+<nav id="article-nav">
+  
+    <a href="/2015/12/07/php-fpm权限问题/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/04/也是醉了/">也是醉了</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="NOTICE">NOTICE</h3><ul>
-<li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
-<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>发布blog居然还有大小限制，PHPstorm那篇就忍痛删掉了一堆快捷键，以后来个2好了。</p>
-<h3 id="后记">后记</h3><p>—2015-12-7 19:40:29</p>
-</li>
-<li>安装php7的时候把服务器上的nginx升级到了1.8.0，hh，大小限制就没有了，估计在nginx配置中有限制</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-PHPstorm教程" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/04/PHPstorm教程/" class="article-date">
-  	<time datetime="2015-12-04T12:46:51.000Z" itemprop="datePublished">2015-12-04</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+          php-fpm权限问题
         
+      </div>
+    </a>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/04/PHPstorm教程/">PHPstorm教程</a>
-    </h1>
   
+    <a href="/2015/12/04/也是醉了/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">也是醉了</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="WHAT">WHAT</h2><blockquote>
-<p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
-</blockquote>
-<p>使用原因：</p>
-<ul>
-<li>功能强大！</li>
-<li>功能强大！</li>
-<li>功能强大！</li>
-<li>重要的事情要说三遍，刚刚入门，很多功能还在摸索中</li>
-</ul>
-<h3 id="安装">安装</h3><ul>
-<li>版本：PHPStorm9.0</li>
-<li>License<br>User or company name:<br><code>EMBRACE</code><br>LICENSE KEY:<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="header">===== LICENSE BEGIN =====</span></span><br><span class="line">43136-12042010</span><br><span class="line">00002UsvSON704l"dILe1PVx3y4"B3</span><br><span class="line">49AU6oSDJrsjE8nMOQh"8HTDJHIUUh</span><br><span class="line">gd1BebYc5U"6OxDbVsALB4Eb10PW8"</span><br><span class="line"><span class="header">===== LICENSE END =====</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="配置">配置</h3><p>一般就改一下编辑器风格和字体风格</p>
-<ul>
-<li>Settings-&gt;Editor-&gt;Colors &amp; Fonts-&gt;Font, 这里我选了Monokai，<code>Sava As</code> 以后才能改字体大小，习惯改到15</li>
-<li>and so on</li>
-</ul>
-<h3 id="快捷键">快捷键</h3><ul>
-<li>Ctrl + Shift + Enter 添加完成标识符</li>
-<li>Ctrl + P 显示参数信息</li>
-<li>Ctrl + Q 快速查找函数文档</li>
-<li>Ctrl + mouse 快速跳转到当前鼠标代码的源出处</li>
-<li>Alt + Insert 快速添加魔术方法</li>
-<li>Ctrl + O 选中并重写当前类的一个方法</li>
-<li>Ctrl + I 实现一个魔术方法</li>
-<li>Ctrl + Alt + T 需要回环的结构体</li>
-<li>Ctrl + / 开启/关闭当前行的注释</li>
-<li>Ctrl + Shift + / 开启/关闭当前块的注释</li>
-<li>Ctrl + W 增量式的选中当前块</li>
-<li>Ctrl + Shift + W 与ctrl+w相反</li>
-<li>Ctrl + Alt + L 格式化选中代码块</li>
-<li>Ctrl + Alt + I 自动缩进代码</li>
-<li>Tab / Shift + Tab 添加/减少缩进</li>
-<li>Ctrl + X or Shift + Delete Cut current line or selected block to clipboard</li>
-<li>Ctrl + C or Ctrl + Insert Copy current line or selected block to clipboard</li>
-<li>Ctrl + V or Shift + Insert Paste from clipboard</li>
-<li>Ctrl + Shift + V 从最近的复制记录中粘贴…</li>
-<li>Ctrl + D 复制粘贴当前行或块</li>
-<li>Ctrl + Y 删除当前行</li>
-<li>Ctrl + Shift + J Smart line join (HTML and JavaScript only)</li>
-<li>Ctrl + Enter Smart line split (HTML and JavaScript only)</li>
-<li>Shift + Enter 开启新行</li>
-<li>Ctrl + Shift + U 选中块代码大/小写</li>
-<li>Ctrl + Shift + ] / [ 增量选中块结构标识符代码段</li>
-<li>Ctrl + Delete 删除一个单词至结尾</li>
-<li>Ctrl + Backspace 删除一个单词至词头</li>
-<li>Ctrl + NumPad+/- 折叠代码段</li>
-<li>Ctrl + Shift + NumPad+ 折叠所有</li>
-<li>Ctrl + Shift + NumPad- 开启所有折叠</li>
-<li>Ctrl + F4 关闭当前tab</li>
-<li>Ctrl + N 寻找一个类</li>
-<li>Ctrl + Shift + N 寻找一个文件</li>
-<li>Ctrl + Alt + Shift + N 寻找一个符号</li>
-<li>Alt + Right/Left 去上一个/下一个tab框</li>
-<li>F12 返回前一个工具栏</li>
-<li>Esc 返回编辑框</li>
-<li>Shift + Esc 隐藏其他活动窗口</li>
-<li>Ctrl + G 去到指定行</li>
-<li>Ctrl + E 最近编辑的文件</li>
-<li>Alt + F1 当前文件的一些选择模式，很有用</li>
-<li>Ctrl + B or Ctrl + Click 代码源出处</li>
-<li>Alt + Up/Down 去上一个/下一个方法体</li>
-<li>Alt + Home 显示文件层级浏览工具</li>
-<li>F11 开启/关闭书签</li>
-<li>Ctrl + F11 开启/关闭数字书签</li>
-<li>Ctrl + #[0-9] 中转到数字书签</li>
-<li>Shift + F11 显示所有的书签</li>
-</ul>
-<h3 id="Tools-vagrant">Tools-vagrant</h3><ol>
-<li>PHPStorm自带vagrant插件，可在<code>setting-&gt;Plugns</code>中开启禁用</li>
-<li>通过 <code>Tools-&gt;Vagrant</code> 即可方便操作vagrant 基本操作</li>
-<li>由于我的 vagrant 目录非工程目录，通常通过<code>Tools-&gt;Start SSH sessions</code>连接vagrant虚拟机</li>
-<li><code>127.0.0.1&#39; &#39;2222&#39; &#39;vagrant&#39; &#39;vagrant&#39;，可以设置在</code>Setting-&gt;Build,Execution,Deployment-&gt;Deployment`,保存为SFTP协议，<br>advanced中编码设为UTF-8</li>
-<li>即可方便的在编辑器中写脚本，Terminal中跑脚本</li>
-</ol>
-<hr>
-<p><strong>安装过程碰到的问题</strong><br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">12:08:53 Windows 7 sometimes breaks FTP connections on Java 7 if firewall is enabled.</span><br><span class="line">Command netsh advfirewall <span class="operator"><span class="keyword">set</span> <span class="keyword">global</span> StatefulFTP <span class="keyword">disable</span> usually fixes the problem.</span><br><span class="line">See more <span class="keyword">in</span> the issue. (<span class="keyword">show</span> balloon)</span><br><span class="line"><span class="number">12</span>:<span class="number">08</span>:<span class="number">53</span> Framework MVC Structure Support: Looks <span class="keyword">like</span> framework Yii <span class="keyword">is</span> used <span class="keyword">in</span> <span class="keyword">project</span>. Configure framework <span class="keyword">usage</span> <span class="keyword">settings</span>: <span class="keyword">Project</span> <span class="keyword">Settings</span> | Framework Integration</span><br><span class="line"><span class="number">12</span>:<span class="number">08</span>:<span class="number">58</span> Can<span class="string">'t use Subversion command line client: svn</span><br><span class="line">         Probably the path to Subversion executable is wrong. Fix it. (show balloon)</span><br><span class="line">12:09:01 Errors found while svn working copies detection. Fix it.</span><br><span class="line">12:10:10 Can'</span><span class="keyword">t</span> <span class="keyword">use</span> Subversion command line <span class="keyword">client</span>: svn</span><br><span class="line">         Probably the <span class="keyword">path</span> <span class="keyword">to</span> Subversion executable <span class="keyword">is</span> wrong. Fix it. (<span class="keyword">show</span> balloon)</span><br><span class="line"><span class="number">12</span>:<span class="number">13</span>:<span class="number">21</span> Can<span class="string">'t use Subversion command line client: svn</span><br><span class="line">         Probably the path to Subversion executable is wrong. Fix it. (show balloon)</span></span></span><br></pre></td></tr></table></figure></p>
-<p>安装打开工程路径，两个worning，两个error：<br><code>Can&#39;t use Subversion command line client: svn</code><br>TortoiseSVN默认不支持命令行command line</p>
-<p><strong>解决办法</strong>：</p>
-<ul>
-<li>下载一个命令行工具 sliksvn<br> <a href="https://sliksvn.com/download" target="_blank" rel="external">https://sliksvn.com/download</a></li>
-<li>一路next，安装完成</li>
-<li>在use conmand line client设置成你的C:\Program Files\SlikSvn\bin\svn.exe即可使用svn了</li>
-</ul>
-<p>另外一个error<br><code>Errors found while svn working copies detection. Fix it.</code><br>svn版本不同</p>
-<p>svn问题解决不了，以上的方法都没有解决，应该是windows下的命令设置正确</p>
-<p><strong>其他问题</strong></p>
-<ol>
-<li>升级win10以后，PHPstorm的本地terminal没用了，无法输入</li>
-</ol>
-<h3 id="总结">总结</h3><p>有人说IDE过大，vim以及sublime比较轻便，扩展性更好，更适合程序员，我也去专门学习了一下vim以及sublime快捷键<br>这么说吧，首先，习惯是一件很可怕的事情，一件工具的好坏不是以某些人习不习惯来决定的，很多东西也是不分好坏的，选择适合自己的并去习惯就好了，、然而很多人因为习惯去放弃尝试，这就是一件可怕的事情，世界是在发展的，你可以选择不改变，但请你不要阻止别人改变我喜欢在PHPstorm上打个勾，而不喜欢像vim或者sublime那样为了某个配置去上网查资料，改变一个个的文件。不便捷带来的其他人看不懂并不能成为你装X的资本再来谈谈IDE过大的问题，我最早接触手机的时候，诺基亚系统，一个应用只有1M不到，到后来的Android系统，也是很小的一个包，到现在的应用都十几M，几十M软件是在发展的，硬件也是在发展的，我在我的ssd 16G内存台式机上，也是可以秒开PHPstorm，并且完全不卡，PHPstorm还可以装各种插件，基本会集成PHP开发会接触到的所有新技术，写了也没准备跟别人争论什么，只是在陈诉一些自以为是的“事实”，大家开心就好&gt; 人活着嘛，最重要的就是开心啦 —</p>
-<h3 id="MORE">MORE</h3><p>2015-12-4 20:50:00<br>忘了说，PHPstorm已经升级了10.0.1，淘宝上买了个两块钱的服务器注册，感觉还挺好的</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PHPstorm/">PHPstorm</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/教程/">教程</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
   
 </article>
 
 
-
-
-
-
-
-  
-    <article id="post-心情像天气一样灰暗" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/03/心情像天气一样灰暗/" class="article-date">
-  	<time datetime="2015-12-03T09:49:40.000Z" itemprop="datePublished">2015-12-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/03/心情像天气一样灰暗/">心情像天气一样灰暗</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
-
-
-
-
-  
-    <article id="post-Wiz笔记发到hexo的第一篇微博" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/01/Wiz笔记发到hexo的第一篇微博/" class="article-date">
-  	<time datetime="2015-12-01T13:47:19.000Z" itemprop="datePublished">2015-12-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/01/Wiz笔记发到hexo的第一篇微博/">Wiz笔记发到hexo的第一篇微博</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
-<h3 id="TODO">TODO</h3><ul>
-<li><del>发布完自动执行 <code>hexo g</code></del></li>
-<li><del>自动推到github上去</del></li>
-<li>返回一个标准xml格式的数据，不然Wiz老是提示报错也蛮烦的</li>
-<li>权限问题……</li>
-</ul>
-<h3 id="NOTICE">NOTICE</h3><ul>
-<li>markdown解析标题的时候，<code>#</code> 后面需要加上一个空格</li>
-<li>在Wiz上编辑blog的时候，记得复制一下，粘贴一下纯文本，不然会有意外的格式被带进去</li>
-<li>放弃php执行外部命令了，php执行用户是Apache，想法是先切换到web用户下，再执行<code>hexo d -g</code>，无奈不知道怎么实现……</li>
-<li>还是先配crontab执行</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="laravel教程" data-title="laravel教程" data-url="http://blog.xingxuchu.com/2015/12/06/laravel教程/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
 
-
-
-
-  
-    <article id="post-TheBeginning" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/07/18/TheBeginning/" class="article-date">
-  	<time datetime="2015-07-18T10:20:15.000Z" itemprop="datePublished">2015-07-18</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/18/TheBeginning/">The Beginning</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>静态blog，按照网上教程一步一步走过来，说来也并没有太多的技术含量，权且当做用来记录学习历程的地方了吧。作为一名程序员，平时自己也会做笔记，blog，终究是给别人看的。这里可能会有很多模仿别人的东西，但是我自认为模仿即学习，何必管那么多，这里终究都是我自己的东西。</p>
-<p>之前用Evernote，一直以来并没有发现什么不妥，偶尔在Windows上面会卡，Windows，都能理解的，卡卡就习惯了，甚至于有同事使用了Wiz并说其好用的时候我并没有想要去尝试的冲动，习惯真是一件可怕的事情，尤其对于我这种好奇心还算比较强的人。值得庆幸的是，最终我还是转到了Wiz，由此接触到了MarkDown，以及一些其他的东西，但这是后话，以后慢慢说。Wiz有个好功能，发布blog，之后自己想写个API，实现在Wiz上一键发布blog。</p>
-<p>The Beginning，希望是一个好的开始，我是个虎头蛇尾的人，但凡事没有定论。</p>
-<blockquote>
-<p>相信自己能改变世界，自己才能改变世界</p>
-</blockquote>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/随笔/">随笔</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -787,8 +383,8 @@
 		fancybox: true,
 		mathjax: true,
 		animate: undefined,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
