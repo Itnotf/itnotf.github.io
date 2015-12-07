@@ -206,6 +206,73 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-php-fpm权限问题" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/07/php-fpm权限问题/" class="article-date">
+  	<time datetime="2015-12-07T11:58:59.000Z" itemprop="datePublished">2015-12-07</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/07/php-fpm权限问题/">php-fpm权限问题</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
+<blockquote>
+<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
+</blockquote>
+<p>所以拿到post过来的数据直接写入web目录是没有权限的。</p>
+<ul>
+<li>给目录赋予nobody的写权限</li>
+<li>写入其他目录中，之后用shell脚本处理</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-也是醉了" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
