@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[这里没有鱼]]></title>
+  <subtitle><![CDATA[niweishenmeyaokandezhemezixi]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://blog.xingxuchu.com/"/>
+  <updated>2015-12-13T19:05:01.000Z</updated>
+  <id>http://blog.xingxuchu.com/</id>
+  
+  <author>
+    <name><![CDATA[60]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[跪立]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/13/%E8%B7%AA%E7%AB%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/12/13/跪立/</id>
+    <published>2015-12-13T05:55:17.000Z</published>
+    <updated>2015-12-13T19:05:01.000Z</updated>
+    <content type="html"><![CDATA[<p>最近胃有些疼，特别是坐着的时候。坐姿一直不正确，习惯弯着背。<br>那就跪着吧，还好桌子的高度刚刚好，跪着使用笔记本。<br>膝盖有一点疼，垫了个瑜伽垫，还有叠了个毯子在膝盖下面。<br>噢，对了，是跪立，不是跪坐。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近胃有些疼，特别是坐着的时候。坐姿一直不正确，习惯弯着背。<br>那就跪着吧，还好桌子的高度刚刚好，跪着使用笔记本。<br>膝盖有一点疼，垫了个瑜伽垫，还有叠了个毯子在膝盖下面。<br>噢，对了，是跪立，不是跪坐。</p>
+]]>
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Xmanager Enterprise 5]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/13/Xmanager%20Enterprise%205/"/>
+    <id>http://blog.xingxuchu.com/2015/12/13/Xmanager Enterprise 5/</id>
+    <published>2015-12-13T04:04:46.000Z</published>
+    <updated>2015-12-19T02:20:01.000Z</updated>
+    <content type="html"><![CDATA[<p>之前一直用的是X系列的Xshell、Xftp，最近发现了一个集成的软件包。一次注册就可以了，当然我是没钱买的，2333。<br>安装完后会有好几个软件。</p>
+<p>###WHAT</p>
+<p>####Xmanager</p>
+<blockquote>
+<p>Xmanager是一个简单易用的高性能的运行在Windows平台上的X Server软件。它能把远端Unix/Linux的桌面无缝地带到你的Windows上，甚至当你的电脑是在内网或防火墙后，你也能通过SSH协议安全的运行远端的X应用程序。</p>
+</blockquote>
+<p>####Xbrowser</p>
+<blockquote>
+<p>Xbrowser 使用 xdcmp 协议通过图形化桌面远程连接到Unix/Linux主机。</p>
+</blockquote>
+<p>####Xftp</p>
+<blockquote>
+<p>Xftp是一个用于MS Windows平台的强大的FTP和SFTP文件传输程序。Xftp让你能安全地在Unix/Linux和Windows PC之间传输文件。</p>
+</blockquote>
+<p>####Xlpd</p>
+<blockquote>
+<p>Xlpd是一个用于MS Windows平台的LPD(行式打印机虚拟后台程序)应用程序。安装了Xlpd后，你的带有打印机的本地PC就成为了一个打印服务器，来自不同远程系统的打印任务都能在网络环境中得到请求和处理。</p>
+</blockquote>
+<p>####Xshell</p>
+<blockquote>
+<p>Xshell是一个用于MS Windows平台的强大的SSH，TELNET，和RLOGIN终端仿真软件。它使得用户能轻松和安全地从Windows PC上访问Unix/Linux主机。</p>
+</blockquote>
+<p>####Xstart</p>
+<blockquote>
+<p>Xstart通过图形化界面连接到Unix/Linux主机。</p>
+</blockquote>
+<p>###安装<br>去官网下个最新的<code>Xmanager Enterprise 5</code> 安装即可。<br>打开的时候会让输入注册码，下个注册机填一下。</p>
+<p>###总结之前一直只在用Xshell以及Xftp，以后将其他的软件也都试试。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>之前一直用的是X系列的Xshell、Xftp，最近发现了一个集成的软件包。一次注册就可以了，当然我是没钱买的，2333。<br>安装完后会有好几个软件。</p>
+<p>###WHAT</p>
+<p>####Xmanager</p>
+<blockquote>
+<p>Xmana]]>
+    </summary>
+    
+      <category term="Xftp" scheme="http://blog.xingxuchu.com/tags/Xftp/"/>
+    
+      <category term="Xshell" scheme="http://blog.xingxuchu.com/tags/Xshell/"/>
+    
+      <category term="工具" scheme="http://blog.xingxuchu.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="教程" scheme="http://blog.xingxuchu.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[受够了这网速]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/13/%E5%8F%97%E5%A4%9F%E4%BA%86%E8%BF%99%E7%BD%91%E9%80%9F/"/>
+    <id>http://blog.xingxuchu.com/2015/12/13/受够了这网速/</id>
+    <published>2015-12-13T04:01:18.000Z</published>
+    <updated>2015-12-13T19:05:01.000Z</updated>
+    <content type="html"><![CDATA[<p>有时候翻墙都下不来一个完整的安装包。是时候把这些软件放到云盘上面了，</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>有时候翻墙都下不来一个完整的安装包。是时候把这些软件放到云盘上面了，</p>
+]]>
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Homestead]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/13/Homestead/"/>
+    <id>http://blog.xingxuchu.com/2015/12/13/Homestead/</id>
+    <published>2015-12-12T17:18:51.000Z</published>
+    <updated>2015-12-19T08:35:01.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="WHAT">WHAT</h3><p>就我理解，就是<code>Laravel</code>自己做的一个<code>vagrant box</code>,里面有各种安装好的软件和配好的环境。<br>不仅仅作为Laravel的环境，平时做PHP开发，也可以使用<code>Homestead</code>这个box，能简单的共享文件夹，配置站点。<br>当然我说的是专注于开发可以简单的这么做，如果想了解每一个软件的编译安装，熟悉各种环境配置，就找一个纯净的box也是可以的。</p>
+<h4 id="安装">安装</h4><ul>
+<li>环境<ul>
+<li>win10</li>
+<li>vagrant 1.7.X</li>
+<li>VirtualBox5.X</li>
+</ul>
+</li>
+<li>版本<ul>
+<li>Homestead-7</li>
+</ul>
+</li>
+</ul>
+<p>vagrant和Virtualbox都安装好了，如果网络允许的话直接add <code>laravel/homestead-7</code>这个box就好了.<br>刚刚php7出来了，所以直接安装了新版本，也有之前的版本<code>laravel/homestead</code> php5.6</p>
+<ul>
+<li>shadowsocks+proxifier,全局走socks5代理</li>
+<li><code>vagrant init laravel/homestead-7; vagrant up --provider virtualbox</code></li>
+<li>or <code>vagrant box add laravel/homestead-7</code>,选择1</li>
+<li>or Downloading: <a href="https://atlas.hashicorp.com/laravel/boxes/homestead-7/versions/0.2.0/providers/virtualbox.box" target="_blank" rel="external">https://atlas.hashicorp.com/laravel/boxes/homestead-7/versions/0.2.0/providers/virtualbox.box</a></li>
+<li><code>vagrant box add laravel/homestead-7 virtualbox-homestead7.box</code></li>
+</ul>
+<p>可以直接走代理安装，box大概快1G了，也可以浏览器代理下载，然后使用vagrant 命令加进去。<br><strong><em> ps:用国外服务器下载真的好快 </em></strong></p>
+<p>以上就是homestead的box安装了，homestead在github上还有一个项目。</p>
+<ul>
+<li><code>git clone -b php-7 https://github.com/laravel/homestead.git Homestead7</code></li>
+<li><code>bash init.sh</code></li>
+</ul>
+<p>安了git后，执行以上两步就clone下来homestead的项目，<br>初始化后会在<code>~\.homestead</code>文件夹下生成一个 <code>Homestead.yaml</code>文件<br><strong><em>最近经常见到yaml格式的文件，感觉比json、xml都直观一些呀</em></strong></p>
+<h4 id="Homestead-yaml">Homestead.yaml</h4><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">ip: <span class="string">"192.168.10.10"</span></span><br><span class="line">memory: <span class="number">2048</span></span><br><span class="line">cpus: <span class="number">1</span></span><br><span class="line">provider: virtualbox</span><br><span class="line"> </span><br><span class="line">authorize: ~/.ssh/id_rsa.pub</span><br><span class="line"> </span><br><span class="line">keys:</span><br><span class="line">    - ~/.ssh/id_rsa</span><br><span class="line"> </span><br><span class="line">folders:</span><br><span class="line">    - map: ~/Code</span><br><span class="line">      to: /home/vagrant/Code</span><br><span class="line"> </span><br><span class="line">sites:</span><br><span class="line">    - map: homestead.app</span><br><span class="line">      to: /home/vagrant/Code/Laravel/<span class="keyword">public</span></span><br><span class="line"> </span><br><span class="line">databases:</span><br><span class="line">    - homestead</span><br><span class="line"> </span><br><span class="line">variables:</span><br><span class="line">    - key: APP_ENV</span><br><span class="line">      value: local</span><br><span class="line"> </span><br><span class="line"><span class="preprocessor"># blackfire:</span></span><br><span class="line"><span class="preprocessor">#     - id: foo</span></span><br><span class="line"><span class="preprocessor">#       token: bar</span></span><br><span class="line"><span class="preprocessor">#       client-id: foo</span></span><br><span class="line"><span class="preprocessor">#       client-token: bar</span></span><br><span class="line"> </span><br><span class="line"><span class="preprocessor"># ports:</span></span><br><span class="line"><span class="preprocessor">#     - send: 93000</span></span><br><span class="line"><span class="preprocessor">#       to: 9300</span></span><br><span class="line"><span class="preprocessor">#     - send: 7777</span></span><br><span class="line"><span class="preprocessor">#       to: 777</span></span><br><span class="line"><span class="preprocessor">#       protocol: udp</span></span><br></pre></td></tr></table></figure>
+<p>这个文件将vagrant的配置简单化了，个人觉得<br>还比较容易能够理解<br>一般改一下共享文件夹，以及sites，就可以了</p>
+<p>这之前还需要生成一个ssh密钥，由于安装了git并且覆盖了windows的命令行，直接在命令行中<br><code>ssh-keygen -t rsa -C &quot;1096364408@qq.com&quot;</code></p>
+<p>指明ssh密钥路径，默认</p>
+<p>共享文件夹，其实可以把你的所有代码的总目录共享进去，每个site对应到不同的子目录，<br>Vagrant 默认的 VirtualBox 共享目录方式读写性能表现并不好，好在 Vagrant 支持 NFS 文件系统方式的共享，我们可以启用 NFS 提升性能。<br>只需在 folders中加上<code>type: &quot;nfs&quot;</code>,<br>你可以通过配置 hhvm 属性为 true 来让虚拟站点支持 HHVM:Z,在sites下面增加<code>hhvm: true</code></p>
+<p>配置hosts文件，如：<code>192.168.10.10  homestead.app</code></p>
+<h4 id="启动和关闭">启动和关闭</h4><ul>
+<li><code>vagrant up</code></li>
+<li><code>vagrant destroy --force</code></li>
+</ul>
+<p>还可以将homestead对单独的项目创建单独的虚拟机<br>composer require laravel/homestead –dev<br>会在项目目录下生成Vagrantfile和Homestead.yaml文件，make命令会自动去配置</p>
+<ul>
+<li>Vagant ssh</li>
+</ul>
+<p>可以配置别名<code>alias vm=&quot;ssh vagrant@127.0.0.1 -p 2222&quot;</code></p>
+<p>连接数据库<br>默认安装了Mysql和Postgres两种数据库，可以在本机通过端口连接，33060(Mysql),54320(Postgres),账号密码是<code>homestead / secret</code></p>
+<p>在Homestead环境上架运行后，可能会增加Nginx站点，可以通过两种方法</p>
+<ol>
+<li>在Homestead.yaml文件中增加站点然后执行<code>vagrant privision</code></li>
+<li>也可以自定义转发额外的端口到Vagrant box，<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ports</span>:</span><br><span class="line">    - <span class="attribute">send</span>: <span class="number">93000</span></span><br><span class="line">      <span class="attribute">to</span>: <span class="number">9300</span></span><br><span class="line">    - <span class="attribute">send</span>: <span class="number">7777</span></span><br><span class="line">      <span class="attribute">to</span>: <span class="number">777</span></span><br><span class="line">      <span class="attribute">protocol</span>: udp</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>Blackfire Profiler</p>
+<h3 id="错误及解决">错误及解决</h3><p>vagrant 启动连接超时，报错如下<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">    default: Warning: Connection <span class="keyword">timeout</span>. Retrying...</span><br><span class="line">    default: Warning: Connection <span class="keyword">timeout</span>. Retrying...</span><br><span class="line">Timed out <span class="keyword">while</span> waiting <span class="keyword">for</span> <span class="keyword">the</span> machine <span class="keyword">to</span> boot. This means <span class="keyword">that</span></span><br><span class="line">Vagrant was unable <span class="keyword">to</span> communicate <span class="keyword">with</span> <span class="keyword">the</span> guest machine within</span><br><span class="line"><span class="keyword">the</span> configured (<span class="string">"config.vm.boot_timeout"</span> value) <span class="property">time</span> period.</span><br><span class="line"> </span><br><span class="line">If you look <span class="keyword">above</span>, you should be able <span class="keyword">to</span> see <span class="keyword">the</span> <span class="keyword">error</span>(s) <span class="keyword">that</span></span><br><span class="line">Vagrant had when attempting <span class="keyword">to</span> connect <span class="keyword">to</span> <span class="keyword">the</span> machine. These errors</span><br><span class="line">are usually good hints <span class="keyword">as</span> <span class="keyword">to</span> what may be wrong.</span><br><span class="line"> </span><br><span class="line">If you're using a custom box, make sure <span class="keyword">that</span> networking <span class="keyword">is</span> properly</span><br><span class="line">working <span class="keyword">and</span> you're able <span class="keyword">to</span> connect <span class="keyword">to</span> <span class="keyword">the</span> machine. It <span class="keyword">is</span> a common</span><br><span class="line">problem <span class="keyword">that</span> networking <span class="keyword">isn't</span> setup properly <span class="keyword">in</span> these boxes.</span><br><span class="line">Verify <span class="keyword">that</span> authentication configurations are also setup properly,</span><br><span class="line"><span class="keyword">as</span> well.</span><br><span class="line"> </span><br><span class="line">If <span class="keyword">the</span> box appears <span class="keyword">to</span> be booting properly, you may want <span class="keyword">to</span> increase</span><br><span class="line"><span class="keyword">the</span> <span class="keyword">timeout</span> (<span class="string">"config.vm.boot_timeout"</span>) value.</span><br></pre></td></tr></table></figure></p>
+<p>去virtualBox查看，报错如下</p>
+<blockquote>
+<p>VT-x/AMD-V 硬件加速在您的系统中不可用。您的 64-位虚拟机将无法检测到 64-位处理器，从而无法启动。</p>
+</blockquote>
+<p>网上找的解决方法：</p>
+<blockquote>
+<p>进入你的BIOS，然后将virtualization（虚拟化）设置为enable即可</p>
+</blockquote>
+<p>问题解决。</p>
+<p>又报错了：<br><figure class="highlight haskell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">F</span>:\<span class="type">Git</span>\<span class="type">Homestead7</span>&gt;vagrant up</span><br><span class="line"><span class="type">Bringing</span> machine '<span class="default"><span class="keyword">default</span>' up with 'virtualbox' provider...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Importing</span> base box 'laravel/homestead-7'...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Matching</span> <span class="type">MAC</span> address for <span class="type">NAT</span> networking...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Setting</span> the name of the <span class="type">VM</span>: homestead-7</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Clearing</span> any previously set network interfaces...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Preparing</span> network interfaces based on configuration...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Adapter</span> 1: nat</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Adapter</span> 2: hostonly</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Forwarding</span> ports...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: 80 =&gt; 8000 <span class="container">(<span class="title">adapter</span> 1)</span></span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: 443 =&gt; 44300 <span class="container">(<span class="title">adapter</span> 1)</span></span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: 3306 =&gt; 33060 <span class="container">(<span class="title">adapter</span> 1)</span></span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: 5432 =&gt; 54320 <span class="container">(<span class="title">adapter</span> 1)</span></span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: 22 =&gt; 2222 <span class="container">(<span class="title">adapter</span> 1)</span></span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Running</span> 'pre-boot' <span class="type">VM</span> customizations...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Booting</span> <span class="type">VM</span>...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Waiting</span> for machine to boot. <span class="type">This</span> may take a few minutes...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">SSH</span> address: 127.0.0.1:2222</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">SSH</span> username: vagrant</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">SSH</span> auth method: private key</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Warning</span>: <span class="type">Connection</span> timeout. <span class="type">Retrying</span>...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Warning</span>: <span class="type">Connection</span> timeout. <span class="type">Retrying</span>...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Warning</span>: <span class="type">Remote</span> connection disconnect. <span class="type">Retrying</span>...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>:</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Vagrant</span> insecure key detected. <span class="type">Vagrant</span> will automatically replace</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: this with a newly generated keypair for better security.</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>:</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Inserting</span> generated public key within guest...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Removing</span> insecure key from the guest if it's present...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: <span class="type">Key</span> inserted! <span class="type">Disconnecting</span> and reconnecting using new <span class="type">SSH</span> key...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Machine</span> booted and ready!</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Checking</span> for guest additions in <span class="type">VM</span>...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Setting</span> hostname...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Configuring</span> and enabling network interfaces...</span></span><br><span class="line">==&gt; <span class="default"><span class="keyword">default</span>: <span class="type">Mounting</span> shared folders...</span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: /vagrant =&gt; <span class="type">F</span>:/<span class="type">Git</span>/<span class="type">Homestead7</span></span></span><br><span class="line">    <span class="default"><span class="keyword">default</span>: /home/vagrant/<span class="type">Code</span> =&gt; <span class="type">F</span>:/</span></span><br><span class="line"><span class="type">Failed</span> to mount folders <span class="keyword">in</span> <span class="type">Linux</span> guest. <span class="type">This</span> is usually because</span><br><span class="line"><span class="title">the</span> <span class="string">"vboxsf"</span> file system is not available. <span class="type">Please</span> verify that</span><br><span class="line"><span class="title">the</span> guest additions are properly installed <span class="keyword">in</span> the guest and</span><br><span class="line"><span class="title">can</span> work properly. <span class="type">The</span> command attempted was:</span><br><span class="line"><span class="title">mount</span> -t vboxsf -o uid=`id -u vagrant`,gid=`getent group vagrant | cut -d: -f3`,actimeo=<span class="number">1</span> home_vagrant_Code /home/vagrant/<span class="type">Code</span></span><br><span class="line"><span class="title">mount</span> -t vboxsf -o uid=`id -u vagrant`,gid=`id -g vagrant`,actimeo=<span class="number">1</span> home_vagrant_Code /home/vagrant/<span class="type">Code</span></span><br><span class="line"><span class="type">The</span> error output from the last command was:</span><br><span class="line"><span class="title">unknown</span> mount option `actimeo=<span class="number">1</span>'</span><br><span class="line"><span class="title">valid</span> options:</span><br><span class="line">  rw         mount read write (<span class="default"><span class="keyword">default</span>)</span></span><br><span class="line">  ro         mount read only</span><br><span class="line">  uid       = <span class="default"><span class="keyword">default</span> file owner user id</span></span><br><span class="line">  gid       = <span class="default"><span class="keyword">default</span> file owner group id</span></span><br><span class="line">  ttl       = time to live for dentry</span><br><span class="line">  iocharset = i/o charset (<span class="default"><span class="keyword">default</span> utf8)</span></span><br><span class="line">  convertcp = convert share name from given charset to utf8</span><br><span class="line">  dmode     = mode <span class="keyword">of</span> all directories</span><br><span class="line">  fmode     = mode <span class="keyword">of</span> all regular files</span><br><span class="line">  umask     = umask <span class="keyword">of</span> directories and regular files</span><br><span class="line">  dmask     = umask <span class="keyword">of</span> directories</span><br><span class="line">  fmask     = umask <span class="keyword">of</span> regular files</span><br></pre></td></tr></table></figure></p>
+<p>网上找的解决方法，发现没用</p>
+<blockquote>
+<p>vagrant ssh登陆后发现共享文件夹没了，无奈Google之，之后找到两种方法。<br>1,sudo /etc/init.d/vboxadd setup<br>2,sudo apt-get install virtualbox-guest-utils<br>vagrant reload后问题完美解决。</p>
+</blockquote>
+<p>stackoverflow上解决方法：</p>
+<blockquote>
+<p>vagrant ssh<br>sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions<br>vagrant reload</p>
+</blockquote>
+<p>问题依旧</p>
+<p><a href="http://docs.vagrantup.com/v2/synced-folders/nfs.html" target="_blank" rel="external">http://docs.vagrantup.com/v2/synced-folders/nfs.html</a></p>
+<blockquote>
+<p>Windows users: NFS folders do not work on Windows hosts. Vagrant will ignore your request for NFS synced folders on Windows.</p>
+</blockquote>
+<p>看到这样一句，热泪盈眶<br>第一次启动的时候最好翻墙，有联网</p>
+<p>vagrant 启动报错，大概原因是之前我的ssh密钥变了一下，之后死活connection timeout<br>各种重装virtual box 和vagrant都不起作用<br>最后重装virtual box 并且把用户文件夹下有关virtual box的配置全部删了，一切就o了</p>
+<p>之后一直报错<br><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> <span class="symbol">grep:</span></span><br><span class="line"></span>=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span>=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> <span class="symbol">:</span> <span class="constant">No</span> such file or directory</span><br><span class="line"></span>=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> <span class="symbol">tee:</span></span><br><span class="line"></span>=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span>=<span class="ruby"><span class="status">=&gt;</span> <span class="symbol">default:</span> <span class="symbol">:</span> <span class="constant">No</span> such file or directory</span></span><br></pre></td></tr></table></figure></p>
+<p>网上找到了解决方法，说是yaml配置文件中folder 不能直接指向虚拟机的/home/vagrant 文件夹<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">folders</span>:</span><br><span class="line">    - <span class="attribute">map</span>: <span class="attribute">E</span>:\vagrant\</span><br><span class="line">      <span class="attribute">to</span>: /home/vagrant</span><br><span class="line">#改为</span><br><span class="line"><span class="attribute">folders</span>:</span><br><span class="line">    - <span class="attribute">map</span>: <span class="attribute">E</span>:\vagrant\</span><br><span class="line">      <span class="attribute">to</span>: /home/vagrant/Code</span><br></pre></td></tr></table></figure></p>
+<h3 id="Others">Others</h3><hr>
+<p>以下为4.2的homestead安装方法<br><code>composer global require &quot;laravel/homestead=~2.0&quot;</code><br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">F:\Git&gt;composer <span class="built_in">global</span> <span class="built_in">require</span> <span class="string">"laravel/homestead=~2.0"</span></span><br><span class="line">Changed current <span class="built_in">directory</span> <span class="built_in">to</span> C:/Users/<span class="number">60</span>/AppData/Roaming/Composer</span><br><span class="line">./composer.json has been created</span><br><span class="line">Loading composer repositories <span class="operator">with</span> package information</span><br><span class="line">Updating dependencies (including <span class="built_in">require</span>-dev)</span><br><span class="line">Your requirements could <span class="operator">not</span> be resolved <span class="built_in">to</span> <span class="operator">an</span> installable <span class="built_in">set</span> <span class="operator">of</span> packages.</span><br><span class="line"> </span><br><span class="line">  Problem <span class="number">1</span></span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.8</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.7</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.6</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.5</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.4</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.3</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.2</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.1</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.1</span><span class="number">.0</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.9</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.8</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.7</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.6</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.5</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.4</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.3</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.2</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.17</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.16</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.15</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.14</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.13</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.12</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.11</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.10</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.1</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - laravel/homestead v2<span class="number">.0</span><span class="number">.0</span> requires php &gt;=<span class="number">5.4</span> -&gt; your PHP <span class="built_in">version</span> (<span class="number">5.3</span><span class="number">.29</span>) <span class="operator">or</span> <span class="string">"config.platform.php"</span> <span class="built_in">value</span> does <span class="operator">not</span> satisfy that requirement.</span><br><span class="line">    - Installation request <span class="keyword">for</span> laravel/homestead ~<span class="number">2.0</span> -&gt; satisfiable <span class="keyword">by</span> laravel/homestead[v2<span class="number">.0</span><span class="number">.0</span>, v2<span class="number">.0</span><span class="number">.1</span>, v2<span class="number">.0</span><span class="number">.10</span>, v2<span class="number">.0</span><span class="number">.11</span>, v2<span class="number">.0</span><span class="number">.12</span>, v2<span class="number">.0</span><span class="number">.13</span>, v2<span class="number">.0</span><span class="number">.14</span>, v2<span class="number">.0</span><span class="number">.15</span>, v2<span class="number">.0</span><span class="number">.16</span>, v2<span class="number">.0</span><span class="number">.17</span>, v2<span class="number">.0</span><span class="number">.2</span>, v2<span class="number">.0</span><span class="number">.3</span>, v2<span class="number">.0</span><span class="number">.4</span>, v2<span class="number">.0</span><span class="number">.5</span>, v2<span class="number">.0</span><span class="number">.6</span>, v2<span class="number">.0</span><span class="number">.7</span>, v2<span class="number">.0</span><span class="number">.8</span>, v2<span class="number">.0</span><span class="number">.9</span>, v2<span class="number">.1</span><span class="number">.0</span>, v2<span class="number">.1</span><span class="number">.1</span>, v2<span class="number">.1</span><span class="number">.2</span>, v2<span class="number">.1</span><span class="number">.3</span>, v2<span class="number">.1</span><span class="number">.4</span>, v2<span class="number">.1</span><span class="number">.5</span>, v2<span class="number">.1</span><span class="number">.6</span>, v2<span class="number">.1</span><span class="number">.7</span>, v2<span class="number">.1</span><span class="number">.8</span>].</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">Installation failed, deleting ./composer.json.</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>php5.3、5.4和apache都是用vc9编译，电脑必须安装vc9运行库才能运行。<br>php5.5、5.6是vc11编译，如用php5.5、5.6必须安装vc11(32位)运行库。<br><a href="http://www.phpstudy.net/a.php/184.html" target="_blank" rel="external">http://www.phpstudy.net/a.php/184.html</a></p>
+</blockquote>
+<p>重新安装composer一遍，安装的时候选择了php位置</p>
+<p>安装过程报错：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Connection Error [ERR_CONNECTION]: Unable <span class="built_in">to</span> connect <span class="built_in">to</span> getcomposer.org</span><br><span class="line"> </span><br><span class="line">Request <span class="built_in">to</span> <span class="keyword">https</span>://getcomposer.org/installer failed <span class="operator">with</span> errors:</span><br><span class="line">SSL: Handshake timed out. Failed <span class="built_in">to</span> enable crypto. Failed <span class="built_in">to</span> <span class="built_in">open</span> stream: operation failed</span><br></pre></td></tr></table></figure></p>
+<p>下载安装ca证书，或者php版本从5.6改为5.5<br>ca证书：</p>
+<ul>
+<li><a href="http://curl.haxx.se/docs/caextract.html" target="_blank" rel="external">http://curl.haxx.se/docs/caextract.html</a> </li>
+<li><code>openssl.cafile=C:/lamp/php56/verify/cacert.pem</code> </li>
+</ul>
+<p>安装好Homestead命令行，需要将<code>~\AppData\Roaming\Composer\vendor\bin</code>加入环境变量，win10下</p>
+<p><code>homestead init</code></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="WHAT">WHAT</h3><p>就我理解，就是<code>Laravel</code>自己做的一个<code>vagrant box</code>,里面有各种安装好的软件和配好的环境。<br>不仅仅作为Laravel的环境，平时做PHP开发，也可以使用<cod]]>
+    </summary>
+    
+      <category term="Homestead" scheme="http://blog.xingxuchu.com/tags/Homestead/"/>
+    
+      <category term="laravel" scheme="http://blog.xingxuchu.com/tags/laravel/"/>
+    
+      <category term="vagrant" scheme="http://blog.xingxuchu.com/tags/vagrant/"/>
+    
+      <category term="教程" scheme="http://blog.xingxuchu.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Composer]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/12/Composer/"/>
+    <id>http://blog.xingxuchu.com/2015/12/12/Composer/</id>
+    <published>2015-12-12T15:04:19.000Z</published>
+    <updated>2015-12-13T19:05:01.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>windows10<br>下载直接安装Composer</li>
+<li>Composer v1.0-dev</li>
+</ul>
+<p>中国镜像,全局<br><code>composer config -g repositories.packagist composer http://packagist.phpcomposer.com</code><br>over</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>windows10<br>下载直接安装Composer</li>
+<li>Composer v1.0-dev</li>
+</ul>
+<p>中国镜像,全局<br><code>composer config -g repositories.packagist com]]>
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[php-fpm权限问题]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/07/php-fpm%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/"/>
+    <id>http://blog.xingxuchu.com/2015/12/07/php-fpm权限问题/</id>
+    <published>2015-12-07T11:58:59.000Z</published>
+    <updated>2015-12-07T13:05:00.000Z</updated>
+    <content type="html"><![CDATA[<p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
+<blockquote>
+<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
+</blockquote>
+<p>所以拿到post过来的数据直接写入web目录是没有权限的。</p>
+<ul>
+<li>给目录赋予nobody的写权限</li>
+<li>写入其他目录中，之后用shell脚本处理</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[权限问题]]>
+    
+    </summary>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Laravel教程]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/12/06/Laravel教程/</id>
+    <published>2015-12-06T03:59:35.000Z</published>
+    <updated>2015-12-19T09:35:01.000Z</updated>
+    <content type="html"><![CDATA[<p>###安装</p>
+<ul>
+<li>安装环境和依赖<ul>
+<li>virtualBox 5.x</li>
+<li>vagrant 1.7.4</li>
+<li>PHP7</li>
+<li>composer</li>
+<li>Laravel Homestead</li>
+</ul>
+</li>
+</ul>
+<p>直接用composer安装<br><code>composer global require &quot;laravel/installer&quot;</code></p>
+<p>环境变量中添加<code>~\.composer\verdor\bin</code>,<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">F:\Git&gt;laravel</span><br><span class="line">Laravel Installer <span class="keyword">version</span> 1.2.2</span><br><span class="line"> </span><br><span class="line">Usage:</span><br><span class="line">  command [options] [arguments]</span><br><span class="line"> </span><br><span class="line">Options:</span><br><span class="line">  -<span class="keyword">h</span>, --<span class="keyword">help</span>            <span class="keyword">Display</span> this <span class="keyword">help</span> message</span><br><span class="line">  -q, --quiet           <span class="keyword">Do</span> not output any message</span><br><span class="line">  -V, --<span class="keyword">version</span>         <span class="keyword">Display</span> this application <span class="keyword">version</span></span><br><span class="line">      --ansi            Force ANSI output</span><br><span class="line">      --<span class="keyword">no</span>-ansi         Disable ANSI output</span><br><span class="line">  -<span class="keyword">n</span>, --<span class="keyword">no</span>-interaction  <span class="keyword">Do</span> not ask any interactive question</span><br><span class="line">  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 <span class="keyword">for</span> normal output, 2 <span class="keyword">for</span> <span class="keyword">more</span> verbose output and 3 <span class="keyword">for</span> debug</span><br><span class="line"> </span><br><span class="line">Available commands:</span><br><span class="line">  <span class="keyword">help</span>  Displays <span class="keyword">help</span> <span class="keyword">for</span> a command</span><br><span class="line">  <span class="keyword">list</span>  Lists commands</span><br><span class="line">  new   Create a new Laravel application.</span><br></pre></td></tr></table></figure></p>
+<p><code>laravel new blog</code></p>
+<p>简单的命令就能初始化框架<br>需要翻墙</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>###安装</p>
+<ul>
+<li>安装环境和依赖<ul>
+<li>virtualBox 5.x</li>
+<li>vagrant 1.7.4</li>
+<li>PHP7</li>
+<li>composer</li>
+<li>Laravel Homestead</li>
+]]>
+    </summary>
+    
+      <category term="laravel" scheme="http://blog.xingxuchu.com/tags/laravel/"/>
+    
+      <category term="教程" scheme="http://blog.xingxuchu.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[也是醉了]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/"/>
+    <id>http://blog.xingxuchu.com/2015/12/04/也是醉了/</id>
+    <published>2015-12-04T13:23:41.000Z</published>
+    <updated>2015-12-07T13:08:51.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="NOTICE">NOTICE</h3><ul>
+<li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>发布blog居然还有大小限制，PHPstorm那篇就忍痛删掉了一堆快捷键，以后来个2好了。</p>
+<h3 id="后记">后记</h3><p>—2015-12-7 19:40:29</p>
+</li>
+<li>安装php7的时候把服务器上的nginx升级到了1.8.0，hh，大小限制就没有了，估计在nginx配置中有限制</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[也是醉了]]>
+    
+    </summary>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[PHPstorm教程]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/04/PHPstorm%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/12/04/PHPstorm教程/</id>
+    <published>2015-12-04T12:46:51.000Z</published>
+    <updated>2015-12-07T12:52:06.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
+<p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
+</blockquote>
+<p>使用原因：</p>
+<ul>
+<li>功能强大！</li>
+<li>功能强大！</li>
+<li>功能强大！</li>
+<li>重要的事情要说三遍，刚刚入门，很多功能还在摸索中</li>
+</ul>
+<h3 id="安装">安装</h3><ul>
+<li>版本：PHPStorm9.0</li>
+<li>License<br>User or company name:<br><code>EMBRACE</code><br>LICENSE KEY:<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="header">===== LICENSE BEGIN =====</span></span><br><span class="line">43136-12042010</span><br><span class="line">00002UsvSON704l"dILe1PVx3y4"B3</span><br><span class="line">49AU6oSDJrsjE8nMOQh"8HTDJHIUUh</span><br><span class="line">gd1BebYc5U"6OxDbVsALB4Eb10PW8"</span><br><span class="line"><span class="header">===== LICENSE END =====</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="配置">配置</h3><p>一般就改一下编辑器风格和字体风格</p>
+<ul>
+<li>Settings-&gt;Editor-&gt;Colors &amp; Fonts-&gt;Font, 这里我选了Monokai，<code>Sava As</code> 以后才能改字体大小，习惯改到15</li>
+<li>and so on</li>
+</ul>
+<h3 id="快捷键">快捷键</h3><ul>
+<li>Ctrl + Shift + Enter 添加完成标识符</li>
+<li>Ctrl + P 显示参数信息</li>
+<li>Ctrl + Q 快速查找函数文档</li>
+<li>Ctrl + mouse 快速跳转到当前鼠标代码的源出处</li>
+<li>Alt + Insert 快速添加魔术方法</li>
+<li>Ctrl + O 选中并重写当前类的一个方法</li>
+<li>Ctrl + I 实现一个魔术方法</li>
+<li>Ctrl + Alt + T 需要回环的结构体</li>
+<li>Ctrl + / 开启/关闭当前行的注释</li>
+<li>Ctrl + Shift + / 开启/关闭当前块的注释</li>
+<li>Ctrl + W 增量式的选中当前块</li>
+<li>Ctrl + Shift + W 与ctrl+w相反</li>
+<li>Ctrl + Alt + L 格式化选中代码块</li>
+<li>Ctrl + Alt + I 自动缩进代码</li>
+<li>Tab / Shift + Tab 添加/减少缩进</li>
+<li>Ctrl + X or Shift + Delete Cut current line or selected block to clipboard</li>
+<li>Ctrl + C or Ctrl + Insert Copy current line or selected block to clipboard</li>
+<li>Ctrl + V or Shift + Insert Paste from clipboard</li>
+<li>Ctrl + Shift + V 从最近的复制记录中粘贴…</li>
+<li>Ctrl + D 复制粘贴当前行或块</li>
+<li>Ctrl + Y 删除当前行</li>
+<li>Ctrl + Shift + J Smart line join (HTML and JavaScript only)</li>
+<li>Ctrl + Enter Smart line split (HTML and JavaScript only)</li>
+<li>Shift + Enter 开启新行</li>
+<li>Ctrl + Shift + U 选中块代码大/小写</li>
+<li>Ctrl + Shift + ] / [ 增量选中块结构标识符代码段</li>
+<li>Ctrl + Delete 删除一个单词至结尾</li>
+<li>Ctrl + Backspace 删除一个单词至词头</li>
+<li>Ctrl + NumPad+/- 折叠代码段</li>
+<li>Ctrl + Shift + NumPad+ 折叠所有</li>
+<li>Ctrl + Shift + NumPad- 开启所有折叠</li>
+<li>Ctrl + F4 关闭当前tab</li>
+<li>Ctrl + N 寻找一个类</li>
+<li>Ctrl + Shift + N 寻找一个文件</li>
+<li>Ctrl + Alt + Shift + N 寻找一个符号</li>
+<li>Alt + Right/Left 去上一个/下一个tab框</li>
+<li>F12 返回前一个工具栏</li>
+<li>Esc 返回编辑框</li>
+<li>Shift + Esc 隐藏其他活动窗口</li>
+<li>Ctrl + G 去到指定行</li>
+<li>Ctrl + E 最近编辑的文件</li>
+<li>Alt + F1 当前文件的一些选择模式，很有用</li>
+<li>Ctrl + B or Ctrl + Click 代码源出处</li>
+<li>Alt + Up/Down 去上一个/下一个方法体</li>
+<li>Alt + Home 显示文件层级浏览工具</li>
+<li>F11 开启/关闭书签</li>
+<li>Ctrl + F11 开启/关闭数字书签</li>
+<li>Ctrl + #[0-9] 中转到数字书签</li>
+<li>Shift + F11 显示所有的书签</li>
+</ul>
+<h3 id="Tools-vagrant">Tools-vagrant</h3><ol>
+<li>PHPStorm自带vagrant插件，可在<code>setting-&gt;Plugns</code>中开启禁用</li>
+<li>通过 <code>Tools-&gt;Vagrant</code> 即可方便操作vagrant 基本操作</li>
+<li>由于我的 vagrant 目录非工程目录，通常通过<code>Tools-&gt;Start SSH sessions</code>连接vagrant虚拟机</li>
+<li><code>127.0.0.1&#39; &#39;2222&#39; &#39;vagrant&#39; &#39;vagrant&#39;，可以设置在</code>Setting-&gt;Build,Execution,Deployment-&gt;Deployment`,保存为SFTP协议，<br>advanced中编码设为UTF-8</li>
+<li>即可方便的在编辑器中写脚本，Terminal中跑脚本</li>
+</ol>
+<hr>
+<p><strong>安装过程碰到的问题</strong><br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">12:08:53 Windows 7 sometimes breaks FTP connections on Java 7 if firewall is enabled.</span><br><span class="line">Command netsh advfirewall <span class="operator"><span class="keyword">set</span> <span class="keyword">global</span> StatefulFTP <span class="keyword">disable</span> usually fixes the problem.</span><br><span class="line">See more <span class="keyword">in</span> the issue. (<span class="keyword">show</span> balloon)</span><br><span class="line"><span class="number">12</span>:<span class="number">08</span>:<span class="number">53</span> Framework MVC Structure Support: Looks <span class="keyword">like</span> framework Yii <span class="keyword">is</span> used <span class="keyword">in</span> <span class="keyword">project</span>. Configure framework <span class="keyword">usage</span> <span class="keyword">settings</span>: <span class="keyword">Project</span> <span class="keyword">Settings</span> | Framework Integration</span><br><span class="line"><span class="number">12</span>:<span class="number">08</span>:<span class="number">58</span> Can<span class="string">'t use Subversion command line client: svn</span><br><span class="line">         Probably the path to Subversion executable is wrong. Fix it. (show balloon)</span><br><span class="line">12:09:01 Errors found while svn working copies detection. Fix it.</span><br><span class="line">12:10:10 Can'</span><span class="keyword">t</span> <span class="keyword">use</span> Subversion command line <span class="keyword">client</span>: svn</span><br><span class="line">         Probably the <span class="keyword">path</span> <span class="keyword">to</span> Subversion executable <span class="keyword">is</span> wrong. Fix it. (<span class="keyword">show</span> balloon)</span><br><span class="line"><span class="number">12</span>:<span class="number">13</span>:<span class="number">21</span> Can<span class="string">'t use Subversion command line client: svn</span><br><span class="line">         Probably the path to Subversion executable is wrong. Fix it. (show balloon)</span></span></span><br></pre></td></tr></table></figure></p>
+<p>安装打开工程路径，两个worning，两个error：<br><code>Can&#39;t use Subversion command line client: svn</code><br>TortoiseSVN默认不支持命令行command line</p>
+<p><strong>解决办法</strong>：</p>
+<ul>
+<li>下载一个命令行工具 sliksvn<br> <a href="https://sliksvn.com/download" target="_blank" rel="external">https://sliksvn.com/download</a></li>
+<li>一路next，安装完成</li>
+<li>在use conmand line client设置成你的C:\Program Files\SlikSvn\bin\svn.exe即可使用svn了</li>
+</ul>
+<p>另外一个error<br><code>Errors found while svn working copies detection. Fix it.</code><br>svn版本不同</p>
+<p>svn问题解决不了，以上的方法都没有解决，应该是windows下的命令设置正确</p>
+<p><strong>其他问题</strong></p>
+<ol>
+<li>升级win10以后，PHPstorm的本地terminal没用了，无法输入</li>
+</ol>
+<h3 id="总结">总结</h3><p>有人说IDE过大，vim以及sublime比较轻便，扩展性更好，更适合程序员，我也去专门学习了一下vim以及sublime快捷键<br>这么说吧，首先，习惯是一件很可怕的事情，一件工具的好坏不是以某些人习不习惯来决定的，很多东西也是不分好坏的，选择适合自己的并去习惯就好了，、然而很多人因为习惯去放弃尝试，这就是一件可怕的事情，世界是在发展的，你可以选择不改变，但请你不要阻止别人改变我喜欢在PHPstorm上打个勾，而不喜欢像vim或者sublime那样为了某个配置去上网查资料，改变一个个的文件。不便捷带来的其他人看不懂并不能成为你装X的资本再来谈谈IDE过大的问题，我最早接触手机的时候，诺基亚系统，一个应用只有1M不到，到后来的Android系统，也是很小的一个包，到现在的应用都十几M，几十M软件是在发展的，硬件也是在发展的，我在我的ssd 16G内存台式机上，也是可以秒开PHPstorm，并且完全不卡，PHPstorm还可以装各种插件，基本会集成PHP开发会接触到的所有新技术，写了也没准备跟别人争论什么，只是在陈诉一些自以为是的“事实”，大家开心就好&gt; 人活着嘛，最重要的就是开心啦 —</p>
+<h3 id="MORE">MORE</h3><p>2015-12-4 20:50:00<br>忘了说，PHPstorm已经升级了10.0.1，淘宝上买了个两块钱的服务器注册，感觉还挺好的</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
+<p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
+</blockquote>
+<p>使用原因：</p>
+]]>
+    </summary>
+    
+      <category term="PHPstorm" scheme="http://blog.xingxuchu.com/tags/PHPstorm/"/>
+    
+      <category term="教程" scheme="http://blog.xingxuchu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[心情像天气一样灰暗]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/03/%E5%BF%83%E6%83%85%E5%83%8F%E5%A4%A9%E6%B0%94%E4%B8%80%E6%A0%B7%E7%81%B0%E6%9A%97/"/>
+    <id>http://blog.xingxuchu.com/2015/12/03/心情像天气一样灰暗/</id>
+    <published>2015-12-03T09:49:40.000Z</published>
+    <updated>2015-12-07T16:45:01.000Z</updated>
+    <content type="html"><![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
+]]>
+    </summary>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Wiz笔记发到hexo的第一篇微博]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/01/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/"/>
+    <id>http://blog.xingxuchu.com/2015/12/01/Wiz笔记发到hexo的第一篇微博/</id>
+    <published>2015-12-01T13:47:19.000Z</published>
+    <updated>2015-12-05T02:12:24.000Z</updated>
+    <content type="html"><![CDATA[<p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
+<h3 id="TODO">TODO</h3><ul>
+<li><del>发布完自动执行 <code>hexo g</code></del></li>
+<li><del>自动推到github上去</del></li>
+<li>返回一个标准xml格式的数据，不然Wiz老是提示报错也蛮烦的</li>
+<li>权限问题……</li>
+</ul>
+<h3 id="NOTICE">NOTICE</h3><ul>
+<li>markdown解析标题的时候，<code>#</code> 后面需要加上一个空格</li>
+<li>在Wiz上编辑blog的时候，记得复制一下，粘贴一下纯文本，不然会有意外的格式被带进去</li>
+<li>放弃php执行外部命令了，php执行用户是Apache，想法是先切换到web用户下，再执行<code>hexo d -g</code>，无奈不知道怎么实现……</li>
+<li>还是先配crontab执行</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[Wiz笔记发到hexo的第一篇微博]]>
+    
+    </summary>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The Beginning]]></title>
+    <link href="http://blog.xingxuchu.com/2015/07/18/TheBeginning/"/>
+    <id>http://blog.xingxuchu.com/2015/07/18/TheBeginning/</id>
+    <published>2015-07-18T10:20:15.000Z</published>
+    <updated>2015-12-13T18:11:38.000Z</updated>
+    <content type="html"><![CDATA[<p>静态blog，按照网上教程一步一步走过来，说来也并没有太多的技术含量，权且当做用来记录学习历程的地方了吧。作为一名程序员，平时自己也会做笔记，blog，终究是给别人看的。这里可能会有很多模仿别人的东西，但是我自认为模仿即学习，何必管那么多，这里终究都是我自己的东西。</p>
+<p>之前用Evernote，一直以来并没有发现什么不妥，偶尔在Windows上面会卡，Windows，都能理解的，卡卡就习惯了，甚至于有同事使用了Wiz并说其好用的时候我并没有想要去尝试的冲动，习惯真是一件可怕的事情，尤其对于我这种好奇心还算比较强的人。值得庆幸的是，最终我还是转到了Wiz，由此接触到了MarkDown，以及一些其他的东西，但这是后话，以后慢慢说。Wiz有个好功能，发布blog，之后自己想写个API，实现在Wiz上一键发布blog。</p>
+<p>The Beginning，希望是一个好的开始，我是个虎头蛇尾的人，但凡事没有定论。</p>
+<blockquote>
+<p>相信自己能改变世界，自己才能改变世界</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[这是我的第一篇blog，请原谅我不会说话。]]>
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://blog.xingxuchu.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="随笔" scheme="http://blog.xingxuchu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
