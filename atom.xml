@@ -4,7 +4,7 @@
   <subtitle><![CDATA[niweishenmeyaokandezhemezixi]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.xingxuchu.com/"/>
-  <updated>2015-12-13T19:05:01.000Z</updated>
+  <updated>2015-12-19T11:02:59.000Z</updated>
   <id>http://blog.xingxuchu.com/</id>
   
   <author>
@@ -13,6 +13,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.xingxuchu.com/2015/12/19/404/"/>
+    <id>http://blog.xingxuchu.com/2015/12/19/404/</id>
+    <published>2015-12-19T11:02:59.000Z</published>
+    <updated>2015-12-19T11:02:59.000Z</updated>
+    <content type="html"><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://www.tianrunlin.com" homepagename="回到主页"></script>
+</body>
+</html>]]></content>
+    <summary type="html">
+    <![CDATA[<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" h]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[跪立]]></title>
