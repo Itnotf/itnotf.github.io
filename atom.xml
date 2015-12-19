@@ -313,7 +313,7 @@
     <link href="http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/"/>
     <id>http://blog.xingxuchu.com/2015/12/04/也是醉了/</id>
     <published>2015-12-04T13:20:01.000Z</published>
-    <updated>2015-12-19T11:31:58.000Z</updated>
+    <updated>2015-12-19T11:40:01.000Z</updated>
     <content type="html"><![CDATA[<h3 id="NOTICE">NOTICE</h3><ul>
 <li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
 <figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span>&lt;<span class="comment">!--more--&gt;</span></span><br></pre></td></tr></table></figure>
@@ -360,7 +360,7 @@
     <link href="http://blog.xingxuchu.com/2015/12/02/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/"/>
     <id>http://blog.xingxuchu.com/2015/12/02/Wiz笔记发到hexo的第一篇微博/</id>
     <published>2015-12-02T05:50:51.000Z</published>
-    <updated>2015-12-19T11:31:58.000Z</updated>
+    <updated>2015-12-19T11:40:01.000Z</updated>
     <content type="html"><![CDATA[<p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
 <h3 id="TODO">TODO</h3><ul>
 <li><del>发布完自动执行 <code>hexo g</code></del></li>
@@ -417,7 +417,7 @@
     <link href="http://blog.xingxuchu.com/2015/03/19/PHPstorm%E6%95%99%E7%A8%8B/"/>
     <id>http://blog.xingxuchu.com/2015/03/19/PHPstorm教程/</id>
     <published>2015-03-19T04:14:49.000Z</published>
-    <updated>2015-12-19T11:31:58.000Z</updated>
+    <updated>2015-12-19T11:33:53.000Z</updated>
     <content type="html"><![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
 <p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
 </blockquote>
