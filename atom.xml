@@ -38,16 +38,13 @@
     <link href="http://blog.xingxuchu.com/2015/12/13/Xmanager%20Enterprise%205/"/>
     <id>http://blog.xingxuchu.com/2015/12/13/Xmanager Enterprise 5/</id>
     <published>2015-12-13T04:04:46.000Z</published>
-    <updated>2015-12-19T02:20:01.000Z</updated>
+    <updated>2015-12-19T11:31:58.000Z</updated>
     <content type="html"><![CDATA[<p>之前一直用的是X系列的Xshell、Xftp，最近发现了一个集成的软件包。一次注册就可以了，当然我是没钱买的，2333。<br>安装完后会有好几个软件。</p>
 <p>###WHAT</p>
 <p>####Xmanager</p>
 <blockquote>
-<p>Xmanager是一个简单易用的高性能的运行在Windows平台上的X Server软件。它能把远端Unix/Linux的桌面无缝地带到你的Windows上，甚至当你的电脑是在内网或防火墙后，你也能通过SSH协议安全的运行远端的X应用程序。</p>
-</blockquote>
-<p>####Xbrowser</p>
-<blockquote>
-<p>Xbrowser 使用 xdcmp 协议通过图形化桌面远程连接到Unix/Linux主机。</p>
+<p>Xmanager是一个简单易用的高性能的运行在Windows平台上的X Server软件。它能把远端Unix/Linux的桌面无缝地带到你的Windows上，甚至当你的电脑是在内网或防火墙后，你也能通过SSH协议安全的运行远端的X应用程序。<br><a id="more"></a></p>
+<p>####Xbrowser<br>Xbrowser 使用 xdcmp 协议通过图形化桌面远程连接到Unix/Linux主机。</p>
 </blockquote>
 <p>####Xftp</p>
 <blockquote>
@@ -73,7 +70,8 @@
 <p>###WHAT</p>
 <p>####Xmanager</p>
 <blockquote>
-<p>Xmana]]>
+<p>Xmanager是一个简单易用的高性能的运行在Windows平台上的X Server软件。它能把远端Unix/Linux的桌面无缝地带到你的Windows上，甚至当你的电脑是在内网或防火墙后，你也能通过SSH协议安全的运行远端的X应用程序。<br>]]>
+    
     </summary>
     
       <category term="Xftp" scheme="http://blog.xingxuchu.com/tags/Xftp/"/>
@@ -323,11 +321,11 @@
     <title><![CDATA[也是醉了]]></title>
     <link href="http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/"/>
     <id>http://blog.xingxuchu.com/2015/12/04/也是醉了/</id>
-    <published>2015-12-04T13:23:41.000Z</published>
-    <updated>2015-12-07T13:08:51.000Z</updated>
+    <published>2015-12-04T13:20:01.000Z</published>
+    <updated>2015-12-19T11:31:58.000Z</updated>
     <content type="html"><![CDATA[<h3 id="NOTICE">NOTICE</h3><ul>
 <li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
-<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span>&lt;<span class="comment">!--more--&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>发布blog居然还有大小限制，PHPstorm那篇就忍痛删掉了一堆快捷键，以后来个2好了。</p>
 <h3 id="后记">后记</h3><p>—2015-12-7 19:40:29</p>
@@ -336,8 +334,28 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[也是醉了]]>
+    <![CDATA[<h3 id="NOTICE">NOTICE</h3><ul>
+<li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
+<figure class="highlight fortran"><table><tr><td class=]]>
+    </summary>
     
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[心情像天气一样灰暗]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/03/%E5%BF%83%E6%83%85%E5%83%8F%E5%A4%A9%E6%B0%94%E4%B8%80%E6%A0%B7%E7%81%B0%E6%9A%97/"/>
+    <id>http://blog.xingxuchu.com/2015/12/03/心情像天气一样灰暗/</id>
+    <published>2015-12-03T09:49:40.000Z</published>
+    <updated>2015-12-07T16:45:01.000Z</updated>
+    <content type="html"><![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
+]]>
     </summary>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
@@ -347,11 +365,68 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Wiz笔记发到hexo的第一篇微博]]></title>
+    <link href="http://blog.xingxuchu.com/2015/12/02/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/"/>
+    <id>http://blog.xingxuchu.com/2015/12/02/Wiz笔记发到hexo的第一篇微博/</id>
+    <published>2015-12-02T05:50:51.000Z</published>
+    <updated>2015-12-19T11:31:58.000Z</updated>
+    <content type="html"><![CDATA[<p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
+<h3 id="TODO">TODO</h3><ul>
+<li><del>发布完自动执行 <code>hexo g</code></del></li>
+<li><del>自动推到github上去</del><br><a id="more"></a>- 返回一个标准xml格式的数据，不然Wiz老是提示报错也蛮烦的</li>
+<li>权限问题……</li>
+</ul>
+<h3 id="NOTICE">NOTICE</h3><ul>
+<li>markdown解析标题的时候，<code>#</code> 后面需要加上一个空格</li>
+<li>在Wiz上编辑blog的时候，记得复制一下，粘贴一下纯文本，不然会有意外的格式被带进去</li>
+<li>放弃php执行外部命令了，php执行用户是Apache，想法是先切换到web用户下，再执行<code>hexo d -g</code>，无奈不知道怎么实现……</li>
+<li>还是先配crontab执行</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
+<h3 id="TODO">TODO</h3><ul>
+<li><del>发布完自动执行 <code>hexo g</code></del></li>
+<li><del>自动推到github上去</del><br>]]>
+    
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The Beginning]]></title>
+    <link href="http://blog.xingxuchu.com/2015/07/18/TheBeginning/"/>
+    <id>http://blog.xingxuchu.com/2015/07/18/TheBeginning/</id>
+    <published>2015-07-18T10:20:15.000Z</published>
+    <updated>2015-12-13T18:11:38.000Z</updated>
+    <content type="html"><![CDATA[<p>静态blog，按照网上教程一步一步走过来，说来也并没有太多的技术含量，权且当做用来记录学习历程的地方了吧。作为一名程序员，平时自己也会做笔记，blog，终究是给别人看的。这里可能会有很多模仿别人的东西，但是我自认为模仿即学习，何必管那么多，这里终究都是我自己的东西。</p>
+<p>之前用Evernote，一直以来并没有发现什么不妥，偶尔在Windows上面会卡，Windows，都能理解的，卡卡就习惯了，甚至于有同事使用了Wiz并说其好用的时候我并没有想要去尝试的冲动，习惯真是一件可怕的事情，尤其对于我这种好奇心还算比较强的人。值得庆幸的是，最终我还是转到了Wiz，由此接触到了MarkDown，以及一些其他的东西，但这是后话，以后慢慢说。Wiz有个好功能，发布blog，之后自己想写个API，实现在Wiz上一键发布blog。</p>
+<p>The Beginning，希望是一个好的开始，我是个虎头蛇尾的人，但凡事没有定论。</p>
+<blockquote>
+<p>相信自己能改变世界，自己才能改变世界</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[这是我的第一篇blog，请原谅我不会说话。]]>
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://blog.xingxuchu.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="随笔" scheme="http://blog.xingxuchu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[PHPstorm教程]]></title>
-    <link href="http://blog.xingxuchu.com/2015/12/04/PHPstorm%E6%95%99%E7%A8%8B/"/>
-    <id>http://blog.xingxuchu.com/2015/12/04/PHPstorm教程/</id>
-    <published>2015-12-04T12:46:51.000Z</published>
-    <updated>2015-12-07T12:52:06.000Z</updated>
+    <link href="http://blog.xingxuchu.com/2015/03/19/PHPstorm%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/03/19/PHPstorm教程/</id>
+    <published>2015-03-19T04:14:49.000Z</published>
+    <updated>2015-12-19T11:31:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
 <p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
 </blockquote>
@@ -359,8 +434,7 @@
 <ul>
 <li>功能强大！</li>
 <li>功能强大！</li>
-<li>功能强大！</li>
-<li>重要的事情要说三遍，刚刚入门，很多功能还在摸索中</li>
+<li>功能强大！<br><a id="more"></a>- 重要的事情要说三遍，刚刚入门，很多功能还在摸索中</li>
 </ul>
 <h3 id="安装">安装</h3><ul>
 <li>版本：PHPStorm9.0</li>
@@ -453,86 +527,16 @@
 <p>PhpStorm是一个轻量级且便捷的PHP IDE，其旨在提供用户效率，可深刻理解用户的编码，提供智能代码补全，快速导航以及即时错误检查。</p>
 </blockquote>
 <p>使用原因：</p>
-]]>
+<ul>
+<li>功能强大！</li>
+<li>功能强大！</li>
+<li>功能强大！<br>]]>
+    
     </summary>
     
-      <category term="PHPstorm" scheme="http://blog.xingxuchu.com/tags/PHPstorm/"/>
-    
-      <category term="教程" scheme="http://blog.xingxuchu.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[心情像天气一样灰暗]]></title>
-    <link href="http://blog.xingxuchu.com/2015/12/03/%E5%BF%83%E6%83%85%E5%83%8F%E5%A4%A9%E6%B0%94%E4%B8%80%E6%A0%B7%E7%81%B0%E6%9A%97/"/>
-    <id>http://blog.xingxuchu.com/2015/12/03/心情像天气一样灰暗/</id>
-    <published>2015-12-03T09:49:40.000Z</published>
-    <updated>2015-12-07T16:45:01.000Z</updated>
-    <content type="html"><![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
-]]>
-    </summary>
-    
-      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Wiz笔记发到hexo的第一篇微博]]></title>
-    <link href="http://blog.xingxuchu.com/2015/12/01/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/"/>
-    <id>http://blog.xingxuchu.com/2015/12/01/Wiz笔记发到hexo的第一篇微博/</id>
-    <published>2015-12-01T13:47:19.000Z</published>
-    <updated>2015-12-05T02:12:24.000Z</updated>
-    <content type="html"><![CDATA[<p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
-<h3 id="TODO">TODO</h3><ul>
-<li><del>发布完自动执行 <code>hexo g</code></del></li>
-<li><del>自动推到github上去</del></li>
-<li>返回一个标准xml格式的数据，不然Wiz老是提示报错也蛮烦的</li>
-<li>权限问题……</li>
-</ul>
-<h3 id="NOTICE">NOTICE</h3><ul>
-<li>markdown解析标题的时候，<code>#</code> 后面需要加上一个空格</li>
-<li>在Wiz上编辑blog的时候，记得复制一下，粘贴一下纯文本，不然会有意外的格式被带进去</li>
-<li>放弃php执行外部命令了，php执行用户是Apache，想法是先切换到web用户下，再执行<code>hexo d -g</code>，无奈不知道怎么实现……</li>
-<li>还是先配crontab执行</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[Wiz笔记发到hexo的第一篇微博]]>
-    
-    </summary>
-    
-      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
-    
-      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Beginning]]></title>
-    <link href="http://blog.xingxuchu.com/2015/07/18/TheBeginning/"/>
-    <id>http://blog.xingxuchu.com/2015/07/18/TheBeginning/</id>
-    <published>2015-07-18T10:20:15.000Z</published>
-    <updated>2015-12-13T18:11:38.000Z</updated>
-    <content type="html"><![CDATA[<p>静态blog，按照网上教程一步一步走过来，说来也并没有太多的技术含量，权且当做用来记录学习历程的地方了吧。作为一名程序员，平时自己也会做笔记，blog，终究是给别人看的。这里可能会有很多模仿别人的东西，但是我自认为模仿即学习，何必管那么多，这里终究都是我自己的东西。</p>
-<p>之前用Evernote，一直以来并没有发现什么不妥，偶尔在Windows上面会卡，Windows，都能理解的，卡卡就习惯了，甚至于有同事使用了Wiz并说其好用的时候我并没有想要去尝试的冲动，习惯真是一件可怕的事情，尤其对于我这种好奇心还算比较强的人。值得庆幸的是，最终我还是转到了Wiz，由此接触到了MarkDown，以及一些其他的东西，但这是后话，以后慢慢说。Wiz有个好功能，发布blog，之后自己想写个API，实现在Wiz上一键发布blog。</p>
-<p>The Beginning，希望是一个好的开始，我是个虎头蛇尾的人，但凡事没有定论。</p>
-<blockquote>
-<p>相信自己能改变世界，自己才能改变世界</p>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[这是我的第一篇blog，请原谅我不会说话。]]>
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://blog.xingxuchu.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="随笔" scheme="http://blog.xingxuchu.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
