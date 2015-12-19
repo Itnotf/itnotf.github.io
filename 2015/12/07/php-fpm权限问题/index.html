@@ -5,16 +5,22 @@
   
   <title>php-fpm权限问题 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="权限问题">
+  <meta name="description" content="php-fpm是运行在nobody用户下的，nginx是运行在www-data用户下的，web目录用户是web，
+
+Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="php-fpm权限问题">
 <meta property="og:url" content="http://blog.xingxuchu.com/2015/12/07/php-fpm权限问题/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="权限问题">
-<meta property="og:updated_time" content="2015-12-07T13:05:00.000Z">
+<meta property="og:description" content="php-fpm是运行在nobody用户下的，nginx是运行在www-data用户下的，web目录用户是web，
+
+Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。">
+<meta property="og:updated_time" content="2015-12-19T11:30:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="php-fpm权限问题">
-<meta name="twitter:description" content="权限问题">
+<meta name="twitter:description" content="php-fpm是运行在nobody用户下的，nginx是运行在www-data用户下的，web目录用户是web，
+
+Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -136,7 +142,7 @@ var _hmt = _hmt || [];
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/undefined/" style="font-size: 16.67px;"></a> <a href="/tags/Homestead/" style="font-size: 10px;">Homestead</a> <a href="/tags/PHPstorm/" style="font-size: 10px;">PHPstorm</a> <a href="/tags/Xftp/" style="font-size: 10px;">Xftp</a> <a href="/tags/Xshell/" style="font-size: 10px;">Xshell</a> <a href="/tags/laravel/" style="font-size: 13.33px;">laravel</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/教程/" style="font-size: 16.67px;">教程</a> <a href="/tags/日志/" style="font-size: 20px;">日志</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+						<a href="/tags/undefined/" style="font-size: 20px;"></a> <a href="/tags/Homestead/" style="font-size: 10px;">Homestead</a> <a href="/tags/PHPstorm/" style="font-size: 10px;">PHPstorm</a> <a href="/tags/Xftp/" style="font-size: 10px;">Xftp</a> <a href="/tags/Xshell/" style="font-size: 10px;">Xshell</a> <a href="/tags/laravel/" style="font-size: 13.33px;">laravel</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/教程/" style="font-size: 16.67px;">教程</a> <a href="/tags/日志/" style="font-size: 16.67px;">日志</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</div>
 				</section>
 				
@@ -220,7 +226,7 @@ var _hmt = _hmt || [];
   
     <div class="article-meta">
       <a href="/2015/12/07/php-fpm权限问题/" class="article-date">
-  	<time datetime="2015-12-07T11:58:59.000Z" itemprop="datePublished">2015-12-07</time>
+  	<time datetime="2015-12-07T11:58:18.000Z" itemprop="datePublished">2015-12-07</time>
 </a>
     </div>
   
@@ -242,7 +248,7 @@ var _hmt = _hmt || [];
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
 	</div>
 
         
@@ -259,7 +265,7 @@ var _hmt = _hmt || [];
       
         <p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
 <blockquote>
-<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
+<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br><a id="more"></a>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
 </blockquote>
 <p>所以拿到post过来的数据直接写入web目录是没有权限的。</p>
 <ul>

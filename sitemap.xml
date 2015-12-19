@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/12/07/php-fpm%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2015-12-19T11:30:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-19T11:30:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/12/13/Homestead/</loc>
     <lastmod>2015-12-19T11:28:34.000Z</lastmod>
   </url>
@@ -12,18 +22,8 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-19T09:35:01.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.xingxuchu.com/2015/12/13/Xmanager%20Enterprise%205/</loc>
     <lastmod>2015-12-19T02:20:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/12/13/%E8%B7%AA%E7%AB%8B/</loc>
-    <lastmod>2015-12-13T19:05:01.000Z</lastmod>
   </url>
   
   <url>
@@ -33,6 +33,11 @@
   
   <url>
     <loc>http://blog.xingxuchu.com/2015/12/12/Composer/</loc>
+    <lastmod>2015-12-13T19:05:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/12/13/%E8%B7%AA%E7%AB%8B/</loc>
     <lastmod>2015-12-13T19:05:01.000Z</lastmod>
   </url>
   
@@ -49,11 +54,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/</loc>
     <lastmod>2015-12-07T13:08:51.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/12/07/php-fpm%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2015-12-07T13:05:00.000Z</lastmod>
   </url>
   
   <url>

@@ -254,11 +254,11 @@
     <title><![CDATA[php-fpm权限问题]]></title>
     <link href="http://blog.xingxuchu.com/2015/12/07/php-fpm%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/"/>
     <id>http://blog.xingxuchu.com/2015/12/07/php-fpm权限问题/</id>
-    <published>2015-12-07T11:58:59.000Z</published>
-    <updated>2015-12-07T13:05:00.000Z</updated>
+    <published>2015-12-07T11:58:18.000Z</published>
+    <updated>2015-12-19T11:30:01.000Z</updated>
     <content type="html"><![CDATA[<p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
 <blockquote>
-<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
+<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br><a id="more"></a>PHP-FPM运行用户可以也建议跟Nginx用户相同</p>
 </blockquote>
 <p>所以拿到post过来的数据直接写入web目录是没有权限的。</p>
 <ul>
@@ -267,11 +267,13 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[权限问题]]>
+    <![CDATA[<p>php-fpm是运行在nobody用户下的，<br>nginx是运行在www-data用户下的，<br>web目录用户是web，</p>
+<blockquote>
+<p>Web服务器运行用户和Web目录所有者不同是最基本的安全原则，要不就会像在Windows开发那样，PHP脚本可以对Web目录甚至Windows系统目录内容进行修改，完全没有安全性可言。<br>]]>
     
     </summary>
     
-      <category term="日志" scheme="http://blog.xingxuchu.com/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
     
@@ -282,15 +284,14 @@
     <link href="http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/"/>
     <id>http://blog.xingxuchu.com/2015/12/06/Laravel教程/</id>
     <published>2015-12-06T03:59:35.000Z</published>
-    <updated>2015-12-19T09:35:01.000Z</updated>
+    <updated>2015-12-19T11:30:01.000Z</updated>
     <content type="html"><![CDATA[<p>###安装</p>
 <ul>
 <li>安装环境和依赖<ul>
 <li>virtualBox 5.x</li>
 <li>vagrant 1.7.4</li>
 <li>PHP7</li>
-<li>composer</li>
-<li>Laravel Homestead</li>
+<li>composer<br><a id="more"></a> - Laravel Homestead</li>
 </ul>
 </li>
 </ul>
@@ -306,9 +307,8 @@
 <li>virtualBox 5.x</li>
 <li>vagrant 1.7.4</li>
 <li>PHP7</li>
-<li>composer</li>
-<li>Laravel Homestead</li>
-]]>
+<li>composer<br>]]>
+    
     </summary>
     
       <category term="laravel" scheme="http://blog.xingxuchu.com/tags/laravel/"/>
