@@ -112,7 +112,7 @@
     <link href="http://blog.xingxuchu.com/2015/12/13/Homestead/"/>
     <id>http://blog.xingxuchu.com/2015/12/13/Homestead/</id>
     <published>2015-12-12T17:18:51.000Z</published>
-    <updated>2015-12-19T08:35:01.000Z</updated>
+    <updated>2015-12-19T10:55:01.000Z</updated>
     <content type="html"><![CDATA[<h3 id="WHAT">WHAT</h3><p>就我理解，就是<code>Laravel</code>自己做的一个<code>vagrant box</code>,里面有各种安装好的软件和配好的环境。<br>不仅仅作为Laravel的环境，平时做PHP开发，也可以使用<code>Homestead</code>这个box，能简单的共享文件夹，配置站点。<br>当然我说的是专注于开发可以简单的这么做，如果想了解每一个软件的编译安装，熟悉各种环境配置，就找一个纯净的box也是可以的。</p>
 <h4 id="安装">安装</h4><ul>
 <li>环境<ul>
