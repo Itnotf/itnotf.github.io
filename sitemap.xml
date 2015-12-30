@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/07/16/sublime%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T16:35:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T16:35:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/07/12/Vagrant%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T16:35:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/12/12/Composer/</loc>
     <lastmod>2015-12-30T16:30:01.000Z</lastmod>
   </url>
@@ -27,12 +42,12 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/12/02/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/</loc>
+    <loc>http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/</loc>
     <lastmod>2015-12-19T11:40:01.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/12/04/%E4%B9%9F%E6%98%AF%E9%86%89%E4%BA%86/</loc>
+    <loc>http://blog.xingxuchu.com/2015/12/02/Wiz%E7%AC%94%E8%AE%B0%E5%8F%91%E5%88%B0hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%BE%AE%E5%8D%9A/</loc>
     <lastmod>2015-12-19T11:40:01.000Z</lastmod>
   </url>
   

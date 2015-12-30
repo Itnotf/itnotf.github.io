@@ -488,6 +488,177 @@
   </entry>
   
   <entry>
+    <title><![CDATA[sublime教程]]></title>
+    <link href="http://blog.xingxuchu.com/2015/07/16/sublime%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/07/16/sublime教程/</id>
+    <published>2015-07-16T10:36:05.000Z</published>
+    <updated>2015-12-30T16:35:01.000Z</updated>
+    <content type="html"><![CDATA[<p>##WHAT&gt;sublime Text 是一个代码编辑器，收费可无限期试用，也是HTML和散文先进的文本编辑器。最初被设计为一个具有丰富扩展功能的vim</p>
+<p>使用sublime的原因：</p>
+<ul>
+<li>跨平台</li>
+<li>扩展性好</li>
+<li>几乎可以自定义一切<br><a id="more"></a>* 功能强大</li>
+<li>退出时无提示</li>
+</ul>
+<hr>
+<p>###安装</p>
+<ul>
+<li>版本：<code>sublime txt 2.02</code>    <code>windows7旗舰版 Service Pack 1</code> </li>
+<li>注册码：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">----- BEGIN LICENSE -----  </span><br><span class="line">Andrew Weber  </span><br><span class="line">Single User License  </span><br><span class="line">EA7E-<span class="number">855605</span>  </span><br><span class="line"><span class="number">813</span>A03DD <span class="number">5E4</span>AD9E6 <span class="number">6</span>C0EEB94 BC99798F  </span><br><span class="line"><span class="number">942194</span>A6 <span class="number">02396E98</span> E62C9979 <span class="number">4</span>BB979FE  </span><br><span class="line"><span class="number">91424</span>C9D A45400BF F6747D88 <span class="number">2F</span>B88078  </span><br><span class="line"><span class="number">90F</span>5CC94 <span class="number">1</span>CDC92DC <span class="number">8457107</span>A F151657B  </span><br><span class="line"><span class="number">1</span>D22E383 A997F016 <span class="number">42397640</span> <span class="number">33F</span>41CFC  </span><br><span class="line">E1D0AE85 A0BBD039 <span class="number">0E9</span>C8D55 E1B89D5D  </span><br><span class="line"><span class="number">5</span>CDB7036 E56DE1C0 EFCC0840 <span class="number">650</span>CD3A6  </span><br><span class="line">B98FC99C <span class="number">8F</span>AC73EE D2B95564 DF450523  </span><br><span class="line">------ END LICENSE ------ </span><br><span class="line">``` </span><br><span class="line">&gt;申明：只供研究学习，请遵守作者版权。其实不注册也可以，就是会有弹窗</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">####Package Control</span></span><br><span class="line">安装Package Control</span><br><span class="line">按Ctrl+`调出console</span><br><span class="line">到[Package Control](https:<span class="comment">//packagecontrol.io/installation#st2)官网复制代码如下：</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>import urllib2,os,hashlib; h = ‘eb2297e1a458f27d836c04bb0cbaf282’ + ‘d0e7a3098092775ccb37ca9d6b2e4b7d’; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( ‘<a href="http://packagecontrol.io/" target="_blank" rel="external">http://packagecontrol.io/</a>‘ + pf.replace(‘ ‘, ‘%20’)).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), ‘wb’ ).write(by) if dh == h else None; print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h) if dh != h else ‘Please restart Sublime Text to finish installation’)<br><code>``
+输入到console并回车，重启Sublime Text 2，中间可以会安装一些依赖包多次重启
+最终</code>Perferences-&gt;package settings-&gt;package control<code>，快捷键是</code>CTRL+Shift+P<code>，
+输入</code>install<code>，调出</code>Install Package` 并回车，在列表中选择想要安装的插件</p>
+<p>#####ZenCoding<br>zenCoding是一种快速的html、css编写方式，默认tab键。更名为<strong>Emmet</strong><br>message中显示会自动下载PyV8包，可以在console看到，但是下的好慢，下完重启插件生效</p>
+<p>#####ConvertToUTF8<br>打开GB2312或者GBK文件转换为UTF8</p>
+<p><em>本来想用sublime安装markdown的插件，结果发现安装了两个插件Markdown Preview以及Markdown Editing，可以扩展以及语法高亮，但是不能双屏预览，可以通过安装Markdown Building快捷键<code>Ctrl+B</code>显示在浏览器</em></p>
+<p>安装好了sublime text后，有需要的插件以后继续安装</p>
+<hr>
+<p>###快捷键</p>
+<hr>
+<p>###总结<br>轻量级，免费，一般单独的打开文件我喜欢使用sublime，不仅仅是PHP的编辑器，可能是功能还有很多但是我没有去发掘<br>扩展很多，需要网上找资料，安装扩展也有可能出现未知的问题</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>##WHAT&gt;sublime Text 是一个代码编辑器，收费可无限期试用，也是HTML和散文先进的文本编辑器。最初被设计为一个具有丰富扩展功能的vim</p>
+<p>使用sublime的原因：</p>
+<ul>
+<li>跨平台</li>
+<li>扩展性好</li>
+<li>几乎可以自定义一切<br>]]>
+    
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[MarkDown教程]]></title>
+    <link href="http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/07/16/MarkDown教程/</id>
+    <published>2015-07-16T03:31:32.000Z</published>
+    <updated>2015-12-30T16:35:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="WHAT&gt;markdown是一种轻量级的标记语言。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨">WHAT&gt;markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</h2><h4 id="优点">优点</h4><ul>
+<li>专注你的文字内容而不是排版样式</li>
+<li>轻松导出HTML、PDF 和本身的 md 文件</li>
+<li>纯文本编辑，适用于所有的编辑器和字处理软件<br><a id="more"></a>* 可读，直观。适合所有人的写作语言</li>
+</ul>
+<h4 id="工具">工具</h4><ul>
+<li>sublime</li>
+<li>wiz</li>
+<li>mou(mac)</li>
+</ul>
+<h2 id="HOW">HOW</h2><ul>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">创始人 John Gruber 的 MarkDown 语法说明</a></li>
+<li><a href="http://wowubuntu.com/markdown" target="_blank" rel="external">MarkDown 中文语法说明</a></li>
+<li><a href="http://sspai.com/25137" target="_blank" rel="external">认识与入门MarkDown</a></li>
+</ul>
+<h4 id="标题">标题</h4><p>只用在一行的文字前面加1到6个<code>#</code>即可，分别表示1到6级标题<br><code>#标题</code><br><code>##标题</code><br><code>###标题</code></p>
+<h4 id="列表">列表</h4><p>在文字前面加上<code>-</code>或者<code>*</code>，表示无序列表，加上<code>1.</code> <code>2.</code> <code>3.</code>表示有序列表，符号与文字中间要加上一个空格<br>有序列表前面的数字可以随便写并不影响生成的顺序</p>
+<h4 id="引用">引用</h4><p>如果要引入一段句子，可以在前面加上<code>&gt;</code>即可</p>
+<h4 id="图片与链接">图片与链接</h4><p><code>[baidu](http://www.baidu.com title )</code><br><code>![image](htt://image.com title)</code><br>插入图片和链接也有其他的方式比如说：<br><code>[baidu][]</code><br><code>[baidu]: http://www.baidu.com &quot;title&quot;</code></p>
+<blockquote>
+<p>推荐<a href="http://www.getcloudapp.com/" target="_blank" rel="external">CloudApp</a> 的服务，上传图片生成URL即可</p>
+</blockquote>
+<h4 id="粗体与斜体，删除线">粗体与斜体，删除线</h4><p>前后加一个<code>*</code>或者<code>-</code>表示斜线<br>前后加三个<code>*</code>或者<code>-</code>表示粗体<br>前后加一个<code>~</code>表示删除线</p>
+<h4 id="代码段">代码段</h4><p>前面加4个空格或者一个制表符，即可生成代码段<br>或者一段代码前后都加上3个`</p>
+<h4 id="分割线">分割线</h4><p>连续的三个<code>*</code>或者<code>-</code>即可生成一条华丽的分割线</p>
+<hr>
+<h3 id="总结">总结</h3><p>以上是基本的MarkDown使用方法，喏，接触之前感觉好厉害好厉害，好难好难，这么高级的东西要学很久吧！<br>结果，学习加整理加差不多已经熟练起来不过半天时间。<strong>Just do it</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="WHAT&gt;markdown是一种轻量级的标记语言。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨">WHAT&gt;markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</h2><h4 id="优点">优点</h4><ul>
+<li>专注你的文字内容而不是排版样式</li>
+<li>轻松导出HTML、PDF 和本身的 md 文件</li>
+<li>纯文本编辑，适用于所有的编辑器和字处理软件<br>]]>
+    
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vagrant教程]]></title>
+    <link href="http://blog.xingxuchu.com/2015/07/12/Vagrant%E6%95%99%E7%A8%8B/"/>
+    <id>http://blog.xingxuchu.com/2015/07/12/Vagrant教程/</id>
+    <published>2015-07-11T19:14:58.000Z</published>
+    <updated>2015-12-30T16:35:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="WHAT&gt;_Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它_使用Oracle的开源VirtualBox虚拟化系统，使用_Chef创建自动化虚拟环境。使用Vagrant的原因：-_熟悉linux环境，方便、不占资源的使用虚拟机-_了解一下新技术<!-more->##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init">WHAT&gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。使用Vagrant的原因：- 熟悉linux环境，方便、不占资源的使用虚拟机- 了解一下新技术<a id="more"></a>## 安装- 环境：win10 专业版- 版本：<code>Oracle VM VirtualBox  4.3.24</code> <code>Vagrant 1.7.2</code>- box : <a href="http://www.vagrantbox.es/" target="_blank" rel="external"><code>precise64</code></a>安装完成后，使用以下命令- vagrant init</h2><p> 目录下会出现Vagrantfile文件，里面可以修改各种配置</p>
+<ul>
+<li>vagrant add precise64 precise64.box<br>添加box，每个box就是一个linux系统，我安装的是Ubuntu12.04</li>
+<li>vagrant box list</li>
+<li>vagrant status</li>
+<li>vagrant up</li>
+</ul>
+<h4 id="问题">问题</h4><ol>
+<li>一般情况下<code>vagrant up</code>都会出现问题，可能是版本问题，系统问题等等问题<br>比如说最开始安装了4.3.30版本，启动失败，报错：<br>default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……<br>一开始以为是ssh的问题，Windows没有ssh命令，需要安装ssh客户端，git中带了ssh客户端，安装git，并在环境变量中添加了bin的路径。错误没有解决。继续Google<br>更换VirtualBox为4.2.16版本。问题解决。</li>
+<li><p>ssh问题，登陆不上虚拟机，windows 上不知道自己的ssh装在哪里了……<br>我的解决方法：修改Vagrantfile，直接用账号密码登陆</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Vagrant.configure(<span class="number">2</span>) <span class="keyword">do</span> |config|</span><br><span class="line">  config.<span class="keyword">vm</span>.box = <span class="string">"my_package"</span></span><br><span class="line">  config.<span class="keyword">vm</span>.network <span class="string">"forwarded_port"</span>, gues<span class="variable">t:</span> <span class="number">80</span>, hos<span class="variable">t:</span> <span class="number">8080</span></span><br><span class="line">  config.ssh.username = <span class="string">"vagrant"</span></span><br><span class="line">  config.ssh.password = <span class="string">"vagrant"</span></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>端口映射，将虚拟机的端口映射本地从而实现类似<code>http://localhost:80</code>这种访问方式，这种方式比较麻烦，Host-only比较<br>修改Vagrantfile的一下一行注释去掉，并保存<br><code>config.vm.network :private_network, ip: &quot;192.168.33.10&quot;</code><br>即可通过 <code>192.168.33.10</code>来访问这台虚拟机，<br>但是， 我在win7上这么做没问题，升级到win10后，无法启动虚拟机了<br>解决方法：暂时使用端口映射……</p>
+</li>
+<li>现在启动Vagrant的时候都会提醒我的Vagrant和Vm版本不对应，需要4.2的版本，暂时没升级Vagrant，或者降级Vm</li>
+<li>使用precise32box的时候，第一次<code>vagrant up</code>会不断提示超时，后来找到原因，这个box的Ubuntu系统第一次进入系统时，会有个系统选择界面，没有默认进入，会一直卡住<br>解决方法：直接用VM启动改虚拟机，选择第一个系统进入，然后输入账号密码都是vagrant，正常关机<code>sudo poweroff</code>，以后就可以使用<code>vagrant up</code>了</li>
+</ol>
+<p>以后继续研究完善</p>
+<h2 id="使用">使用</h2><p>一般情况下，使用 <code>vagrant up</code> <code>vagrant halt</code> 来开启关闭虚拟机，然后可以使用ssh工具登录使用linux系统，共享本地文件夹<br>其他命令</p>
+<ul>
+<li>vagrant package  打包命令</li>
+<li>vagrant reload</li>
+<li>vagrant ssh</li>
+<li>vagrant destroy</li>
+<li>vagrant box list</li>
+<li>vagrant box remove XXX</li>
+<li>vagrant box add –name box_name /path/of/box/file</li>
+</ul>
+<h2 id="总结">总结</h2><p>之前不太使用虚拟机的，电脑太差，一开虚拟机就卡的要死，vagrant确实方便了使用虚拟机以及各种配置，<br>最重要的还是方便统一部署，说起来这个算是运维的工作吧，我是搞php的，就暂且认为学习Linux是有必要的吧，自己安装各种软件服务，配置都稍微熟悉一下<br>vagrant的英文意思是流浪者，以后你可以带着你自己打包的一个box去不同的机器上面，却能够有着自己习惯的工作环境，这就是其意义所在<br>这篇算起来仅仅是安装教程，具体的使用其实也蛮简单，需要的时候再查一下吧，28定律，我这里写的是2 </p>
+<h2 id="后续">后续</h2><p>一早上来就想升级一下</p>
+<ul>
+<li>Vagrant 1.7.4 这个版本支持vm5.0</li>
+<li>Oracle VM virtualbox 5.0.4 感觉改进了不少</li>
+<li>win10 专业版</li>
+</ul>
+<p>先把之前的工作环境打一个包</p>
+<ul>
+<li>vagrant package my_packageXXX</li>
+</ul>
+<p>升级软件，然后</p>
+<ul>
+<li>vagrant box add package_name /path/to/packageXXX</li>
+<li>vagrant box list</li>
+<li>vagrant init package_name</li>
+</ul>
+<ol>
+<li>ssh问题不复存在，不用改用账号密码登陆了</li>
+<li>private_network问题依旧存在<br>问题描述：<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Bringing machine <span class="comment">'default' up with 'virtualbox' provider...</span></span><br><span class="line">==&gt; <span class="keyword">default</span>: Clearing any previously <span class="keyword">set</span> network interfaces...</span><br><span class="line">There was an <span class="keyword">error</span> <span class="keyword">while</span> executing `VBoxManage`, a CLI used <span class="keyword">by</span> Vagrant</span><br><span class="line"><span class="keyword">for</span> controlling VirtualBox. The command <span class="keyword">and</span> stderr <span class="keyword">is</span> shown below.</span><br><span class="line">Command: [<span class="string">"hostonlyif"</span>, <span class="string">"ipconfig"</span>, <span class="string">"VirtualBox Host-Only Ethernet Adapter #25"</span>, <span class="string">"--ip"</span>, <span class="string">"192.168.33.1"</span>, <span class="string">"--netmask"</span>, <span class="string">"255.255.255.0"</span>]</span><br><span class="line">Stderr: VBoxManage.exe: <span class="keyword">error</span>: The host network <span class="keyword">interface</span> <span class="keyword">with</span> the given name could <span class="keyword">not</span> be found</span><br><span class="line">VBoxManage.exe: <span class="keyword">error</span>: Details: code E_INVALIDARG (<span class="number">0x80070057</span>), component HostWrap, <span class="keyword">interface</span> IHost, callee IUnknown</span><br><span class="line">VBoxManage.exe: <span class="keyword">error</span>: Context: <span class="string">"FindHostNetworkInterfaceByName(Bstr(pszName).raw(), hif.asOutParam())"</span> at line <span class="number">204</span> <span class="keyword">of</span> file VBoxManageHostonly.cpp</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>在<a href="http://stackoverflow.com/questions/31765581/the-host-network-interface-with-the-given-name-could-not-be-found" target="_blank" rel="external">stackoverflow</a>上居然找到了完全相同的问题，太感动，看起来果然是权限问题<br>上面写了解决办法，哥哥我没用他的方法，直接使用管理员命令提示符，重新vagrant up一下，没问题！</p>
+<ol>
+<li>启动vagrant的时候一直提示我版本不正确？哥已经是最新版本了好吧</li>
+</ol>
+<p>遇到一个奇怪的问题……使用管理员运行后……页面上直接打开的VM里看不到刚刚开启的虚拟机…………果然要以管理员身份运行vm才能看到</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="WHAT&gt;_Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它_使用Oracle的开源VirtualBox虚拟化系统，使用_Chef创建自动化虚拟环境。使用Vagrant的原因：-_熟悉linux环境，方便、不占资源的使用虚拟机-_了解一下新技术<!-more->##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init">WHAT&gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。使用Vagrant的原因：- 熟悉linux环境，方便、不占资源的使用虚拟机- 了解一下新技术]]>
+    
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[PHPstorm教程]]></title>
     <link href="http://blog.xingxuchu.com/2015/03/19/PHPstorm%E6%95%99%E7%A8%8B/"/>
     <id>http://blog.xingxuchu.com/2015/03/19/PHPstorm教程/</id>
