@@ -542,8 +542,11 @@
     <link href="http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/"/>
     <id>http://blog.xingxuchu.com/2015/07/16/MarkDown教程/</id>
     <published>2015-07-16T03:31:32.000Z</published>
-    <updated>2015-12-30T16:35:01.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="WHAT&gt;markdown是一种轻量级的标记语言。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨">WHAT&gt;markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</h2><h4 id="优点">优点</h4><ul>
+    <updated>2015-12-30T16:43:04.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
+<p>markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</p>
+</blockquote>
+<h4 id="优点">优点</h4><ul>
 <li>专注你的文字内容而不是排版样式</li>
 <li>轻松导出HTML、PDF 和本身的 md 文件</li>
 <li>纯文本编辑，适用于所有的编辑器和字处理软件<br><a id="more"></a>* 可读，直观。适合所有人的写作语言</li>
@@ -572,7 +575,10 @@
 <h3 id="总结">总结</h3><p>以上是基本的MarkDown使用方法，喏，接触之前感觉好厉害好厉害，好难好难，这么高级的东西要学很久吧！<br>结果，学习加整理加差不多已经熟练起来不过半天时间。<strong>Just do it</strong></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="WHAT&gt;markdown是一种轻量级的标记语言。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨">WHAT&gt;markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</h2><h4 id="优点">优点</h4><ul>
+    <![CDATA[<h2 id="WHAT">WHAT</h2><blockquote>
+<p>markdown是一种轻量级的<strong>标记语言</strong>。常用的标记符号不超过十个，使用的时候简单易懂就行了，不需要太多花哨</p>
+</blockquote>
+<h4 id="优点">优点</h4><ul>
 <li>专注你的文字内容而不是排版样式</li>
 <li>轻松导出HTML、PDF 和本身的 md 文件</li>
 <li>纯文本编辑，适用于所有的编辑器和字处理软件<br>]]>
