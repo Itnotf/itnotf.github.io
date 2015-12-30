@@ -335,7 +335,7 @@
     <link href="http://blog.xingxuchu.com/2015/12/05/php7%E5%AE%89%E8%A3%85/"/>
     <id>http://blog.xingxuchu.com/2015/12/05/php7安装/</id>
     <published>2015-12-05T09:50:30.000Z</published>
-    <updated>2015-12-30T13:50:01.000Z</updated>
+    <updated>2015-12-30T16:20:01.000Z</updated>
     <content type="html"><![CDATA[<h3 id="下载">下载</h3><p>去官网上找一下镜像地址<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget&#160;http://cn2.php.net/get/php-7.0.1.tar.gz/from/this/mirror&#10;&#60;!--more--&#62;tar -xvzf &#160;php-7.0.1.tar.gz&#10;cd&#160;php-7.0.1</span><br></pre></td></tr></table></figure></p>
 <h3 id="编译安装">编译安装</h3><ul>
 <li><p>根据自己的需要设定配置项<br>可以使用命令<code>./configure   --help</code>查看可配置项<br>以下为我的配置（网上找的，基本上是一些常用扩展，懒得一个个看了，先全部装了再说）<br>突然想到用某哥们儿的配置，没有加前缀，然后一堆文件夹散落各个地方……</p>
@@ -374,7 +374,9 @@
     <![CDATA[<h3 id="下载">下载</h3><p>去官网上找一下镜像地址<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td>]]>
     </summary>
     
-      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+      <category term="php7" scheme="http://blog.xingxuchu.com/tags/php7/"/>
+    
+      <category term="教程" scheme="http://blog.xingxuchu.com/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
     
