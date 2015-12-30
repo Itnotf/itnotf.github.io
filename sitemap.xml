@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T15:45:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/12/05/php7%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2015-12-30T13:50:01.000Z</lastmod>
   </url>
@@ -38,11 +43,6 @@
   
   <url>
     <loc>http://blog.xingxuchu.com/2015/12/07/php-fpm%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2015-12-19T11:30:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2015-12-19T11:30:01.000Z</lastmod>
   </url>
   
