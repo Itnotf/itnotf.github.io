@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/07/16/sublime%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T16:44:23.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2015-12-30T16:43:04.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/07/12/Vagrant%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2015-12-30T16:40:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/07/16/sublime%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-30T16:35:01.000Z</lastmod>
   </url>
   
   <url>
