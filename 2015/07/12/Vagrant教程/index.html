@@ -5,16 +5,31 @@
   
   <title>Vagrant教程 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init&quot;&amp;gt;WHAT&amp;gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。">
+  <meta name="description" content="WHAT
+Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。
+
+使用Vagrant的原因：
+
+熟悉linux环境，方便、不占资源的使用虚拟机">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Vagrant教程">
 <meta property="og:url" content="http://blog.xingxuchu.com/2015/07/12/Vagrant教程/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init&quot;&amp;gt;WHAT&amp;gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。">
-<meta property="og:updated_time" content="2015-12-30T16:35:01.000Z">
+<meta property="og:description" content="WHAT
+Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。
+
+使用Vagrant的原因：
+
+熟悉linux环境，方便、不占资源的使用虚拟机">
+<meta property="og:updated_time" content="2015-12-30T16:40:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vagrant教程">
-<meta name="twitter:description" content="##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init&quot;&amp;gt;WHAT&amp;gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。">
+<meta name="twitter:description" content="WHAT
+Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。
+
+使用Vagrant的原因：
+
+熟悉linux环境，方便、不占资源的使用虚拟机">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -267,15 +282,28 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="WHAT&gt;_Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它_使用Oracle的开源VirtualBox虚拟化系统，使用_Chef创建自动化虚拟环境。使用Vagrant的原因：-_熟悉linux环境，方便、不占资源的使用虚拟机-_了解一下新技术<!-more->##_安装-_环境：win10_专业版-_版本：Oracle_VM_VirtualBox_4-3-24_Vagrant_1-7-2-_box_:_precise64安装完成后，使用以下命令-_vagrant_init">WHAT&gt; Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。使用Vagrant的原因：- 熟悉linux环境，方便、不占资源的使用虚拟机- 了解一下新技术<a id="more"></a>## 安装- 环境：win10 专业版- 版本：<code>Oracle VM VirtualBox  4.3.24</code> <code>Vagrant 1.7.2</code>- box : <a href="http://www.vagrantbox.es/" target="_blank" rel="external"><code>precise64</code></a>安装完成后，使用以下命令- vagrant init</h2><p> 目录下会出现Vagrantfile文件，里面可以修改各种配置</p>
+        <h2 id="WHAT">WHAT</h2><blockquote>
+<p>Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。</p>
+</blockquote>
+<p>使用Vagrant的原因：</p>
 <ul>
+<li>熟悉linux环境，方便、不占资源的使用虚拟机<br><a id="more"></a>- 了解一下新技术</li>
+</ul>
+<h2 id="安装">安装</h2><ul>
+<li>环境：win10 专业版</li>
+<li>版本：<code>Oracle VM VirtualBox  4.3.24</code> <code>Vagrant 1.7.2</code></li>
+<li>box : <a href="http://www.vagrantbox.es/" target="_blank" rel="external"><code>precise64</code></a></li>
+</ul>
+<p>安装完成后，使用以下命令</p>
+<ul>
+<li>vagrant init<br>目录下会出现Vagrantfile文件，里面可以修改各种配置</li>
 <li>vagrant add precise64 precise64.box<br>添加box，每个box就是一个linux系统，我安装的是Ubuntu12.04</li>
 <li>vagrant box list</li>
 <li>vagrant status</li>
 <li>vagrant up</li>
 </ul>
 <h4 id="问题">问题</h4><ol>
-<li>一般情况下<code>vagrant up</code>都会出现问题，可能是版本问题，系统问题等等问题<br>比如说最开始安装了4.3.30版本，启动失败，报错：<br>default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……default: Warning: Connection refused.retrying……<br>一开始以为是ssh的问题，Windows没有ssh命令，需要安装ssh客户端，git中带了ssh客户端，安装git，并在环境变量中添加了bin的路径。错误没有解决。继续Google<br>更换VirtualBox为4.2.16版本。问题解决。</li>
+<li>一般情况下<code>vagrant up</code>都会出现问题，可能是版本问题，系统问题等等问题<br>比如说最开始安装了4.3.30版本，启动失败，报错：<br>default: Warning: Connection refused.retrying……<br>default: Warning: Connection refused.retrying……<br>default: Warning: Connection refused.retrying……<br>default: Warning: Connection refused.retrying……<br>default: Warning: Connection refused.retrying……<br>一开始以为是ssh的问题，Windows没有ssh命令，需要安装ssh客户端，git中带了ssh客户端，安装git，并在环境变量中添加了bin的路径。错误没有解决。继续Google<br>更换VirtualBox为4.2.16版本。问题解决。</li>
 <li><p>ssh问题，登陆不上虚拟机，windows 上不知道自己的ssh装在哪里了……<br>我的解决方法：修改Vagrantfile，直接用账号密码登陆</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Vagrant.configure(<span class="number">2</span>) <span class="keyword">do</span> |config|</span><br><span class="line">  config.<span class="keyword">vm</span>.box = <span class="string">"my_package"</span></span><br><span class="line">  config.<span class="keyword">vm</span>.network <span class="string">"forwarded_port"</span>, gues<span class="variable">t:</span> <span class="number">80</span>, hos<span class="variable">t:</span> <span class="number">8080</span></span><br><span class="line">  config.ssh.username = <span class="string">"vagrant"</span></span><br><span class="line">  config.ssh.password = <span class="string">"vagrant"</span></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
 </li>
