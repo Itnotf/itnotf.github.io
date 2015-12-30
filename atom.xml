@@ -240,19 +240,20 @@
     <link href="http://blog.xingxuchu.com/2015/12/12/Composer/"/>
     <id>http://blog.xingxuchu.com/2015/12/12/Composer/</id>
     <published>2015-12-12T15:04:19.000Z</published>
-    <updated>2015-12-13T19:05:01.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>windows10<br>下载直接安装Composer</li>
+    <updated>2015-12-30T16:30:01.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="环境">环境</h3><ul>
+<li>windows10<br>下载直接安装Composer<br>#####版本</li>
 <li>Composer v1.0-dev</li>
 </ul>
-<p>中国镜像,全局<br><code>composer config -g repositories.packagist composer http://packagist.phpcomposer.com</code><br>over</p>
+<p>中国镜像,全局<br><code>composer config -g repositories.packagist composer http://packagist.phpcomposer.com</code><br><a id="more"></a>over</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<ul>
-<li>windows10<br>下载直接安装Composer</li>
+    <![CDATA[<h3 id="环境">环境</h3><ul>
+<li>windows10<br>下载直接安装Composer<br>#####版本</li>
 <li>Composer v1.0-dev</li>
 </ul>
-<p>中国镜像,全局<br><code>composer config -g repositories.packagist com]]>
+<p>中国镜像,全局<br><code>composer config -g repositories.packagist composer http://packagist.phpcomposer.com</code><br>]]>
+    
     </summary>
     
       <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
