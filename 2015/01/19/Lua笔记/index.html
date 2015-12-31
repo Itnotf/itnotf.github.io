@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Homestead | 这里没有鱼</title>
+  <title>Lua笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="这里没有鱼">
-<meta property="og:url" content="http://blog.xingxuchu.com/tags/Homestead/index.html">
+  <meta name="description" content="公司lua爬虫套路写好lua脚本蛋疼，先将所有换行换成\n(不用了)，然后将所有\改成\，最后将所有“改成\”例：local http = require \&amp;quot;socket.http\&amp;quot; -- 相当于Perl 中的 $ualocal cjson = require \&amp;quot;cjson\&amp;quot; -- 解析 json 数据&amp;lt;!--more--&amp;gt;functio">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lua笔记">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/01/19/Lua笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description">
+<meta property="og:description" content="公司lua爬虫套路写好lua脚本蛋疼，先将所有换行换成\n(不用了)，然后将所有\改成\，最后将所有“改成\”例：local http = require \&amp;quot;socket.http\&amp;quot; -- 相当于Perl 中的 $ualocal cjson = require \&amp;quot;cjson\&amp;quot; -- 解析 json 数据&amp;lt;!--more--&amp;gt;functio">
+<meta property="og:updated_time" content="2015-12-31T09:20:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="这里没有鱼">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Lua笔记">
+<meta name="twitter:description" content="公司lua爬虫套路写好lua脚本蛋疼，先将所有换行换成\n(不用了)，然后将所有\改成\，最后将所有“改成\”例：local http = require \&amp;quot;socket.http\&amp;quot; -- 相当于Perl 中的 $ualocal cjson = require \&amp;quot;cjson\&amp;quot; -- 解析 json 数据&amp;lt;!--more--&amp;gt;functio">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -225,57 +226,115 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-Lua笔记" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/13/Homestead/" class="archive-article-date">
-  	<time datetime="2015-12-12T17:18:51.000Z" itemprop="datePublished">Dec 13</time>
+    <div class="article-meta">
+      <a href="/2015/01/19/Lua笔记/" class="article-date">
+  	<time datetime="2015-01-19T07:47:16.000Z" itemprop="datePublished">2015-01-19</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/13/Homestead/">Homestead</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Lua笔记
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Homestead/">Homestead</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/laravel/">laravel</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vagrant/">vagrant</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lua/">lua</a></li></ul>
 	</div>
 
-          
+        
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/日志/">日志</a>
 	</div>
 
 
-        </div>
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
+      </div>
+      
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="公司lua爬虫套路写好lua脚本蛋疼，先将所有换行换成\n(不用了)，然后将所有\改成\，最后将所有“改成\”例：local_http_=_require_\&quot;socket-http\&quot;_-_相当于Perl_中的_$ualocal_cjson_=_require_\&quot;cjson\&quot;_-_解析_json_数据&lt;!-more-&gt;function_run(params)_local_data_=_cjson-decode(params)_local_headers_=_{}_headers[\&quot;User-Agent\&quot;]_=_\&quot;Mozilla/5-0_(Windows_NT_6-1;_WOW64;_rv:30-0)_Gecko/20100101_Firefox/30-0\&quot;_local_t_=_{}_local_response,_code,_head_=_http-request{url=data-url,_headers=headers,_sink_=_ltn12-sink-table(t)}_local_product_jan_=_string-match(data-url,_\&quot;/s/field-keywords=(-)\&quot;)_if_code_==_200_then_local_c_=_table-concat(t)_-_这就是网页的源代码了_local_asin_=_string-match(c,_\&quot;data%-asin=\\\&quot;(-)\\\&quot;\&quot;)_local_brand_=_string-match(c,_\&quot;a%-color%-secondary\\\&quot;&gt;(-)_local_result_=_{}_if_asin_~=_nil_then_table-insert(result,_{product_jan_=_product_jan,_asin_=_asin,_brand_=_brand})_return_cjson-encode({success_=_1,_result_=_result})_end_end_return_cjson-encode({success_=_0})end其中换行为\n莫名其妙的端口，通过加-匹配掉用luajit调试，不然有些_‘\’_在服务器上会报错lua转编码local_iconv_=_require(&quot;iconv&quot;)local_cd_=_iconv-new(_&quot;utf-8&quot;,&quot;gbk&quot;)local_nstr,_err_=_cd:iconv(str)####_其他lua里面_a_==_b_?_a_:_b;可以写成_a_==b_and_a_or_b">公司lua爬虫套路写好lua脚本蛋疼，先将所有换行换成\n(不用了)，然后将所有\改成\，最后将所有“改成\”例：<code>local http = require \&quot;socket.http\&quot; -- 相当于Perl 中的 $ualocal cjson = require \&quot;cjson\&quot; -- 解析 json 数据&lt;!--more--&gt;function run(params)    local data = cjson.decode(params)    local headers = {}    headers[\&quot;User-Agent\&quot;] = \&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0\&quot;    local t = {}    local response, code, head = http.request{url=data.url, headers=headers, sink = ltn12.sink.table(t)}    local product_jan = string.match(data.url, \&quot;/s/field-keywords=(.-)\&quot;)    if code == 200 then        local c = table.concat(t) -- 这就是网页的源代码了        local asin = string.match(c, \&quot;data%-asin=\\\&quot;(.-)\\\&quot;\&quot;)        local brand = string.match(c, \&quot;a%-color%-secondary\\\&quot;&gt;(.-)        local result = {}          if asin ~= nil then               table.insert(result, {product_jan = product_jan, asin = asin, brand = brand})               return cjson.encode({success = 1, result = result})          end    end    return cjson.encode({success = 0})end</code>其中换行为\n莫名其妙的端口，通过加.-匹配掉用luajit调试，不然有些 ‘\’ 在服务器上会报错lua转编码<code>local iconv = require(&quot;iconv&quot;)local cd = iconv.new( &quot;utf-8&quot;,&quot;gbk&quot;)local nstr, err = cd:iconv(str)</code>#### 其他lua里面 <code>a == b ? a : b</code>;可以写成 <code>a ==b and a or b</code></h4>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/01/28/Perl笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Perl笔记
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/12/19/PHP笔记/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">PHP笔记</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Lua笔记" data-title="Lua笔记" data-url="http://blog.xingxuchu.com/2015/01/19/Lua笔记/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"itnotf"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
 
 </div>
       <footer id="footer">
@@ -301,9 +360,9 @@ var _hmt = _hmt || [];
 		mathjax: true,
 		animate: undefined,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: undefined
 	}
