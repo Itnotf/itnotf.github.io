@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2014/10/28/%E3%80%8APHP%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%E3%80%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2015-12-31T09:05:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/03/16/js%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T08:35:01.000Z</lastmod>
   </url>
@@ -17,12 +22,12 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/16/Yii2.0%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://blog.xingxuchu.com/2015/04/01/Yii2.0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T08:20:01.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/04/01/Yii2.0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://blog.xingxuchu.com/2015/03/16/Yii2.0%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T08:20:01.000Z</lastmod>
   </url>
   
