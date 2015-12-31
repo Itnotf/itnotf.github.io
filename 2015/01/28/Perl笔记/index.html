@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>PHP笔记 | 这里没有鱼</title>
+  <title>Perl笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="$secondElement = getArray()[1];找了下，原来这种写法是5.4以后的版本的Always use quotes around a string literal array index. For example, $foo[‘bar’] is correct, while $foo[bar] is not.">
+  <meta name="description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PHP笔记">
-<meta property="og:url" content="http://blog.xingxuchu.com/2014/12/19/PHP笔记/index.html">
+<meta property="og:title" content="Perl笔记">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/01/28/Perl笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="$secondElement = getArray()[1];找了下，原来这种写法是5.4以后的版本的Always use quotes around a string literal array index. For example, $foo[‘bar’] is correct, while $foo[bar] is not.">
-<meta property="og:updated_time" content="2015-12-31T09:10:01.000Z">
+<meta property="og:description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
+<meta property="og:updated_time" content="2015-12-31T09:15:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PHP笔记">
-<meta name="twitter:description" content="$secondElement = getArray()[1];找了下，原来这种写法是5.4以后的版本的Always use quotes around a string literal array index. For example, $foo[‘bar’] is correct, while $foo[bar] is not.">
+<meta name="twitter:title" content="Perl笔记">
+<meta name="twitter:description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -226,11 +226,11 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-PHP笔记" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Perl笔记" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2014/12/19/PHP笔记/" class="article-date">
-  	<time datetime="2014-12-19T09:44:06.000Z" itemprop="datePublished">2014-12-19</time>
+      <a href="/2015/01/28/Perl笔记/" class="article-date">
+  	<time datetime="2015-01-28T02:13:12.000Z" itemprop="datePublished">2015-01-28</time>
 </a>
     </div>
   
@@ -243,7 +243,7 @@ var _hmt = _hmt || [];
         
   
     <h1 class="article-title" itemprop="name">
-      PHP笔记
+      Perl笔记
     </h1>
   
 
@@ -268,7 +268,7 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li><code>$secondElement = getArray()[1];</code>找了下，原来这种写法是5.4以后的版本的Always use quotes around a string literal array index. For example, $foo[‘bar’] is correct, while $foo[bar] is not. <a id="more"></a>- floor() 向下取整- foreach() 不判空的话会报错- inarray($param, $arr, true) 不带true的话会造成奇怪的错误，会自动强制转换$param的类型，字符串转为0- null 有时候被解析为和0相等</li>
+<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_}</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code><a id="more"></a>这句话没用，骗了我好多年，应该改为 <code>&#39;User-Agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,- 计算日期：<code>my ($sec,$min,$hour,$mday,$mon,$year) = localtime(time);$year += 1900;$mon++;my $date = &quot;$year-$mon-$mday&quot;;</code>- 判断哈希数组引用<code>if(ref($result) eq &#39;ARRAY&#39;)|if(ref($result) eq &#39;HASH&#39;)</code>- 将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code>- sleep();参数为秒数- 读取文件步骤：<code>open &quot;DATA&quot;, &quot;while(){    chomp;    #do something;}</code>- perl命令带参数， 存在数组@ARGV 里，- perl 使用switch要使用Switch 模块 </li>
 </ul>
 
       
@@ -279,18 +279,18 @@ var _hmt = _hmt || [];
     
 <nav id="article-nav">
   
-    <a href="/2015/01/28/Perl笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2015/03/16/js入门手册学习笔记/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          Perl笔记
+          js入门手册学习笔记
         
       </div>
     </a>
   
   
-    <a href="/2014/10/28/《PHP基础教程》学习笔记/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">《PHP基础教程》学习笔记</div>
+    <a href="/2014/12/19/PHP笔记/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">PHP笔记</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -319,7 +319,7 @@ var _hmt = _hmt || [];
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="PHP笔记" data-title="PHP笔记" data-url="http://blog.xingxuchu.com/2014/12/19/PHP笔记/"></div>
+	<div class="ds-thread" data-thread-key="Perl笔记" data-title="Perl笔记" data-url="http://blog.xingxuchu.com/2015/01/28/Perl笔记/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
