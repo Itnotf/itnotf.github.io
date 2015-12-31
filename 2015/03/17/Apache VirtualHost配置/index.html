@@ -3,18 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>写在年末 | 这里没有鱼</title>
+  <title>Apache VirtualHost配置 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="整理了一下笔记，能发的都发了上来。一不小心就到了年末。除了感慨还剩下什么。我以为浪费时间的原因是游戏。很久没玩了之后，才发现。不玩游戏也会找其他方式浪费时间。总有理由不去看书，不去学习。太多的信息要去接受，太多的知识要去学习。头要炸了。">
+  <meta name="description" content="找到conf\httpd.conf12#Virtual hostsInclude conf/extra/httpd-vhosts.conf
+前面的注释去掉
+将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面">
 <meta property="og:type" content="article">
-<meta property="og:title" content="写在年末">
-<meta property="og:url" content="http://blog.xingxuchu.com/2015/12/31/写在年末/index.html">
+<meta property="og:title" content="Apache VirtualHost配置">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/03/17/Apache VirtualHost配置/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="整理了一下笔记，能发的都发了上来。一不小心就到了年末。除了感慨还剩下什么。我以为浪费时间的原因是游戏。很久没玩了之后，才发现。不玩游戏也会找其他方式浪费时间。总有理由不去看书，不去学习。太多的信息要去接受，太多的知识要去学习。头要炸了。">
-<meta property="og:updated_time" content="2015-12-30T17:05:01.000Z">
+<meta property="og:description" content="找到conf\httpd.conf12#Virtual hostsInclude conf/extra/httpd-vhosts.conf
+前面的注释去掉
+将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面">
+<meta property="og:updated_time" content="2015-12-31T08:15:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="写在年末">
-<meta name="twitter:description" content="整理了一下笔记，能发的都发了上来。一不小心就到了年末。除了感慨还剩下什么。我以为浪费时间的原因是游戏。很久没玩了之后，才发现。不玩游戏也会找其他方式浪费时间。总有理由不去看书，不去学习。太多的信息要去接受，太多的知识要去学习。头要炸了。">
+<meta name="twitter:title" content="Apache VirtualHost配置">
+<meta name="twitter:description" content="找到conf\httpd.conf12#Virtual hostsInclude conf/extra/httpd-vhosts.conf
+前面的注释去掉
+将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -226,11 +232,11 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-写在年末" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Apache VirtualHost配置" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/12/31/写在年末/" class="article-date">
-  	<time datetime="2015-12-30T16:50:17.000Z" itemprop="datePublished">2015-12-31</time>
+      <a href="/2015/03/17/Apache VirtualHost配置/" class="article-date">
+  	<time datetime="2015-03-17T06:19:39.000Z" itemprop="datePublished">2015-03-17</time>
 </a>
     </div>
   
@@ -243,7 +249,7 @@ var _hmt = _hmt || [];
         
   
     <h1 class="article-title" itemprop="name">
-      写在年末
+      Apache VirtualHost配置
     </h1>
   
 
@@ -252,7 +258,7 @@ var _hmt = _hmt || [];
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Apache/">Apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Virtual-Host/">Virtual Host</a></li></ul>
 	</div>
 
         
@@ -267,7 +273,15 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>整理了一下笔记，能发的都发了上来。一不小心就到了年末。<br>除了感慨还剩下什么。<br>我以为浪费时间的原因是游戏。<br>很久没玩了之后，才发现。<br>不玩游戏也会找其他方式浪费时间。<br>总有理由不去看书，不去学习。<br>太多的信息要去接受，太多的知识要去学习。<br>头要炸了。<br><a id="more"></a>怎能在这纷扰的世间静下心来？<br>转眼2016。<br>简直无法吐槽自己更多。<br>都不想回家过年了。<br>仔细回想来时的路，许多不甘，许多不舍。<br>什么时候能够看谁不爽打他一顿吧，那一定是个里程碑。<br>还有一个月，回家过年。<br>有什么好等的，燃烧自己，换点生活费吧。<br>谁他妈知道我在说些什么。<br>谁他妈知道呢？</p>
+        <p>找到conf\httpd.conf<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#Virtual hosts</span><br><span class="line"><span class="keyword">Include</span> <span class="keyword">conf</span>/extra/httpd-vhosts.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
+<p>前面的注释去掉</p>
+<p>将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面<br><a id="more"></a>不仅可以设置端口，还可以设置其他网站域名</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#DocumentRoot是网站文件存放的根目录</span></span><br><span class="line"><span class="comment">#ServerName 是网站域名，需要跟DNS指向的域名一致</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword"><span class="common">Listen</span></span> 62</span><br><span class="line"></span><br><span class="line">    <span class="keyword">ServerAdmin</span> postmaster@localhost</span><br><span class="line">    <span class="keyword"><span class="common">ServerName</span></span> localhost:62</span><br><span class="line">    <span class="keyword"><span class="common">DocumentRoot</span></span> <span class="string">"E:/svn/trunk/Rakuten"</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword"><span class="common">Options</span></span> Indexes FollowSymLinks Includes ExecCGI</span><br><span class="line">    <span class="keyword">AllowOverride</span> <span class="literal">All</span></span><br><span class="line">    <span class="keyword">Require</span> <span class="literal">all</span> granted</span><br></pre></td></tr></table></figure>
+<p>其中Directory  设置可以将该目录变成一个web可以放的目录<br>Indexes 允许目录浏览（即列出此目录下所有文件名称）；<br>MultiViews 允许内容协商的多重视图。<br>比如：客户端输入“<a href="http://10.0.0.1/icone/a”这将会显示此目录下所有" target="_blank" rel="external">http://10.0.0.1/icone/a”这将会显示此目录下所有</a> a.* 文件，并不是出错信息。<br>All 包含了初MultiViews 之外的所有特性，若无Options 语句，默认为All<br>AllowOverride 定义对于每个目录下的 .htalless 文件中的指含类型，一般禁止使用。<br>设置缺省的访问权限，当前设置表示允许所有客户机都能访问。比如仅允许192.168.16.0/24 这个段能访问，除了192.168.16.5/24 之外。<br>使用方法：Oredr allow ,deny<br>Allow from 192.168.16.0/24<br>Deny from 192.168.16.5/24<br>Require all granted 允许所有访问<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">#域名绑定子目录</span><br><span class="line">#域名绑定子目录,前台</span><br><span class="line"></span><br><span class="line">    ServerAdmin postmaster@localhost</span><br><span class="line">    ServerName www<span class="class">.getyiidev</span><span class="class">.com</span></span><br><span class="line">    DocumentRoot <span class="string">"E:\Yii2.0\getyii\frontend\web"</span></span><br><span class="line"></span><br><span class="line">    Options Indexes FollowSymLinks Includes ExecCGI</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"></span><br><span class="line">ErrorLog logs/getyii-error_log<span class="class">.txt</span></span><br><span class="line">CustomLog logs/getyii-_log<span class="class">.txt</span> common</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line">#域名绑定子目录，后台</span><br><span class="line"></span><br><span class="line">    ServerAdmin postmaster@localhost</span><br><span class="line">    ServerName admin<span class="class">.getyiidev</span><span class="class">.com</span></span><br><span class="line">    DocumentRoot <span class="string">"E:\Yii2.0\getyii\backend\web"</span></span><br><span class="line"></span><br><span class="line">    Options Indexes FollowSymLinks Includes ExecCGI</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"></span><br><span class="line">ErrorLog logs/getyii-error_log<span class="class">.txt</span></span><br><span class="line">CustomLog logs/getyii-_log<span class="class">.txt</span> common</span><br></pre></td></tr></table></figure></p>
+<p>然后在C:\Windows\System32\drivers\etc\hosts文件中添加两行<br>127.0.0.1 www.getyiidev.com<br>127.0.0.1 admin.getyiidev.com</p>
+<p>Listen 60 #yii2.0<br>Listen 61 #yii1.1<br>Listen 62 #Rakuten<br>Listen 63 #xampp<br>Listen 80 #get Yii</p>
+<hr>
+<h3 id="后续">后续</h3><h4 id="2015-12-31_16:06:46">2015-12-31 16:06:46</h4><p>回顾之前使用Apache的历程，不觉竟有些好笑<br>当时不知道怎么配置多域名对应相应的目录，使用的是端口绑定，网上找了许多教程，<br>回想起来，如果系统的学习一遍Apache，了解相应原理，就不必走这么多弯路了吧。</p>
 
       
     </div>
@@ -277,11 +291,15 @@ var _hmt = _hmt || [];
     
 <nav id="article-nav">
   
-  
-    <a href="/2015/12/20/追赶/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">追赶</div>
-      <strong class="article-nav-caption">></strong>
+    <a href="/2015/03/18/Mysql日常报错/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Mysql日常报错
+        
+      </div>
     </a>
+  
   
 </nav>
 
@@ -308,7 +326,7 @@ var _hmt = _hmt || [];
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="写在年末" data-title="写在年末" data-url="http://blog.xingxuchu.com/2015/12/31/写在年末/"></div>
+	<div class="ds-thread" data-thread-key="Apache VirtualHost配置" data-title="Apache VirtualHost配置" data-url="http://blog.xingxuchu.com/2015/03/17/Apache VirtualHost配置/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
