@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>这里没有鱼</title>
+  <title>Yii2.0学习笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="这里没有鱼">
-<meta property="og:url" content="http://blog.xingxuchu.com/tags/undefined/page/2/index.html">
+  <meta name="description" content="发送邮件配置123456789101112131415161718&apos;mailer&apos; =&amp;gt; [    &apos;class&apos; =&amp;gt; &apos;yii\swiftmailer\Mailer&apos;,    &apos;viewPath&apos; =&amp;gt; &apos;@common/mail&apos;,&amp;lt;!--more--&amp;gt;    &apos;useFileTransport&apos; =&amp;gt; false,    &apos;transport&apos; =&amp;gt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Yii2.0学习笔记">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/04/01/Yii2.0学习笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description">
+<meta property="og:description" content="发送邮件配置123456789101112131415161718&apos;mailer&apos; =&amp;gt; [    &apos;class&apos; =&amp;gt; &apos;yii\swiftmailer\Mailer&apos;,    &apos;viewPath&apos; =&amp;gt; &apos;@common/mail&apos;,&amp;lt;!--more--&amp;gt;    &apos;useFileTransport&apos; =&amp;gt; false,    &apos;transport&apos; =&amp;gt">
+<meta property="og:updated_time" content="2015-12-31T08:20:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="这里没有鱼">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Yii2.0学习笔记">
+<meta name="twitter:description" content="发送邮件配置123456789101112131415161718&apos;mailer&apos; =&amp;gt; [    &apos;class&apos; =&amp;gt; &apos;yii\swiftmailer\Mailer&apos;,    &apos;viewPath&apos; =&amp;gt; &apos;@common/mail&apos;,&amp;lt;!--more--&amp;gt;    &apos;useFileTransport&apos; =&amp;gt; false,    &apos;transport&apos; =&amp;gt">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -225,166 +226,116 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-Yii2.0学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2015/04/01/Yii2.0学习笔记/" class="article-date">
+  	<time datetime="2015-04-01T07:06:01.000Z" itemprop="datePublished">2015-04-01</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Yii2.0学习笔记
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/07/12/Vagrant教程/" class="archive-article-date">
-  	<time datetime="2015-07-11T19:14:58.000Z" itemprop="datePublished">Jul 12</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/07/12/Vagrant教程/">Vagrant教程</a>
-    </h1>
-  
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="发送邮件配置">发送邮件配置</h5><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'mailer'</span> =&gt; [</span><br><span class="line">    <span class="string">'class'</span> =&gt; <span class="string">'yii\swiftmailer\Mailer'</span>,</span><br><span class="line">    <span class="string">'viewPath'</span> =&gt; <span class="string">'@common/mail'</span>,</span><br><span class="line">&lt;!--more--&gt;    <span class="string">'useFileTransport'</span> =&gt; <span class="keyword">false</span>,</span><br><span class="line">    <span class="string">'transport'</span> =&gt; [</span><br><span class="line">        <span class="string">'class'</span> =&gt; <span class="string">'Swift_SmtpTransport'</span>,</span><br><span class="line">        <span class="string">'host'</span> =&gt; <span class="string">'smtp.qq.com'</span>,</span><br><span class="line">        <span class="string">'username'</span> =&gt; <span class="string">'1096364408@qq.com'</span>,</span><br><span class="line">        <span class="string">'password'</span> =&gt; <span class="string">'ldhytyyzyq9293'</span>,</span><br><span class="line">        <span class="string">'port'</span> =&gt; <span class="string">'25'</span>,</span><br><span class="line">        <span class="string">'encryption'</span> =&gt; <span class="string">'tls'</span>,</span><br><span class="line"></span><br><span class="line">    ],</span><br><span class="line">    <span class="string">'messageConfig'</span>=&gt;[</span><br><span class="line">        <span class="string">'charset'</span>=&gt;<span class="string">'UTF-8'</span>,</span><br><span class="line">        <span class="string">'from'</span>=&gt;[<span class="string">'1096364408@qq.com'</span>=&gt;<span class="string">'admin'</span>]</span><br><span class="line">    ],</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/07/12/Vagrant教程/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Vagrant教程
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/03/19/PHPstorm教程/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">PHPstorm教程</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/04/01/Yii2.0学习笔记/" class="archive-article-date">
-  	<time datetime="2015-04-01T07:06:01.000Z" itemprop="datePublished">Apr 1</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/04/01/Yii2.0学习笔记/">Yii2.0学习笔记</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/19/PHPstorm教程/" class="archive-article-date">
-  	<time datetime="2015-03-19T04:14:49.000Z" itemprop="datePublished">Mar 19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/19/PHPstorm教程/">PHPstorm教程</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Yii2.0学习笔记" data-title="Yii2.0学习笔记" data-url="http://blog.xingxuchu.com/2015/04/01/Yii2.0学习笔记/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"itnotf"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/16/Yii2.0安装笔记/" class="archive-article-date">
-  	<time datetime="2015-03-16T15:11:37.000Z" itemprop="datePublished">Mar 16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/16/Yii2.0安装笔记/">Yii2.0安装笔记</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/tags/undefined/">&laquo; Prev</a><a class="page-number" href="/tags/undefined/">1</a><span class="page-number current">2</span>
-    </nav>
-  
 
 </div>
       <footer id="footer">
@@ -410,7 +361,7 @@ var _hmt = _hmt || [];
 		mathjax: true,
 		animate: undefined,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,

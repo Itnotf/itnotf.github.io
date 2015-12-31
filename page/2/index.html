@@ -686,6 +686,65 @@ var _hmt = _hmt || [];
 
 
   
+    <article id="post-Yii2.0学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/04/01/Yii2.0学习笔记/" class="article-date">
+  	<time datetime="2015-04-01T07:06:01.000Z" itemprop="datePublished">2015-04-01</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/04/01/Yii2.0学习笔记/">Yii2.0学习笔记</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="发送邮件配置">发送邮件配置</h5><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'mailer'</span> =&gt; [</span><br><span class="line">    <span class="string">'class'</span> =&gt; <span class="string">'yii\swiftmailer\Mailer'</span>,</span><br><span class="line">    <span class="string">'viewPath'</span> =&gt; <span class="string">'@common/mail'</span>,</span><br><span class="line">&lt;!--more--&gt;    <span class="string">'useFileTransport'</span> =&gt; <span class="keyword">false</span>,</span><br><span class="line">    <span class="string">'transport'</span> =&gt; [</span><br><span class="line">        <span class="string">'class'</span> =&gt; <span class="string">'Swift_SmtpTransport'</span>,</span><br><span class="line">        <span class="string">'host'</span> =&gt; <span class="string">'smtp.qq.com'</span>,</span><br><span class="line">        <span class="string">'username'</span> =&gt; <span class="string">'1096364408@qq.com'</span>,</span><br><span class="line">        <span class="string">'password'</span> =&gt; <span class="string">'ldhytyyzyq9293'</span>,</span><br><span class="line">        <span class="string">'port'</span> =&gt; <span class="string">'25'</span>,</span><br><span class="line">        <span class="string">'encryption'</span> =&gt; <span class="string">'tls'</span>,</span><br><span class="line"></span><br><span class="line">    ],</span><br><span class="line">    <span class="string">'messageConfig'</span>=&gt;[</span><br><span class="line">        <span class="string">'charset'</span>=&gt;<span class="string">'UTF-8'</span>,</span><br><span class="line">        <span class="string">'from'</span>=&gt;[<span class="string">'1096364408@qq.com'</span>=&gt;<span class="string">'admin'</span>]</span><br><span class="line">    ],</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-PHPstorm教程" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -817,73 +876,9 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Apache VirtualHost配置" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/03/17/Apache VirtualHost配置/" class="article-date">
-  	<time datetime="2015-03-17T06:19:39.000Z" itemprop="datePublished">2015-03-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/03/17/Apache VirtualHost配置/">Apache VirtualHost配置</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>找到conf\httpd.conf<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#Virtual hosts</span><br><span class="line"><span class="keyword">Include</span> <span class="keyword">conf</span>/extra/httpd-vhosts.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
-<p>前面的注释去掉</p>
-<p>将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Apache/">Apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Virtual-Host/">Virtual Host</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/03/17/Apache VirtualHost配置/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 </div>

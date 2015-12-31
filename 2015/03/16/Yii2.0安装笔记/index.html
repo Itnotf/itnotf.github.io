@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>这里没有鱼</title>
+  <title>Yii2.0安装笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="这里没有鱼">
-<meta property="og:url" content="http://blog.xingxuchu.com/tags/undefined/page/2/index.html">
+  <meta name="description" content="基本版：
+composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic
+composer create-project –prefer-dist yiisoft/yii2-app-basic basic">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Yii2.0安装笔记">
+<meta property="og:url" content="http://blog.xingxuchu.com/2015/03/16/Yii2.0安装笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description">
+<meta property="og:description" content="基本版：
+composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic
+composer create-project –prefer-dist yiisoft/yii2-app-basic basic">
+<meta property="og:updated_time" content="2015-12-31T08:20:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="这里没有鱼">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Yii2.0安装笔记">
+<meta name="twitter:description" content="基本版：
+composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic
+composer create-project –prefer-dist yiisoft/yii2-app-basic basic">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -225,166 +232,123 @@ var _hmt = _hmt || [];
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-Yii2.0安装笔记" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2015/03/16/Yii2.0安装笔记/" class="article-date">
+  	<time datetime="2015-03-16T15:11:37.000Z" itemprop="datePublished">2015-03-16</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Yii2.0安装笔记
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+        
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/07/12/Vagrant教程/" class="archive-article-date">
-  	<time datetime="2015-07-11T19:14:58.000Z" itemprop="datePublished">Jul 12</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/07/12/Vagrant教程/">Vagrant教程</a>
-    </h1>
-  
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="基本版：">基本版：</h5><ul>
+<li>composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic</li>
+<li>composer create-project –prefer-dist yiisoft/yii2-app-basic basic<a id="more"></a> 
+<h5 id="高级版：">高级版：</h5></li>
+<li>composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-advanced advanced</li>
+<li>composer create-project –prefer-dist yiisoft/yii2-app-advanced advanced</li>
+</ul>
+<h5 id="中国镜像：">中国镜像：</h5><p>修改C:Users\60\AppData\Roaming\Composer\config.json为<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">config</span>": <span class="value">&#123;&#125;</span>,</span><br><span class="line">     "<span class="attribute">repositories</span>": <span class="value">[</span><br><span class="line">          &#123;"<span class="attribute">type</span>": <span class="value"><span class="string">"composer"</span></span>, "<span class="attribute">url</span>": <span class="value"><span class="string">"http://pkg.phpcomposer.com/repo/packagist/"</span></span>&#125;,</span><br><span class="line">          &#123;"<span class="attribute">packagist</span>": <span class="value"><span class="literal">false</span></span>&#125;</span><br><span class="line">     ]</span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure></p>
+<p>这样就可以使用Composer的中国镜像，不然外网速度很慢而且可能被墙</p>
+<p>Apache增加一个端口指向E:Git，这里添加的是60端口<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#增加端口监听？</span></span><br><span class="line">Listen <span class="number">60</span></span><br><span class="line"></span><br><span class="line">    ServerAdmin postmaster<span class="variable">@localhost</span></span><br><span class="line">    ServerName localhost:<span class="number">60</span></span><br><span class="line">    DocumentRoot <span class="string">"E:/Git"</span></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">    Options Indexes FollowSymLinks Includes ExecCGI</span><br><span class="line">    AllowOverride All</span><br><span class="line">    Require all granted</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line">    ErrorLog <span class="string">"logs/yii_error.log"</span></span><br><span class="line">    LogLevel <span class="keyword">warn</span></span><br><span class="line">    LogFormat <span class="string">"<span class="variable">%t</span> \"<span class="variable">%r</span>\" <span class="variable">%&gt;</span>s <span class="variable">%b</span> \"<span class="variable">%&#123;Referer&#125;</span>i\" \"%&#123;User-Agent&#125;i\" [<span class="variable">%&#123;Cookie&#125;</span>i] [%&#123;Set-Cookie&#125;o] \"%&#123;X-Real-IP&#125;i\" <span class="variable">%D</span>"</span> bubble</span><br><span class="line">    CustomLog <span class="string">"logs/yii_access.log"</span> combined</span><br></pre></td></tr></table></figure></p>
+<p><a href="http://localhost:60/basic/web/报错，错误如下：" target="_blank" rel="external">http://localhost:60/basic/web/报错，错误如下：</a><br>Calling unknown method: yii\web\UrlManager::addRules()<br>百度经验：<a href="http://jingyan.baidu.com/article/f54ae2fc350bd51e92b849ed.html" target="_blank" rel="external">http://jingyan.baidu.com/article/f54ae2fc350bd51e92b849ed.html</a><br>根目录composer.json文件：<br>删除<br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">        <span class="string">"yiisoft/yii2-bootstrap"</span>: <span class="string">"*"</span>,</span><br><span class="line">        <span class="string">"yiisoft/yii2-swiftmailer"</span>: <span class="string">"*"</span></span><br></pre></td></tr></table></figure></p>
+<p>cd到E:Git\basic\<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="label">composer</span> <span class="preprocessor">global</span> <span class="preprocessor">require</span> <span class="string">"fxp/composer-asset-plugin:1.0.*@dev"</span></span><br><span class="line"><span class="label">composer</span> update</span><br></pre></td></tr></table></figure></p>
+<p>yii migrate初始化数据库 </p>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/03/17/Apache VirtualHost配置/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Apache VirtualHost配置
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/04/01/Yii2.0学习笔记/" class="archive-article-date">
-  	<time datetime="2015-04-01T07:06:01.000Z" itemprop="datePublished">Apr 1</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/04/01/Yii2.0学习笔记/">Yii2.0学习笔记</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/19/PHPstorm教程/" class="archive-article-date">
-  	<time datetime="2015-03-19T04:14:49.000Z" itemprop="datePublished">Mar 19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/19/PHPstorm教程/">PHPstorm教程</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Yii2.0安装笔记" data-title="Yii2.0安装笔记" data-url="http://blog.xingxuchu.com/2015/03/16/Yii2.0安装笔记/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"itnotf"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/03/16/Yii2.0安装笔记/" class="archive-article-date">
-  	<time datetime="2015-03-16T15:11:37.000Z" itemprop="datePublished">Mar 16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/16/Yii2.0安装笔记/">Yii2.0安装笔记</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/tags/undefined/">&laquo; Prev</a><a class="page-number" href="/tags/undefined/">1</a><span class="page-number current">2</span>
-    </nav>
-  
 
 </div>
       <footer id="footer">
@@ -410,7 +374,7 @@ var _hmt = _hmt || [];
 		mathjax: true,
 		animate: undefined,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,

@@ -2,12 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/17/Apache%20VirtualHost%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2015-12-31T08:15:01.000Z</lastmod>
+    <loc>http://blog.xingxuchu.com/2015/04/01/Yii2.0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2015-12-31T08:20:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/03/16/Yii2.0%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2015-12-31T08:20:01.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2015-12-31T08:15:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/03/17/Apache%20VirtualHost%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2015-12-31T08:15:01.000Z</lastmod>
   </url>
   
