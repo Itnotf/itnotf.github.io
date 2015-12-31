@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2014/12/19/PHP%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2015-12-31T09:25:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/01/19/Lua%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T09:20:01.000Z</lastmod>
   </url>
@@ -14,11 +19,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T09:15:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2014/12/19/PHP%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T09:10:01.000Z</lastmod>
   </url>
   
   <url>

@@ -693,7 +693,22 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li><code>$secondElement = getArray()[1];</code>找了下，原来这种写法是5.4以后的版本的Always use quotes around a string literal array index. For example, $foo[‘bar’] is correct, while $foo[bar] is not.
+<li><code>$secondElement = getArray()[1];</code><br>找了下，原来这种写法是5.4以后的版本的</li>
+</ul>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Always use quotes around a string literal <span class="keyword">array</span> index. For example, <span class="variable">$foo</span>[<span class="string">'bar'</span>] is correct, <span class="keyword">while</span> <span class="variable">$foo</span>[bar] is not.</span><br><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>floor() 向下取整</li>
+</ul>
+<ul>
+<li>foreach() 不判空的话会报错</li>
+</ul>
+<ul>
+<li>inarray($param, $arr, true) 不带true的话会造成奇怪的错误，会自动强制转换$param的类型，字符串转为0</li>
+</ul>
+<ul>
+<li>null 有时候被解析为和0相等</li>
+</ul>
+
       
     </div>
     
@@ -710,10 +725,6 @@ var _hmt = _hmt || [];
 	</div>
 
 
-      
-        <p class="article-more-link">
-          <a  href="/2014/12/19/PHP笔记/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
