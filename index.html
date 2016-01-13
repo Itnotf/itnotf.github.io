@@ -227,6 +227,75 @@ var _hmt = _hmt || [];
 </nav>
       <div class="body-wrap">
   
+    <article id="post-最近在干啥" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/01/13/最近在干啥/" class="article-date">
+  	<time datetime="2016-01-13T09:01:58.000Z" itemprop="datePublished">2016-01-13</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/13/最近在干啥/">最近在干啥</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>笔记都好久没写了，正好完成了一堆需求，回过头来想一想</p>
+<h3 id="最近都干了啥">最近都干了啥</h3><ul>
+<li>安装了个 win10 +linux mint 双系统<ul>
+<li>让我感到惊奇的是mint上可以使用sublime 和 PHPstorm，</li>
+</ul>
+</li>
+<li>在慕课网上看一些视频教程<ul>
+<li>基础的也看，果然有一些基础的东西不看还记不起来了<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2016/01/13/最近在干啥/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-写在年末" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -793,100 +862,9 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-php7安装" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/05/php7安装/" class="article-date">
-  	<time datetime="2015-12-05T09:50:30.000Z" itemprop="datePublished">2015-12-05</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/05/php7安装/">php7安装</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="下载">下载</h3><p>去官网上找一下镜像地址<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget&#160;http://cn2.php.net/get/php-7.0.1.tar.gz/from/this/mirror&#10;&#60;!--more--&#62;tar -xvzf &#160;php-7.0.1.tar.gz&#10;cd&#160;php-7.0.1</span><br></pre></td></tr></table></figure></p>
-<h3 id="编译安装">编译安装</h3><ul>
-<li><p>根据自己的需要设定配置项<br>可以使用命令<code>./configure   --help</code>查看可配置项<br>以下为我的配置（网上找的，基本上是一些常用扩展，懒得一个个看了，先全部装了再说）<br>突然想到用某哥们儿的配置，没有加前缀，然后一堆文件夹散落各个地方……</p>
-<figure class="highlight"><figcaption><span>--prefix=/usr/local/php7 \</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> --with-curl \&#10; --with-freetype-dir \&#10; --with-gd \&#10; --with-gettext \&#10; --with-iconv-dir \&#10; --with-kerberos \&#10; --with-libdir=lib64 \&#10; --with-libxml-dir \&#10; --with-mysqli \&#10; --with-openssl \&#10; --with-pcre-regex \&#10; --with-pdo-mysql \&#10; --with-pdo-sqlite \&#10; --with-pear \&#10; --with-png-dir \&#10; --with-xmlrpc \&#10; --with-xsl \&#10; --with-zlib \&#10; --enable-fpm \&#10; --enable-bcmath \&#10; --enable-libxml \&#10; --enable-inline-optimization \&#10; --enable-gd-native-ttf \&#10; --enable-mbregex \&#10; --enable-mbstring \&#10; --enable-opcache \&#10; --enable-pcntl \&#10; --enable-shmop \&#10; --enable-soap \&#10; --enable-sockets \&#10; --enable-sysvsem \&#10; --enable-xml \&#10; --enable-zip \&#160;&#10;--disable-fileinfo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>配置好后执行make，<code>&amp;&amp;</code>不要写错了<br><code>make &amp;&amp; make install</code><br>安装过程中经常会提示一些库不存在，安装好库后继续安装重新编译<br>开始的时候我看到网上教程经常有一句命令是安装一堆库，有的教程又没有，现在总算知道原因了<br>安装到某一次的时候提示内存不足，杀了一些进程之后重新编译。</p>
-</li>
-</ul>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">Build complete.</span><br><span class="line">Don't forget to <span class="keyword">run</span> 'make <span class="keyword">test</span>'.</span><br><span class="line"> </span><br><span class="line">Installing shared extensions:     /usr/<span class="keyword">local</span>/php/lib/php/extensions/<span class="keyword">no</span>-debug-non-zts-20151012/</span><br><span class="line">Installing PHP <span class="keyword">CLI</span> binary:        /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing PHP <span class="keyword">CLI</span> <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing PHP FPM binary:        /usr/<span class="keyword">local</span>/php/sbin/</span><br><span class="line">Installing PHP FPM config:        /usr/<span class="keyword">local</span>/php/etc/</span><br><span class="line">Installing PHP FPM <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man8/</span><br><span class="line">Installing PHP FPM status page:      /usr/<span class="keyword">local</span>/php/php/php/fpm/</span><br><span class="line">Installing phpdbg binary:         /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing phpdbg <span class="keyword">man</span> page:       /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing PHP CGI binary:        /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing PHP CGI <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing build environment:     /usr/<span class="keyword">local</span>/php/lib/php/build/</span><br><span class="line">Installing header files:          /usr/<span class="keyword">local</span>/php/<span class="keyword">include</span>/php/</span><br><span class="line">Installing helper programs:       /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">  <span class="keyword">program</span>: phpize</span><br><span class="line">  <span class="keyword">program</span>: php-config</span><br><span class="line">Installing <span class="keyword">man</span> pages:             /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">  page: phpize.1</span><br><span class="line">  page: php-config.1</span><br><span class="line">Installing PEAR environment:      /usr/<span class="keyword">local</span>/php/lib/php/</span><br><span class="line">[PEAR] Archive_Tar    - installed: 1.4.0</span><br><span class="line">[PEAR] Console_Getopt - installed: 1.4.1</span><br><span class="line">[PEAR] Structures_Graph- installed: 1.1.1</span><br><span class="line">[PEAR] XML_Util       - installed: 1.3.0</span><br><span class="line">[PEAR] PEAR           - installed: 1.10.1</span><br><span class="line">Wrote PEAR system config <span class="keyword">file</span> at: /usr/<span class="keyword">local</span>/php/etc/pear.<span class="keyword">conf</span></span><br><span class="line">You may want to add: /usr/<span class="keyword">local</span>/php/lib/php to your php.ini include_path</span><br><span class="line">/root/install/php-7.0.0/build/shtool install -c ext/phar/phar.phar /usr/<span class="keyword">local</span>/php/bin</span><br><span class="line">ln -s -f phar.phar /usr/<span class="keyword">local</span>/php/bin/phar</span><br><span class="line">Installing PDO headers:          /usr/<span class="keyword">local</span>/php/<span class="keyword">include</span>/php/ext/pdo/</span><br></pre></td></tr></table></figure>
-<ul>
-<li>以上，php7已经编译安装完成啦<br>还需要做一些配置，如下：</li>
-</ul>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cp php<span class="class">.ini-production</span> /usr/local/php7/lib/php<span class="class">.ini</span> <span class="id">#php</span><span class="class">.ini</span> 配置</span><br><span class="line">cp sapi/fpm/init<span class="class">.d</span><span class="class">.php-fpm</span> /etc/init.d/php7-fpm <span class="id">#php7-fpm</span> 加入自启项</span><br><span class="line">chmod +x /etc/init.d/php7-fpm #设为可执行文件</span><br><span class="line">cp /usr/local/php7/etc/php-fpm<span class="class">.conf</span><span class="class">.default</span> /usr/local/php7/etc/php-fpm<span class="class">.conf</span> #php-fpm默认配置</span><br><span class="line">cp /usr/local/php7/etc/php-fpm.d/www<span class="class">.conf</span><span class="class">.default</span> /usr/local/php7/etc/php-fpm.d/www<span class="class">.conf</span> <span class="id">#php-fpm</span> www配置</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>开启Opcache模块<br><code>vim /usr/local/php7/lib/php.ini/</code></p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zend_extension=<span class="regexp">/usr/local</span><span class="regexp">/php7/lib</span><span class="regexp">/php/extensions</span><span class="regexp">/no-debug-non-zts-20151012/opcache</span>.so</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装Zend Opcache<br><code>yum install php-pecl-zendopcache</code><br>配置文件</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">opcache-default</span><span class="class">.blacklist</span></span><br><span class="line"><span class="tag">opcache</span><span class="class">.ini</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><code>vi /etc/php.d/opcache.ini</code><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">opcache.memory_consumption=<span class="number">128</span></span><br><span class="line">opcache.interned_strings_buffer=<span class="number">8</span></span><br><span class="line">opcache.max_accelerated_files=<span class="number">4000</span></span><br><span class="line">opcache.revalidate_freq=<span class="number">60</span></span><br><span class="line">opcache.fast_shutdown=<span class="number">1</span></span><br><span class="line">opcache.enable_cli=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
-<ul>
-<li><p>启动php7-fpm<br><code>/etc/init.d/php7-fpm start</code></p>
-</li>
-<li><p>添加环境变量<br><code>vim /etc/profile</code></p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="constant">PATH=</span><span class="variable">$PATH</span><span class="symbol">:/usr/local/php/bin/</span></span><br><span class="line">export <span class="constant">PATH</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>测试php版本<br><code>php -v</code></p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">PHP <span class="number">7.0</span><span class="number">.0</span> (cli) (built: Dec  <span class="number">5</span> <span class="number">2015</span> <span class="number">18</span>:<span class="number">39</span>:<span class="number">41</span>) ( NTS )</span><br><span class="line">Copyright (c) <span class="number">1997</span>-<span class="number">2015</span> The PHP Group</span><br><span class="line">Zend Engine v3<span class="number">.0</span><span class="number">.0</span>, Copyright (c) <span class="number">1998</span>-<span class="number">2015</span> Zend Technologies</span><br><span class="line">    with Zend OPcache v7<span class="number">.0</span><span class="number">.6</span>-dev, Copyright (c) <span class="number">1999</span>-<span class="number">2015</span>, by Zend Technologies</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Others">Others</h3><p>之前phpinfo()一直不显示已经安装的扩展<br>怀疑是nginx版本的问题，一直是yum直接安装的nginx1.6.3<br>加了一个nginx 的repo，yum升级了nginx 到1.8.0<br>果断好了，hh<br>升级方法：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">add</span>-repository <span class="keyword">pp</span><span class="variable">a:nginx</span>/stable  </span><br><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span>  </span><br><span class="line">sudo apt-<span class="built_in">get</span> upgrade nginx -<span class="keyword">y</span></span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php7/">php7</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
     </nav>
   
 </div>

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[niweishenmeyaokandezhemezixi]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.xingxuchu.com/"/>
-  <updated>2015-12-30T17:05:01.000Z</updated>
+  <updated>2016-01-13T13:00:01.000Z</updated>
   <id>http://blog.xingxuchu.com/</id>
   
   <author>
@@ -13,6 +13,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[最近在干啥]]></title>
+    <link href="http://blog.xingxuchu.com/2016/01/13/%E6%9C%80%E8%BF%91%E5%9C%A8%E5%B9%B2%E5%95%A5/"/>
+    <id>http://blog.xingxuchu.com/2016/01/13/最近在干啥/</id>
+    <published>2016-01-13T09:01:58.000Z</published>
+    <updated>2016-01-13T13:00:01.000Z</updated>
+    <content type="html"><![CDATA[<p>笔记都好久没写了，正好完成了一堆需求，回过头来想一想</p>
+<h3 id="最近都干了啥">最近都干了啥</h3><ul>
+<li>安装了个 win10 +linux mint 双系统<ul>
+<li>让我感到惊奇的是mint上可以使用sublime 和 PHPstorm，</li>
+</ul>
+</li>
+<li>在慕课网上看一些视频教程<ul>
+<li>基础的也看，果然有一些基础的东西不看还记不起来了<br><a id="more"></a>- 工作上基本上就是完成一些需求，开始思考自己的工作，自己的工具。</li>
+<li>要说自己现在做的，可能就是有一些复杂的业务逻辑，没有碰到要处理大量数据的性能问题。</li>
+<li>把代码写规范，易读，以及注意不必要的性能消耗。</li>
+</ul>
+</li>
+<li>去看了一场 夏洛克访谈录</li>
+<li>手指被仓鼠咬出血了。买了浴沙和棉花。</li>
+</ul>
+<h3 id="TODO">TODO</h3><ul>
+<li>继续看视频教程吧</li>
+<li>mint系统熟悉一下，看要不要入手小米笔记本，小米5</li>
+<li>继续思考自己的工作吧，工作之余看看整体代码，继续熟悉项目</li>
+<li>发现自己阅读不容易集中注意力了。 没有耐心，需要重视起来了。</li>
+<li>英语有待加强，一些基本的语法甚至都搞错</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>笔记都好久没写了，正好完成了一堆需求，回过头来想一想</p>
+<h3 id="最近都干了啥">最近都干了啥</h3><ul>
+<li>安装了个 win10 +linux mint 双系统<ul>
+<li>让我感到惊奇的是mint上可以使用sublime 和 PHPstorm，</li>
+</ul>
+</li>
+<li>在慕课网上看一些视频教程<ul>
+<li>基础的也看，果然有一些基础的东西不看还记不起来了<br>]]>
+    
+    </summary>
+    
+      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[写在年末]]></title>
@@ -836,29 +883,6 @@
     </summary>
     
       <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
-    
-      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Mysql日常报错]]></title>
-    <link href="http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/"/>
-    <id>http://blog.xingxuchu.com/2015/03/18/Mysql日常报错/</id>
-    <published>2015-03-18T13:15:37.000Z</published>
-    <updated>2015-12-31T08:15:01.000Z</updated>
-    <content type="html"><![CDATA[<p>Xampp启动Apache可以启动，启动mysql报错，详情如下：<br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] Plugin <span class="attribute">'FEDERATED</span>' <span class="keyword">is</span> disabled.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">1954</span> InnoDB: Warning: Using innodb_additional_mem_pool_size <span class="keyword">is</span> DEPRECATED. This option may be removed <span class="keyword">in</span> future releases, together <span class="keyword">with</span> the option innodb_use_sys_malloc <span class="keyword">and</span> <span class="keyword">with</span> the InnoDB<span class="attribute">'s</span> internal memory allocator.</span><br><span class="line">&lt;!<span class="comment">--more--&gt;2015-03-18 21:13:06 6480 [Note] InnoDB: The InnoDB memory heap is disabled</span></span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Mutexes <span class="keyword">and</span> rw_locks <span class="keyword">use</span> Windows interlocked functions</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Compressed tables <span class="keyword">use</span> zlib <span class="number">1.2</span>.<span class="number">3</span></span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: <span class="keyword">Not</span> using CPU crc32 instructions</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Initializing <span class="keyword">buffer</span> pool, size = <span class="number">16.0</span>M</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Completed initialization <span class="keyword">of</span> <span class="keyword">buffer</span> pool</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Highest supported <span class="keyword">file</span> format <span class="keyword">is</span> Barracuda.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: The log <span class="keyword">sequence</span> numbers <span class="number">0</span> <span class="keyword">and</span> <span class="number">0</span> <span class="keyword">in</span> ibdata files do <span class="keyword">not</span> match the log <span class="keyword">sequence</span> number <span class="number">3223109</span> <span class="keyword">in</span> the ib_logfiles!</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Database was <span class="keyword">not</span> shutdown normally!</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Starting crash recovery.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Reading tablespace information from the .ibd files...</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [ERROR] InnoDB: Attempted <span class="keyword">to</span> <span class="keyword">open</span> a previously opened tablespace. Previous tablespace demo/tbl_user uses space ID: <span class="number">1</span> at filepath: .\demo\tbl_user.ibd. Cannot <span class="keyword">open</span> tablespace mysql/innodb_table_stats which uses space ID: <span class="number">1</span> at filepath: .\mysql\innodb_table_stats.ibd</span><br><span class="line">InnoDB: Error: could <span class="keyword">not</span> <span class="keyword">open</span> single-table tablespace <span class="keyword">file</span> .\mysql\innodb_table_stats.ibd</span><br><span class="line">InnoDB: We do <span class="keyword">not</span> continue the crash recovery, because the table may become</span><br><span class="line">InnoDB: corrupt <span class="keyword">if</span> we cannot apply the log records <span class="keyword">in</span> the InnoDB log <span class="keyword">to</span> it.</span><br><span class="line">InnoDB: <span class="keyword">To</span> fix the problem <span class="keyword">and</span> start mysqld:</span><br><span class="line">InnoDB: <span class="number">1</span>) <span class="keyword">If</span> there <span class="keyword">is</span> a permission problem <span class="keyword">in</span> the <span class="keyword">file</span> <span class="keyword">and</span> mysqld cannot</span><br><span class="line">InnoDB: <span class="keyword">open</span> the <span class="keyword">file</span>, you should modify the permissions.</span><br><span class="line">InnoDB: <span class="number">2</span>) <span class="keyword">If</span> the table <span class="keyword">is</span> <span class="keyword">not</span> needed, <span class="keyword">or</span> you can restore it from a backup,</span><br><span class="line">InnoDB: <span class="keyword">then</span> you can remove the .ibd <span class="keyword">file</span>, <span class="keyword">and</span> InnoDB will do a normal</span><br><span class="line">InnoDB: crash recovery <span class="keyword">and</span> ignore that table.</span><br><span class="line">InnoDB: <span class="number">3</span>) <span class="keyword">If</span> the <span class="keyword">file</span> system <span class="keyword">or</span> the disk <span class="keyword">is</span> broken, <span class="keyword">and</span> you cannot remove</span><br><span class="line">InnoDB: the .ibd <span class="keyword">file</span>, you can set innodb_force_recovery &gt; <span class="number">0</span> <span class="keyword">in</span> my.cnf</span><br><span class="line">InnoDB: <span class="keyword">and</span> <span class="keyword">force</span> InnoDB <span class="keyword">to</span> continue crash recovery here.</span><br></pre></td></tr></table></figure></p>
-<p>解决方法my.ini 文件中添加一行innodb_force_recovery = 1，在Innodb附近添加</p>
-<p>该参数各值含义如下：<br>默认为0，表示当需要恢复时执行所有的恢复操作（即校验数据页/purge undo/insert buffer merge/rolling back&amp;forward）.当不能进行有效的恢复操作时，mysql有可能无法启动，并记录下错误日志.<br>innodb_force_recovery可以设置为0-6,大的数字包含前面所有数字的影响.<br>当设置参数值大于0后，可以对表进行select,create,drop操作,但insert,update或者delete这类操作是不允许的.<br>1.(SRV_FORCE_IGNORE_CORRUPT):     忽略检查到的corrupt页.<br>2.(SRV_FORCE_NO_BACKGROUND):    阻止主线程的运行，如主线程需要执行full purge操作，会导致crash.<br>3.(SRV_FORCE_NO_TRX_UNDO):    不执行事务回滚操作.<br>4.(SRV_FORCE_NO_IBUF_MERGE):    不执行插入缓冲的合并操作.<br>5.(SRV_FORCE_NO_UNDO_LOG_SCAN):    不查看重做日志，InnoDB存储引擎会将未提交的事务视为已提交.<br>6.(SRV_FORCE_NO_LOG_REDO):    不执行前滚的操作.</p>
-<p>以上方法治标不治本，继续查看log，删除了data文件夹下的数据库==，出现了问题<br>报错，table mysql innodbtablestats not found<br>手动删除然后创建</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Xampp启动Apache可以启动，启动mysql报错，详情如下：<br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><sp]]>
-    </summary>
-    
-      <category term="mysql" scheme="http://blog.xingxuchu.com/tags/mysql/"/>
-    
-      <category term="报错" scheme="http://blog.xingxuchu.com/tags/%E6%8A%A5%E9%94%99/"/>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
     
