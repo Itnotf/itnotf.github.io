@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2015-12-31T09:30:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2014/12/19/PHP%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T09:25:01.000Z</lastmod>
   </url>
@@ -19,11 +24,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/01/19/Lua%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T09:20:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T09:15:01.000Z</lastmod>
   </url>
   
   <url>
@@ -57,12 +57,12 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/</loc>
+    <loc>http://blog.xingxuchu.com/2015/03/17/Apache%20VirtualHost%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2015-12-31T08:15:01.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/17/Apache%20VirtualHost%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/</loc>
     <lastmod>2015-12-31T08:15:01.000Z</lastmod>
   </url>
   
@@ -83,7 +83,7 @@
   
   <url>
     <loc>http://blog.xingxuchu.com/2015/07/12/Vagrant%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-30T16:40:01.000Z</lastmod>
+    <lastmod>2015-12-30T16:43:04.000Z</lastmod>
   </url>
   
   <url>
@@ -98,7 +98,7 @@
   
   <url>
     <loc>http://blog.xingxuchu.com/2015/12/06/Laravel%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-30T15:45:01.000Z</lastmod>
+    <lastmod>2015-12-30T16:20:01.000Z</lastmod>
   </url>
   
   <url>
