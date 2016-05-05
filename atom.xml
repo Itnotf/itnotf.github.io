@@ -4,7 +4,7 @@
   <subtitle><![CDATA[niweishenmeyaokandezhemezixi]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.xingxuchu.com/"/>
-  <updated>2016-01-13T13:00:01.000Z</updated>
+  <updated>2016-05-05T13:14:38.000Z</updated>
   <id>http://blog.xingxuchu.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[test]]></title>
+    <link href="http://blog.xingxuchu.com/2016/05/05/test/"/>
+    <id>http://blog.xingxuchu.com/2016/05/05/test/</id>
+    <published>2016-05-05T10:15:28.000Z</published>
+    <updated>2016-05-05T13:14:38.000Z</updated>
+    <content type="html"><![CDATA[<p>哈哈哈哈</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>哈哈哈哈</p>
+]]>
+    </summary>
+    
+      <category term="标签1" scheme="http://blog.xingxuchu.com/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[最近在干啥]]></title>
@@ -893,25 +912,6 @@
     <![CDATA[<h5 id="基本版：">基本版：</h5><ul>
 <li>composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic</li>
 <li>composer create-project –prefer-dist yiisoft/yii2-app-basic basic]]>
-    
-    </summary>
-    
-      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
-    
-      <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[TortoiseGit + GitHub使用教程]]></title>
-    <link href="http://blog.xingxuchu.com/2015/03/16/TortoiseGit%20+%20GitHub%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>http://blog.xingxuchu.com/2015/03/16/TortoiseGit + GitHub使用教程/</id>
-    <published>2015-03-16T10:00:01.000Z</published>
-    <updated>2015-12-31T08:30:01.000Z</updated>
-    <content type="html"><![CDATA[<p>安装TortoiseGit，首先需要安装mysysgit注册安装GitHub<a href="http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync" target="_blank" rel="external">http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync</a><a id="more"></a>使用PuTTYgen可以生成公钥，通过鼠标不停的移动，还可以设置Key passphare，TortoiseGit pull的时候需要输入，save private key,保存的是私钥，软件上显示的是公钥，复制公钥 将public key 的内容添加到GitHub中，通过网页操作seting-&gt;SSH keys设置TortoiseGit -&gt;settings-&gt;Git-&gt;Remote设置url和Pytty之后就可以使用TortoiseGit pull直接上传更新到github了老是pull，点错了呀混蛋，是push</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>安装TortoiseGit，首先需要安装mysysgit注册安装GitHub<a href="http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync">http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync</a>]]>
     
     </summary>
     
