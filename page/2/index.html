@@ -145,7 +145,7 @@ var _hmt = _hmt || [];
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/undefined/" style="font-size: 20px;"></a> <a href="/tags/Apache/" style="font-size: 10px;">Apache</a> <a href="/tags/Homestead/" style="font-size: 10px;">Homestead</a> <a href="/tags/Virtual-Host/" style="font-size: 10px;">Virtual Host</a> <a href="/tags/Xftp/" style="font-size: 10px;">Xftp</a> <a href="/tags/Xshell/" style="font-size: 10px;">Xshell</a> <a href="/tags/laravel/" style="font-size: 13.33px;">laravel</a> <a href="/tags/lua/" style="font-size: 10px;">lua</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/php7/" style="font-size: 10px;">php7</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/学习笔记/" style="font-size: 10px;">学习笔记</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/报错/" style="font-size: 10px;">报错</a> <a href="/tags/教程/" style="font-size: 16.67px;">教程</a> <a href="/tags/日志/" style="font-size: 10px;">日志</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+						<a href="/tags/undefined/" style="font-size: 20px;"></a> <a href="/tags/Apache/" style="font-size: 10px;">Apache</a> <a href="/tags/Homestead/" style="font-size: 10px;">Homestead</a> <a href="/tags/Virtual-Host/" style="font-size: 10px;">Virtual Host</a> <a href="/tags/Xftp/" style="font-size: 10px;">Xftp</a> <a href="/tags/Xshell/" style="font-size: 10px;">Xshell</a> <a href="/tags/laravel/" style="font-size: 13.33px;">laravel</a> <a href="/tags/lua/" style="font-size: 10px;">lua</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/php7/" style="font-size: 10px;">php7</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/学习笔记/" style="font-size: 10px;">学习笔记</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/报错/" style="font-size: 10px;">报错</a> <a href="/tags/教程/" style="font-size: 16.67px;">教程</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</div>
 				</section>
 				
@@ -226,352 +226,6 @@ var _hmt = _hmt || [];
 	</div>
 </nav>
       <div class="body-wrap">
-  
-    <article id="post-php7安装" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/05/php7安装/" class="article-date">
-  	<time datetime="2015-12-05T09:50:30.000Z" itemprop="datePublished">2015-12-05</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/05/php7安装/">php7安装</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="下载">下载</h3><p>去官网上找一下镜像地址<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget&#160;http://cn2.php.net/get/php-7.0.1.tar.gz/from/this/mirror&#10;&#60;!--more--&#62;tar -xvzf &#160;php-7.0.1.tar.gz&#10;cd&#160;php-7.0.1</span><br></pre></td></tr></table></figure></p>
-<h3 id="编译安装">编译安装</h3><ul>
-<li><p>根据自己的需要设定配置项<br>可以使用命令<code>./configure   --help</code>查看可配置项<br>以下为我的配置（网上找的，基本上是一些常用扩展，懒得一个个看了，先全部装了再说）<br>突然想到用某哥们儿的配置，没有加前缀，然后一堆文件夹散落各个地方……</p>
-<figure class="highlight"><figcaption><span>--prefix=/usr/local/php7 \</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> --with-curl \&#10; --with-freetype-dir \&#10; --with-gd \&#10; --with-gettext \&#10; --with-iconv-dir \&#10; --with-kerberos \&#10; --with-libdir=lib64 \&#10; --with-libxml-dir \&#10; --with-mysqli \&#10; --with-openssl \&#10; --with-pcre-regex \&#10; --with-pdo-mysql \&#10; --with-pdo-sqlite \&#10; --with-pear \&#10; --with-png-dir \&#10; --with-xmlrpc \&#10; --with-xsl \&#10; --with-zlib \&#10; --enable-fpm \&#10; --enable-bcmath \&#10; --enable-libxml \&#10; --enable-inline-optimization \&#10; --enable-gd-native-ttf \&#10; --enable-mbregex \&#10; --enable-mbstring \&#10; --enable-opcache \&#10; --enable-pcntl \&#10; --enable-shmop \&#10; --enable-soap \&#10; --enable-sockets \&#10; --enable-sysvsem \&#10; --enable-xml \&#10; --enable-zip \&#160;&#10;--disable-fileinfo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>配置好后执行make，<code>&amp;&amp;</code>不要写错了<br><code>make &amp;&amp; make install</code><br>安装过程中经常会提示一些库不存在，安装好库后继续安装重新编译<br>开始的时候我看到网上教程经常有一句命令是安装一堆库，有的教程又没有，现在总算知道原因了<br>安装到某一次的时候提示内存不足，杀了一些进程之后重新编译。</p>
-</li>
-</ul>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">Build complete.</span><br><span class="line">Don't forget to <span class="keyword">run</span> 'make <span class="keyword">test</span>'.</span><br><span class="line"> </span><br><span class="line">Installing shared extensions:     /usr/<span class="keyword">local</span>/php/lib/php/extensions/<span class="keyword">no</span>-debug-non-zts-20151012/</span><br><span class="line">Installing PHP <span class="keyword">CLI</span> binary:        /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing PHP <span class="keyword">CLI</span> <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing PHP FPM binary:        /usr/<span class="keyword">local</span>/php/sbin/</span><br><span class="line">Installing PHP FPM config:        /usr/<span class="keyword">local</span>/php/etc/</span><br><span class="line">Installing PHP FPM <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man8/</span><br><span class="line">Installing PHP FPM status page:      /usr/<span class="keyword">local</span>/php/php/php/fpm/</span><br><span class="line">Installing phpdbg binary:         /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing phpdbg <span class="keyword">man</span> page:       /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing PHP CGI binary:        /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">Installing PHP CGI <span class="keyword">man</span> page:      /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">Installing build environment:     /usr/<span class="keyword">local</span>/php/lib/php/build/</span><br><span class="line">Installing header files:          /usr/<span class="keyword">local</span>/php/<span class="keyword">include</span>/php/</span><br><span class="line">Installing helper programs:       /usr/<span class="keyword">local</span>/php/bin/</span><br><span class="line">  <span class="keyword">program</span>: phpize</span><br><span class="line">  <span class="keyword">program</span>: php-config</span><br><span class="line">Installing <span class="keyword">man</span> pages:             /usr/<span class="keyword">local</span>/php/php/<span class="keyword">man</span>/man1/</span><br><span class="line">  page: phpize.1</span><br><span class="line">  page: php-config.1</span><br><span class="line">Installing PEAR environment:      /usr/<span class="keyword">local</span>/php/lib/php/</span><br><span class="line">[PEAR] Archive_Tar    - installed: 1.4.0</span><br><span class="line">[PEAR] Console_Getopt - installed: 1.4.1</span><br><span class="line">[PEAR] Structures_Graph- installed: 1.1.1</span><br><span class="line">[PEAR] XML_Util       - installed: 1.3.0</span><br><span class="line">[PEAR] PEAR           - installed: 1.10.1</span><br><span class="line">Wrote PEAR system config <span class="keyword">file</span> at: /usr/<span class="keyword">local</span>/php/etc/pear.<span class="keyword">conf</span></span><br><span class="line">You may want to add: /usr/<span class="keyword">local</span>/php/lib/php to your php.ini include_path</span><br><span class="line">/root/install/php-7.0.0/build/shtool install -c ext/phar/phar.phar /usr/<span class="keyword">local</span>/php/bin</span><br><span class="line">ln -s -f phar.phar /usr/<span class="keyword">local</span>/php/bin/phar</span><br><span class="line">Installing PDO headers:          /usr/<span class="keyword">local</span>/php/<span class="keyword">include</span>/php/ext/pdo/</span><br></pre></td></tr></table></figure>
-<ul>
-<li>以上，php7已经编译安装完成啦<br>还需要做一些配置，如下：</li>
-</ul>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cp php<span class="class">.ini-production</span> /usr/local/php7/lib/php<span class="class">.ini</span> <span class="id">#php</span><span class="class">.ini</span> 配置</span><br><span class="line">cp sapi/fpm/init<span class="class">.d</span><span class="class">.php-fpm</span> /etc/init.d/php7-fpm <span class="id">#php7-fpm</span> 加入自启项</span><br><span class="line">chmod +x /etc/init.d/php7-fpm #设为可执行文件</span><br><span class="line">cp /usr/local/php7/etc/php-fpm<span class="class">.conf</span><span class="class">.default</span> /usr/local/php7/etc/php-fpm<span class="class">.conf</span> #php-fpm默认配置</span><br><span class="line">cp /usr/local/php7/etc/php-fpm.d/www<span class="class">.conf</span><span class="class">.default</span> /usr/local/php7/etc/php-fpm.d/www<span class="class">.conf</span> <span class="id">#php-fpm</span> www配置</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>开启Opcache模块<br><code>vim /usr/local/php7/lib/php.ini/</code></p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zend_extension=<span class="regexp">/usr/local</span><span class="regexp">/php7/lib</span><span class="regexp">/php/extensions</span><span class="regexp">/no-debug-non-zts-20151012/opcache</span>.so</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装Zend Opcache<br><code>yum install php-pecl-zendopcache</code><br>配置文件</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">opcache-default</span><span class="class">.blacklist</span></span><br><span class="line"><span class="tag">opcache</span><span class="class">.ini</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><code>vi /etc/php.d/opcache.ini</code><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">opcache.memory_consumption=<span class="number">128</span></span><br><span class="line">opcache.interned_strings_buffer=<span class="number">8</span></span><br><span class="line">opcache.max_accelerated_files=<span class="number">4000</span></span><br><span class="line">opcache.revalidate_freq=<span class="number">60</span></span><br><span class="line">opcache.fast_shutdown=<span class="number">1</span></span><br><span class="line">opcache.enable_cli=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
-<ul>
-<li><p>启动php7-fpm<br><code>/etc/init.d/php7-fpm start</code></p>
-</li>
-<li><p>添加环境变量<br><code>vim /etc/profile</code></p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="constant">PATH=</span><span class="variable">$PATH</span><span class="symbol">:/usr/local/php/bin/</span></span><br><span class="line">export <span class="constant">PATH</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>测试php版本<br><code>php -v</code></p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">PHP <span class="number">7.0</span><span class="number">.0</span> (cli) (built: Dec  <span class="number">5</span> <span class="number">2015</span> <span class="number">18</span>:<span class="number">39</span>:<span class="number">41</span>) ( NTS )</span><br><span class="line">Copyright (c) <span class="number">1997</span>-<span class="number">2015</span> The PHP Group</span><br><span class="line">Zend Engine v3<span class="number">.0</span><span class="number">.0</span>, Copyright (c) <span class="number">1998</span>-<span class="number">2015</span> Zend Technologies</span><br><span class="line">    with Zend OPcache v7<span class="number">.0</span><span class="number">.6</span>-dev, Copyright (c) <span class="number">1999</span>-<span class="number">2015</span>, by Zend Technologies</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Others">Others</h3><p>之前phpinfo()一直不显示已经安装的扩展<br>怀疑是nginx版本的问题，一直是yum直接安装的nginx1.6.3<br>加了一个nginx 的repo，yum升级了nginx 到1.8.0<br>果断好了，hh<br>升级方法：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">add</span>-repository <span class="keyword">pp</span><span class="variable">a:nginx</span>/stable  </span><br><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span>  </span><br><span class="line">sudo apt-<span class="built_in">get</span> upgrade nginx -<span class="keyword">y</span></span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php7/">php7</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-也是醉了" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/04/也是醉了/" class="article-date">
-  	<time datetime="2015-12-04T13:20:01.000Z" itemprop="datePublished">2015-12-04</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/04/也是醉了/">也是醉了</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="NOTICE">NOTICE</h3><ul>
-<li><p>hexo <code>---</code>前面千万注意不要有多的空格，不然就报错啦</p>
-<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YAMLException: can not read a block mapping <span class="built_in">entry</span>; a multiline key may not be an <span class="type">implicit</span> key at line <span class="number">6</span>, column <span class="number">1</span>&lt;<span class="comment">!--more--&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>发布blog居然还有大小限制，PHPstorm那篇就忍痛删掉了一堆快捷键，以后来个2好了。</p>
-<h3 id="后记">后记</h3><p>—2015-12-7 19:40:29</p>
-</li>
-<li>安装php7的时候把服务器上的nginx升级到了1.8.0，hh，大小限制就没有了，估计在nginx配置中有限制</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-心情像天气一样灰暗" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/03/心情像天气一样灰暗/" class="article-date">
-  	<time datetime="2015-12-03T09:49:40.000Z" itemprop="datePublished">2015-12-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/03/心情像天气一样灰暗/">心情像天气一样灰暗</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今天真是悲催的一天，接了个麻烦的需求，被当做是很简单的东西还被提前了deadline。<br>心情真是像天气一样沉重。<br>blog用来抱怨这种事情是不是不太好。管他的</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日志/">日志</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-Wiz笔记发到hexo的第一篇微博" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/02/Wiz笔记发到hexo的第一篇微博/" class="article-date">
-  	<time datetime="2015-12-02T05:50:51.000Z" itemprop="datePublished">2015-12-02</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/02/Wiz笔记发到hexo的第一篇微博/">Wiz笔记发到hexo的第一篇微博</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>折腾了大半天，才使用Wiz接通服务器，虽然还是有很多问题，接口还待完善，不过总算是有了一点点小的成果，并且知道了<code>MetaWeblog API</code>这么个博客标准API规范。</p>
-<h3 id="TODO">TODO</h3><ul>
-<li><del>发布完自动执行 <code>hexo g</code></del></li>
-<li><del>自动推到github上去</del><br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/日志/">日志</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/12/02/Wiz笔记发到hexo的第一篇微博/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-TheBeginning" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/07/18/TheBeginning/" class="article-date">
-  	<time datetime="2015-07-18T10:20:15.000Z" itemprop="datePublished">2015-07-18</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/18/TheBeginning/">The Beginning</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>静态blog，按照网上教程一步一步走过来，说来也并没有太多的技术含量，权且当做用来记录学习历程的地方了吧。作为一名程序员，平时自己也会做笔记，blog，终究是给别人看的。这里可能会有很多模仿别人的东西，但是我自认为模仿即学习，何必管那么多，这里终究都是我自己的东西。</p>
-<p>之前用Evernote，一直以来并没有发现什么不妥，偶尔在Windows上面会卡，Windows，都能理解的，卡卡就习惯了，甚至于有同事使用了Wiz并说其好用的时候我并没有想要去尝试的冲动，习惯真是一件可怕的事情，尤其对于我这种好奇心还算比较强的人。值得庆幸的是，最终我还是转到了Wiz，由此接触到了MarkDown，以及一些其他的东西，但这是后话，以后慢慢说。Wiz有个好功能，发布blog，之后自己想写个API，实现在Wiz上一键发布blog。</p>
-<p>The Beginning，希望是一个好的开始，我是个虎头蛇尾的人，但凡事没有定论。</p>
-<blockquote>
-<p>相信自己能改变世界，自己才能改变世界</p>
-</blockquote>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/随笔/">随笔</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
   
     <article id="post-sublime教程" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -905,9 +559,324 @@ var _hmt = _hmt || [];
 
 
   
+    <article id="post-Mysql日常报错" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/03/18/Mysql日常报错/" class="article-date">
+  	<time datetime="2015-03-18T13:15:37.000Z" itemprop="datePublished">2015-03-18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/03/18/Mysql日常报错/">Mysql日常报错</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Xampp启动Apache可以启动，启动mysql报错，详情如下：<br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] Plugin <span class="attribute">'FEDERATED</span>' <span class="keyword">is</span> disabled.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">1954</span> InnoDB: Warning: Using innodb_additional_mem_pool_size <span class="keyword">is</span> DEPRECATED. This option may be removed <span class="keyword">in</span> future releases, together <span class="keyword">with</span> the option innodb_use_sys_malloc <span class="keyword">and</span> <span class="keyword">with</span> the InnoDB<span class="attribute">'s</span> internal memory allocator.</span><br><span class="line">&lt;!<span class="comment">--more--&gt;2015-03-18 21:13:06 6480 [Note] InnoDB: The InnoDB memory heap is disabled</span></span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Mutexes <span class="keyword">and</span> rw_locks <span class="keyword">use</span> Windows interlocked functions</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Compressed tables <span class="keyword">use</span> zlib <span class="number">1.2</span>.<span class="number">3</span></span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: <span class="keyword">Not</span> using CPU crc32 instructions</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Initializing <span class="keyword">buffer</span> pool, size = <span class="number">16.0</span>M</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Completed initialization <span class="keyword">of</span> <span class="keyword">buffer</span> pool</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Highest supported <span class="keyword">file</span> format <span class="keyword">is</span> Barracuda.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: The log <span class="keyword">sequence</span> numbers <span class="number">0</span> <span class="keyword">and</span> <span class="number">0</span> <span class="keyword">in</span> ibdata files do <span class="keyword">not</span> match the log <span class="keyword">sequence</span> number <span class="number">3223109</span> <span class="keyword">in</span> the ib_logfiles!</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Database was <span class="keyword">not</span> shutdown normally!</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Starting crash recovery.</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [Note] InnoDB: Reading tablespace information from the .ibd files...</span><br><span class="line"><span class="number">2015</span>-<span class="number">03</span>-<span class="number">18</span> <span class="number">21</span>:<span class="number">13</span>:<span class="number">06</span> <span class="number">6480</span> [ERROR] InnoDB: Attempted <span class="keyword">to</span> <span class="keyword">open</span> a previously opened tablespace. Previous tablespace demo/tbl_user uses space ID: <span class="number">1</span> at filepath: .\demo\tbl_user.ibd. Cannot <span class="keyword">open</span> tablespace mysql/innodb_table_stats which uses space ID: <span class="number">1</span> at filepath: .\mysql\innodb_table_stats.ibd</span><br><span class="line">InnoDB: Error: could <span class="keyword">not</span> <span class="keyword">open</span> single-table tablespace <span class="keyword">file</span> .\mysql\innodb_table_stats.ibd</span><br><span class="line">InnoDB: We do <span class="keyword">not</span> continue the crash recovery, because the table may become</span><br><span class="line">InnoDB: corrupt <span class="keyword">if</span> we cannot apply the log records <span class="keyword">in</span> the InnoDB log <span class="keyword">to</span> it.</span><br><span class="line">InnoDB: <span class="keyword">To</span> fix the problem <span class="keyword">and</span> start mysqld:</span><br><span class="line">InnoDB: <span class="number">1</span>) <span class="keyword">If</span> there <span class="keyword">is</span> a permission problem <span class="keyword">in</span> the <span class="keyword">file</span> <span class="keyword">and</span> mysqld cannot</span><br><span class="line">InnoDB: <span class="keyword">open</span> the <span class="keyword">file</span>, you should modify the permissions.</span><br><span class="line">InnoDB: <span class="number">2</span>) <span class="keyword">If</span> the table <span class="keyword">is</span> <span class="keyword">not</span> needed, <span class="keyword">or</span> you can restore it from a backup,</span><br><span class="line">InnoDB: <span class="keyword">then</span> you can remove the .ibd <span class="keyword">file</span>, <span class="keyword">and</span> InnoDB will do a normal</span><br><span class="line">InnoDB: crash recovery <span class="keyword">and</span> ignore that table.</span><br><span class="line">InnoDB: <span class="number">3</span>) <span class="keyword">If</span> the <span class="keyword">file</span> system <span class="keyword">or</span> the disk <span class="keyword">is</span> broken, <span class="keyword">and</span> you cannot remove</span><br><span class="line">InnoDB: the .ibd <span class="keyword">file</span>, you can set innodb_force_recovery &gt; <span class="number">0</span> <span class="keyword">in</span> my.cnf</span><br><span class="line">InnoDB: <span class="keyword">and</span> <span class="keyword">force</span> InnoDB <span class="keyword">to</span> continue crash recovery here.</span><br></pre></td></tr></table></figure></p>
+<p>解决方法my.ini 文件中添加一行innodb_force_recovery = 1，在Innodb附近添加</p>
+<p>该参数各值含义如下：<br>默认为0，表示当需要恢复时执行所有的恢复操作（即校验数据页/purge undo/insert buffer merge/rolling back&amp;forward）.当不能进行有效的恢复操作时，mysql有可能无法启动，并记录下错误日志.<br>innodb_force_recovery可以设置为0-6,大的数字包含前面所有数字的影响.<br>当设置参数值大于0后，可以对表进行select,create,drop操作,但insert,update或者delete这类操作是不允许的.<br>1.(SRV_FORCE_IGNORE_CORRUPT):     忽略检查到的corrupt页.<br>2.(SRV_FORCE_NO_BACKGROUND):    阻止主线程的运行，如主线程需要执行full purge操作，会导致crash.<br>3.(SRV_FORCE_NO_TRX_UNDO):    不执行事务回滚操作.<br>4.(SRV_FORCE_NO_IBUF_MERGE):    不执行插入缓冲的合并操作.<br>5.(SRV_FORCE_NO_UNDO_LOG_SCAN):    不查看重做日志，InnoDB存储引擎会将未提交的事务视为已提交.<br>6.(SRV_FORCE_NO_LOG_REDO):    不执行前滚的操作.</p>
+<p>以上方法治标不治本，继续查看log，删除了data文件夹下的数据库==，出现了问题<br>报错，table mysql innodbtablestats not found<br>手动删除然后创建</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/报错/">报错</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-Apache VirtualHost配置" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/03/17/Apache VirtualHost配置/" class="article-date">
+  	<time datetime="2015-03-17T06:19:39.000Z" itemprop="datePublished">2015-03-17</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/03/17/Apache VirtualHost配置/">Apache VirtualHost配置</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>找到conf\httpd.conf<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#Virtual hosts</span><br><span class="line"><span class="keyword">Include</span> <span class="keyword">conf</span>/extra/httpd-vhosts.<span class="keyword">conf</span></span><br></pre></td></tr></table></figure></p>
+<p>前面的注释去掉</p>
+<p>将设置端口的语句添加在/extra/httpd-vhosts.conf 的最后面<br>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Apache/">Apache</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Virtual-Host/">Virtual Host</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/03/17/Apache VirtualHost配置/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-Composer+Yii2.0安装教程" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/03/17/Composer+Yii2.0安装教程/" class="article-date">
+  	<time datetime="2015-03-17T04:23:28.000Z" itemprop="datePublished">2015-03-17</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/03/17/Composer+Yii2.0安装教程/">Composer+Yii2.0安装教程</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ol>
+<li>首先配好PHP环境需开启PHP的openssl支持 2. 安装composer<code>composer -V</code>3. 命令行切换到Apache目录<code>php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced</code>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/03/17/Composer+Yii2.0安装教程/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-Yii2.0安装笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/03/16/Yii2.0安装笔记/" class="article-date">
+  	<time datetime="2015-03-16T15:11:37.000Z" itemprop="datePublished">2015-03-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/03/16/Yii2.0安装笔记/">Yii2.0安装笔记</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="基本版：">基本版：</h5><ul>
+<li>composer create-project –prefer-dist –stability=dev yiisoft/yii2-app-basic basic</li>
+<li>composer create-project –prefer-dist yiisoft/yii2-app-basic basic
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/03/16/Yii2.0安装笔记/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-TortoiseGit + GitHub使用教程" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/03/16/TortoiseGit + GitHub使用教程/" class="article-date">
+  	<time datetime="2015-03-16T10:00:01.000Z" itemprop="datePublished">2015-03-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/03/16/TortoiseGit + GitHub使用教程/">TortoiseGit + GitHub使用教程</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>安装TortoiseGit，首先需要安装mysysgit注册安装GitHub<a href="http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync">http://www.360doc.com/content/13/0510/15/7635_284404426.shtml全部安装好后，可以填写账号密码登陆TortoiseGit可以直接commit到GitHub，但是不能sync</a>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/undefined/"></a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/日志/">日志</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/03/16/TortoiseGit + GitHub使用教程/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 </div>
