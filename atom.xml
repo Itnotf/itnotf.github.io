@@ -4,7 +4,7 @@
   <subtitle><![CDATA[niweishenmeyaokandezhemezixi]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.xingxuchu.com/"/>
-  <updated>2016-05-06T09:15:01.000Z</updated>
+  <updated>2016-05-06T04:42:45.000Z</updated>
   <id>http://blog.xingxuchu.com/</id>
   
   <author>
@@ -19,13 +19,14 @@
     <link href="http://blog.xingxuchu.com/2016/04/26/%E7%88%AC%E8%99%AB%E5%BF%83%E5%BE%97/"/>
     <id>http://blog.xingxuchu.com/2016/04/26/爬虫心得/</id>
     <published>2016-04-26T08:43:50.000Z</published>
-    <updated>2016-05-06T09:15:01.000Z</updated>
+    <updated>2016-05-06T04:42:45.000Z</updated>
     <content type="html"><![CDATA[<p>呆过的第一家公司A是专门做爬虫的，无奈当时太年轻，还未看清整个技术框架就因为“无聊，重复，太闲”而选择了离职。时隔一年，稍微成熟了一下，回顾以前做过的事情，感觉 A 公司的整个爬虫技术确实是挺成熟的。<br>最近也在研究爬虫，在这里写一下心得吧，作为一个总结，也希望能供大家一个参考。</p>
 <p>在我看来，有两种爬虫：</p>
 <ul>
-<li>蜘蛛爬虫<br><a id="more"></a>- 普通爬虫</li>
+<li>蜘蛛爬虫</li>
+<li>普通爬虫</li>
 </ul>
-<p>可能总结的不太准确，不过阶段不同，理解不同嘛，这就是我现阶段的理解，如果以后有更深的理解了，再回过头来修正。</p>
+<p>可能总结的不太准确，不过阶段不同，理解不同嘛，这就是我现阶段的理<a id="more"></a>解，如果以后有更深的理解了，再回过头来修正。</p>
 <h4 id="蜘蛛爬虫">蜘蛛爬虫</h4><blockquote>
 <p>网络爬虫（又被称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。</p>
 </blockquote>
@@ -74,16 +75,20 @@
 <p>有些东西做完了之后会发现，很简单。<br>有些东西实现的过程只有做了才知道其中的麻烦。</p>
 <p>这段时间由于之前笔试的关系，一直想写一个PHP的爬虫程序，其实写出来很简单。<br>有最开始的一个进程爬完插入，发现速度太慢了，之后了解到curl的多线程爬取，再之后想使用多进程。<br>感觉收获还是挺大的。</p>
 <p>写的有些乱，可能还有错误，算做一个记录吧。</p>
+<p>来自为知笔记(Wiz)</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>呆过的第一家公司A是专门做爬虫的，无奈当时太年轻，还未看清整个技术框架就因为“无聊，重复，太闲”而选择了离职。时隔一年，稍微成熟了一下，回顾以前做过的事情，感觉 A 公司的整个爬虫技术确实是挺成熟的。<br>最近也在研究爬虫，在这里写一下心得吧，作为一个总结，也希望能供大家一个参考。</p>
 <p>在我看来，有两种爬虫：</p>
 <ul>
-<li>蜘蛛爬虫<br>]]>
+<li>蜘蛛爬虫</li>
+<li>普通爬虫</li>
+</ul>
+<p>可能总结的不太准确，不过阶段不同，理解不同嘛，这就是我现阶段的理]]>
     
     </summary>
     
-      <category term="" scheme="http://blog.xingxuchu.com/tags/undefined/"/>
+      <category term="爬虫" scheme="http://blog.xingxuchu.com/tags/%E7%88%AC%E8%99%AB/"/>
     
       <category term="日志" scheme="http://blog.xingxuchu.com/categories/%E6%97%A5%E5%BF%97/"/>
     
