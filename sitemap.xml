@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/12/05/php7%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2016-05-06T04:46:22.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2016/04/26/%E7%88%AC%E8%99%AB%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2016-05-06T04:42:45.000Z</lastmod>
   </url>
@@ -22,12 +27,12 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2014/07/22/SecureCRT%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://blog.xingxuchu.com/2015/01/19/Lua%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T09:20:01.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/01/19/Lua%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://blog.xingxuchu.com/2014/07/22/SecureCRT%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2015-12-31T09:20:01.000Z</lastmod>
   </url>
   
@@ -89,11 +94,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/12/12/Composer/</loc>
     <lastmod>2015-12-30T16:30:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/12/05/php7%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2015-12-30T16:20:01.000Z</lastmod>
   </url>
   
   <url>
