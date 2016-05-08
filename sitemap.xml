@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-05-08T07:07:36.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/03/17/Composer+Yii2.0%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2016-05-08T07:04:56.000Z</lastmod>
   </url>
@@ -29,11 +34,6 @@
   <url>
     <loc>http://blog.xingxuchu.com/2015/03/16/js%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2016-05-08T06:51:27.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2016-05-08T06:50:04.000Z</lastmod>
   </url>
   
   <url>
