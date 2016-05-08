@@ -5,16 +5,16 @@
   
   <title>Perl笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
+  <meta name="description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Perl笔记">
 <meta property="og:url" content="http://blog.xingxuchu.com/2015/01/28/Perl笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
-<meta property="og:updated_time" content="2015-12-31T09:30:01.000Z">
+<meta property="og:description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
+<meta property="og:updated_time" content="2016-05-08T06:50:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Perl笔记">
-<meta name="twitter:description" content="数组去重my %hash;@$items = grep { ++$hash{$_}- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);">
+<meta name="twitter:description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -268,7 +268,7 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_}</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code><a id="more"></a>这句话没用，骗了我好多年，应该改为 <code>&#39;User-Agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,- 计算日期：<code>my ($sec,$min,$hour,$mday,$mon,$year) = localtime(time);$year += 1900;$mon++;my $date = &quot;$year-$mon-$mday&quot;;</code>- 判断哈希数组引用<code>if(ref($result) eq &#39;ARRAY&#39;)|if(ref($result) eq &#39;HASH&#39;)</code>- 将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code>- sleep();参数为秒数- 读取文件步骤：<code>open &quot;DATA&quot;, &quot;while(){    chomp;    #do something;}</code>- perl命令带参数， 存在数组@ARGV 里，- perl 使用switch要使用Switch 模块 </li>
+<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_} &lt; 2 } @$items;</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code>这句话没用，骗了我好多年，应该改为 <code>&#39;User-Age&lt;!--more--&gt;nt&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,- 计算日期：<code>my ($sec,$min,$hour,$mday,$mon,$year) = localtime(time);$year += 1900;$mon++;my $date = &quot;$year-$mon-$mday&quot;;</code>- 判断哈希数组引用<code>if(ref($result) eq &#39;ARRAY&#39;)|if(ref($result) eq &#39;HASH&#39;)</code>- 将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code>- sleep();参数为秒数- 读取文件步骤：<code>open &quot;DATA&quot;, &quot;&lt;&quot;, &quot;data.txt&quot; or die &quot;can open the file!($!)&quot;;while(&lt;DATA&gt;){    chomp;    #do something;}</code>- perl命令带参数， 存在数组@ARGV 里，- perl 使用switch要使用Switch 模块 来自为知笔记(Wiz)</li>
 </ul>
 
       

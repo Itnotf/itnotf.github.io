@@ -318,7 +318,7 @@ var _hmt = _hmt || [];
         <blockquote>
 <p><a href="http://www.php100.com/manual/JavaScriptq.html">http://www.php100.com/manual/JavaScriptq.html</a></p>
 </blockquote>
-<h3 id="WHAT">WHAT</h3>
+<h3 id="WHAT">WHAT</h3><p> JavaScript是Netscape公司开发的一种基于浏览器客户端、基于对象的、事件驱动的网页脚本语言，前身叫livescript<br>特点：简单、跨平台、可移植、事件驱动、动态交互式的操作方式<br>作用：交互式操作、表单验证、网页特效、Web游戏、服务器脚本开发<br>解释执行（由上至下）
       
     </div>
     
@@ -381,7 +381,9 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_}</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code>
+<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_} &lt; 2 } @$items;</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code>这句话没用，骗了我好多年，应该改为 <code>&#39;User-Age&lt;!--more--&gt;nt&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,- 计算日期：<code>my ($sec,$min,$hour,$mday,$mon,$year) = localtime(time);$year += 1900;$mon++;my $date = &quot;$year-$mon-$mday&quot;;</code>- 判断哈希数组引用<code>if(ref($result) eq &#39;ARRAY&#39;)|if(ref($result) eq &#39;HASH&#39;)</code>- 将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code>- sleep();参数为秒数- 读取文件步骤：<code>open &quot;DATA&quot;, &quot;&lt;&quot;, &quot;data.txt&quot; or die &quot;can open the file!($!)&quot;;while(&lt;DATA&gt;){    chomp;    #do something;}</code>- perl命令带参数， 存在数组@ARGV 里，- perl 使用switch要使用Switch 模块 来自为知笔记(Wiz)</li>
+</ul>
+
       
     </div>
     
@@ -398,10 +400,6 @@ var _hmt = _hmt || [];
 	</div>
 
 
-      
-        <p class="article-more-link">
-          <a  href="/2015/01/28/Perl笔记/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -504,20 +502,9 @@ var _hmt = _hmt || [];
         <ul>
 <li><code>$secondElement = getArray()[1];</code><br>找了下，原来这种写法是5.4以后的版本的</li>
 </ul>
-<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Always use quotes around a string literal <span class="keyword">array</span> index. For example, <span class="variable">$foo</span>[<span class="string">'bar'</span>] is correct, <span class="keyword">while</span> <span class="variable">$foo</span>[bar] is not.</span><br><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Always use quotes around a string literal <span class="keyword">array</span> index. For example, <span class="variable">$foo</span>[<span class="string">'bar'</span>] is correct, <span class="keyword">while</span> <span class="variable">$foo</span>[bar] is not.</span><br></pre></td></tr></table></figure>
 <ul>
-<li>floor() 向下取整</li>
-</ul>
-<ul>
-<li>foreach() 不判空的话会报错</li>
-</ul>
-<ul>
-<li>inarray($param, $arr, true) 不带true的话会造成奇怪的错误，会自动强制转换$param的类型，字符串转为0</li>
-</ul>
-<ul>
-<li>null 有时候被解析为和0相等</li>
-</ul>
-
+<li>floor() 向下取
       
     </div>
     
@@ -534,6 +521,10 @@ var _hmt = _hmt || [];
 	</div>
 
 
+      
+        <p class="article-more-link">
+          <a  href="/2014/12/19/PHP笔记/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -577,43 +568,8 @@ var _hmt = _hmt || [];
       
         <h3 id="WHAT">WHAT</h3><p>PHP 是一种服务器断HTML-嵌入式脚本描述语言，其最强大和最重要的特征就是跨平台和面向对象。</p>
 <h4 id="变量">变量</h4><p> <code>$_SERVER</code>  预定义变量，包含运行php 的计算机的信息</p>
-<p>标签<code>`： 被包围在 pre 元素中的文本通常会保留空格和换行符，而文本也会呈现为等宽字体
-&lt;!--more--&gt;</code>$_GET<code>和</code>$_POST<code>是预定义变量（不需要创建），也是数组和一个特殊的变量，意味着每个变量可能包含大量的值，不能使用</code>print $_POST<code>，而要使用数组索引</code>print $_POST[‘something’]`</p>
-<p>在双引号中使用单引号引用键时，将引发解析错误。解决办法为先赋值一下<br><code>$_REQUEST</code>包含<code>$_GET</code>和<code>$_POST</code><br>PHP的display_errors默认off，单独脚本开启<code>ini_set(&quot;display_errors&quot;,1)</code><br>常见的四种错误类型。设置PHP报告哪些错误：配置文件中调整error_reporting级别；使用<code>error_reporting()</code>函数，<code>error_reporting(E_ALL|E_STRICT)</code></p>
-<h4 id="使用数值">使用数值</h4><p>注意输出<code>$</code>符号时，进行转义</p>
-<p><code>round()</code>函数，用于对数值截取特定维数的小数，第一个参数是数值，第二个参数是位数（可选），由于复制的原因，四舍五入时，如果小数为一般，取到最接近的偶数<br><code>number_format()</code>,类似round(),千位分组<br>随机数<code>rand($min,$max)</code>,更好的随机数<code>mt_rand()</code><br>PHP 将round()分为两种函数，一种是ceil(), 一种是floor()<br>abs() 绝对值函数</p>
-<h4 id="字符串">字符串</h4><p>nl2br()自动在字符串换行处添加HTML标签 break 标签<br>处理字符串中的HTML标签，htmlspecialchars(), htmlentities(), strip_tags()<br>html_entity_decode(),实体转为html代码<br>wordwrap(),按指定长度折行处理字符串<br>urlencode()对字符串进行url编码，反之，urldecode()<br>crypt() 单向加密<br>mcrypt_encrypt()/mcrypt_decrypt()<br>strtok()</p>
-<p>substr($string, $begin, $length)</p>
-<p>strlen($string)</p>
-<p>str_word_count()<br>strcmp()</p>
-<p>strnacmp()/strcasecmp()/strnatcasecmp()</p>
-<p>strstr()<br>strpos()<br>str_replace()/str_ireplace()<br>trim()</p>
-<h4 id="控制结构">控制结构</h4><p>empty()/isset()<br>is_numeric()<br>break 退出当前的结构；<br>continue 直接跳到下一循环；<br>exit和die 终止脚本；exit通常和header() 一起使用</p>
-<h4 id="数组">数组</h4><p>$_SERVER,$_GET,$_POST,$_COOKIE,$_SESSION,$ENV, 一同被称为超全局变量</p>
-<p>print_r()函数来显示任何变量的内容和结构<br>如果使用array()来定义索引，那么可以指定第一个元素的索引，其他元素的索引将延续第一个索引值<br>range()也可以用来创建数组，同时将数组的值限定在一定范围内，如：<br>range (1, 100);<br>range (‘a’, ‘z’);<br>PHP5以后，range() 还包含一个可以用来指定增量的参数：<br>range (1, 100, 2);<br>unset() 这个函数用来删除变量以及释放它所占用的内存<br>count() 对于数组，返回数组元素个数；对于其他值，返回1；如果参数是变量而变量没有定义，返回0；如果mode被设置为COUNT_RECURSIVE(或为1)，会递归计算多维数组中元素的个数；sizeof() 函数是count() 的别名<br>数组合并：<br>array_merge(),参数为两个数组；<br>$arr_3 = $arr_1 + $arr_2;<br>花括号可以将双引号中的数组元素封装起来<br>foreach ($array as $key =&gt; $value)<br>sort(), rsort() 值排序<br>asort(), arsort() 值排序，保持索引关系<br>ksort(), krsort() 键排序，保持索引关系<br>shuffle() 用来对数组中的元素随机重组<br>natsort(), natcasesort() 保持索引关系，自然排序<br>implode($separator, $array) 将数组转换为字符串，<br>explode ($separator, $string) 将字符串转换为数组<br>list () 函数用来将数组元素的值赋值给单独的变量<br>list () 只对数值型索引并从0开始的数组才有用，必须确认接受每一个数组元素，但是可以使用空值的方式忽略元素</p>
-<h4 id="创建web应用程序">创建web应用程序</h4><p>设计与逻辑分开，Smarty是有名的模版系统<br>include() 失败了会生成一个警告，继续运行<br>require() 失败了会终止脚本的运行<br>都会将引用的文件合并到主文件中，可以使用圆括号也可以不适用<br>include_once() 和 require_once() 只允许被同一文件加载一次</p>
-<p><code>define(&#39;CONSTANT_NAME&#39;, $value)</code></p>
-<p><code>defined(&#39;CONTANT_NAME&#39;)</code></p>
-<p>预定义常量 PHP_VISION、PHP_OS<br>date(“Y/m/d h i s”, $timestamp), 有很多可接收格式，还可接收一个时间戳(timestamp)<br>time() 可以返回当前时间的时间戳<br>mktime(hour, minute, second, day, year) 可以返回一个指定时间的时间戳<br>PHP5.1在使用时间相关函数之前要先设置服务器的时区：<br>date_default_timezone_set(timezone)<br>timezone 是类似America/New_York 这样的字符串<br>也可以在PHP配置文件中做这件事情<br>PHP是一种服务器端的技术，因此这些函数反映的是服务器上的时间，要获取客户端的时间要使用javascript<br>DateTime()<br>strtolower() 将字符串转化为小写<br>根据(X)HTML标准，必须将表单输入框的属性放在引号中，特别是要放在双引号中<br>mail(to, subject, body)<br>substr_count()计算字符串中子字符串的数量<br>某些函数只能在没有任何东西被发送到浏览器之前调用，这些函数包括：<br>header(), setcookie(), session_start()<br>会发生“HTTP头已发送”的错误<br>采用输出缓冲（output buffering, 或称输出控制），在页面最顶端使用ob_start() 函数，每个print和类似函数都会将数据发送到内存中，相反，HTTP调用不会缓冲<br>在页面最低端使用ob_end_flush() 函数将积累下来的缓冲发送到web浏览器，或者使用ob_end_clean() 删除数据缓冲不发送<br>现在的php版本会自动开启输出缓冲<br>ob_get_lenght()<br>ob_get_contents()<br>ob_flush()<br>ob_clean()<br>重定向：<br>header(‘Location: page.php’)<br>exit();<br>如果浏览器已经收到HTTP头， 则header_sent() 函数会返回TRUE，此时header() 函数将不能使用</p>
-<h4 id="cookie和session">cookie和session</h4><p>服务器断的PHP脚本和客户端的javascript都能发送、读取和删除cookies，这是这两种脚本的重叠功能之一<br>cookie必须在发送其他任何信息之前从服务器发送到客户端<br>setcookie(name, value, expiration, path, domain, secure, httponly)<br>cookie的总数限制接近4kb<br>可以使用header_sent() 函数测试发送cookie是否安全，它将报告HTTP头是否已发送给Web浏览器<br>$_COOKIE[]<br>使用htmlentities() 来阻止因为用户对cookie的值进行修改而造成的不良后果<br>cookie的值发送时自动编码，获得时自动解码，对于HTML表单发送的值也是如此<br>setcookie(‘test’, ‘value’, time() + 3600, ‘subfolder’, ‘for.example.com’, 1 )<br>删除cookie，setcookie(name, ‘’) or setcookie(name, FALSE)<br>删除cookie必须使用设置cookie时相同的参数值（除了值和过期时间）<br>页面获取cookie在删除cookie之前<br>session更加安全；能存储更多信息；可以在用户不接收cookie时仍然工作<br>session_start()<br>php.ini 中可以修改session相关配置<br>还可以是用ini_set()函数来更改一些session设置<br>session_name() 可以用来修改session 的cookie名称<br>session_name();<br>session_start();<br>session_set_cookie_params() 用来修改session cookie 的设置<br>session可以保存任何类型的值<br>session_destroy()</p>
-<h4 id="创建函数">创建函数</h4><p>函数名不区分大小写<br>function_exists(‘function_name’)<br>global</p>
-<h4 id="文件和目录">文件和目录</h4><p>两种存储数据的方法：文件和数据库<br>默认权限是所有人读取，所有者写入<br>web服务器中文件有两种访问方式。第一种方式是访问自己计算机的文件系统，第二种方式是访问远程服务器。<br>存放在web服务器特定目录中的文件也可以通过HTTP访问<br>web服务器根目录的概念就是基础URL指向的文件系统中的文件夹。如果不做限制，web浏览器可以访问web根目录以及其子目录的所有文件。但是web服务器不能访问web根目录外面的文件<br>web根目录之外的文件可以被本地运行的php访问，但是不能通过internet访问<br>目录的安全比文件的安全更重要<br>file_exists(‘file’)<br>touch(‘file’)<br>读(4)写(2)执行(1)<br>chgrp(), chown(), chmod() 修改文件或目录权限<br><code>file_put_contents($file, $data . PHP_EOL, [FILE_APPEND]);</code>第三个常量为追加到文件中,PHP_EOL为当前操作系统给的换行符<br>旧方法</p>
-<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$fp</span> = fopen(<span class="variable">$file</span>, mode);</span><br><span class="line">fwrite(<span class="variable">$fp</span>, <span class="variable">$data</span> . PHP_EOL);</span><br><span class="line">fclose(<span class="variable">$fp</span>);</span><br></pre></td></tr></table></figure>
-<p>is_writalbe($file);</p>
-<p>file_put_contents($file,  $data . PHP_EOL, [FILE_APPEND | LOCK_EX]);LOCK_EX 可以在写入时锁定该文件</p>
-<p>file_get_contents($file);</p>
-<p>file($file);读取文件并将每一行放在一个数组中</p>
-<p>使用file函数之前可以用is_readable()函数来测试一下php是否能够读取这个文件<br>用户上传文件必须对标准的HTML表单做出3处更改<br>首先，初始form必须包含代码 enctype=”multipart/form-data”<br>其次，必须添加一个特殊的隐藏输入框<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<p>用来建议浏览器最大上传多大的文件（字节）<br>最后，使用file元素创建所需的表单字段<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
-<p>$_FILES<br>move_uploaded_file($_FILE[‘the_file’][‘tmp_name’], ‘path/to/dest/filename’)<br>scandir($dir)<br>filesize($file)<br>filetime($file)<br>is_dir()/is_file()<br>glob() 函数可以搜索到名字与模式相匹配的文件目录<br>fileperms() 返回文件的权限<br>fileatime() 返回文件最后访问时间<br>fileowner() 返回文件的拥有者<br>basename() 和 dirname() 可以返回完整字符串中的文件名或目录名<br>finfo_file() 用于检测文件的MIME类型<br>mkdir(‘dir_name’, permissions); 默认0777<br>rmdir()</p>
-<h4 id="数据库介绍">数据库介绍</h4><p>alter create delete drop insert select update<br>mysql_query()</p>
-<p><code>$dbh = mysql_connect(hostname, username, password);</code></p>
-<p>错误控制@符号<br>mysql_error()<br>mysql注入攻击</p>
-<p>$result = mysql_query($query, $dbh);</p>
-<p>while($row = mysql_fetch_array($result)){}</p>
-<p>mysql_num_rows() 返回由select查询返回的记录行数<br>truncate table tablename 用来清空一个表<br>grant设置权限和用户<br>revote命令用于移除用户和权限</p>
-<p>###深入学习PHP的资源</p>
-
+<p>标签<code>&lt;pre&gt;&lt;/pre&gt;</code>： 被包围在 pre 元素中的文本通常会保留空格和换行符，而文本也会呈现为等宽字体</p>
+<p><code>$_GET</code>和<code>$_POST</code>是预定义变量（不需要创建），也是数组和一个特
       
     </div>
     
@@ -630,6 +586,10 @@ var _hmt = _hmt || [];
 	</div>
 
 
+      
+        <p class="article-more-link">
+          <a  href="/2014/10/28/《PHP基础教程》学习笔记/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>

@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2014/10/28/%E3%80%8APHP%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%E3%80%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-05-08T06:54:09.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2014/12/19/PHP%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-05-08T06:53:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/03/16/js%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-05-08T06:51:27.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2016-05-08T06:50:04.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2015/01/19/Lua%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2016-05-08T06:49:05.000Z</lastmod>
   </url>
@@ -27,28 +47,8 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/01/28/Perl%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T09:30:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2014/12/19/PHP%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T09:25:01.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.xingxuchu.com/2014/07/22/SecureCRT%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2015-12-31T09:20:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2014/10/28/%E3%80%8APHP%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%E3%80%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T09:05:01.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/03/16/js%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2015-12-31T08:35:01.000Z</lastmod>
   </url>
   
   <url>
