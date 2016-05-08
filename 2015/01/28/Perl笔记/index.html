@@ -5,16 +5,25 @@
   
   <title>Perl笔记 | 这里没有鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
+  <meta name="description" content="数组去重
+12my %hash;@$items = grep &amp;#123; ++$hash&amp;#123;$_&amp;#125; &amp;lt; 2 &amp;#125; @$items;
+
+$ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Perl笔记">
 <meta property="og:url" content="http://blog.xingxuchu.com/2015/01/28/Perl笔记/index.html">
 <meta property="og:site_name" content="这里没有鱼">
-<meta property="og:description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
-<meta property="og:updated_time" content="2016-05-08T07:07:36.000Z">
+<meta property="og:description" content="数组去重
+12my %hash;@$items = grep &amp;#123; ++$hash&amp;#123;$_&amp;#125; &amp;lt; 2 &amp;#125; @$items;
+
+$ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/">
+<meta property="og:updated_time" content="2016-05-08T07:12:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Perl笔记">
-<meta name="twitter:description" content="数组去重my %hash;@$items = grep { ++$hash{$_} &amp;lt; 2 } @$items;- $ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&amp;quot;);这句话没用，骗了我好多">
+<meta name="twitter:description" content="数组去重
+12my %hash;@$items = grep &amp;#123; ++$hash&amp;#123;$_&amp;#125; &amp;lt; 2 &amp;#125; @$items;
+
+$ua-&amp;gt;default_header(&amp;#39;agent&amp;#39;=&amp;gt;&amp;quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/">
   
     <link rel="alternative" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
   
@@ -267,9 +276,28 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li>数组去重<code>my %hash;@$items = grep { ++$hash{$_} &lt; 2 } @$items;</code>- <code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code>这句话没用，骗了我好多年，应该改为 <code>&#39;User-Age&lt;!--more--&gt;nt&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,- 计算日期：<code>my ($sec,$min,$hour,$mday,$mon,$year) = localtime(time);$year += 1900;$mon++;my $date = &quot;$year-$mon-$mday&quot;;</code>- 判断哈希数组引用<code>if(ref($result) eq &#39;ARRAY&#39;)|if(ref($result) eq &#39;HASH&#39;)</code>- 将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code>- sleep();参数为秒数- 读取文件步骤：<code>open &quot;DATA&quot;, &quot;&lt;&quot;, &quot;data.txt&quot; or die &quot;can open the file!($!)&quot;;while(&lt;DATA&gt;){    chomp;    #do something;}</code>- perl命令带参数， 存在数组@ARGV 里，- perl 使用switch要使用Switch 模块 来自为知笔记(Wiz)</li>
-</ul>
+        <ol>
+<li><p>数组去重</p>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">my <span class="decorator">%hash</span>;</span><br><span class="line">@<span class="variable">$items</span> = grep &#123; ++<span class="variable">$hash</span>&#123;$<span class="number">_</span>&#125; &lt; <span class="number">2</span> &#125; @<span class="variable">$items</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>$ua-&gt;default_header(&#39;agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1;WOW64; rv:30.0) Gecko/20100101 Firefox/30.0&quot;);</code><br>这句话没用，骗了我好多年，应该改为<br><code>&lt;!--more--&gt;&#39;User-Agent&#39;=&gt;&quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0&quot;</code>,</p>
+</li>
+<li><p>计算日期：</p>
+<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my (<span class="variable">$sec</span>,<span class="variable">$min</span>,<span class="variable">$hour</span>,<span class="variable">$mday</span>,<span class="variable">$mon</span>,<span class="variable">$year</span>) = localtime(time);</span><br><span class="line"><span class="variable">$year</span> += <span class="number">1900</span>;</span><br><span class="line"><span class="variable">$mon</span>++;</span><br><span class="line">my <span class="variable">$date</span> = <span class="string">"$year-$mon-$mday"</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>判断哈希数组引用</p>
+<figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">ref</span>($<span class="literal">result</span>) eq '<span class="type">ARRAY</span>')|</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">ref</span>($<span class="literal">result</span>) eq '<span class="type">HASH</span>')</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将字符转义<code>$params =~ s/\\x(..)/chr hex $1/eg;</code></p>
+</li>
+<li>sleep();参数为秒数</li>
+<li><p>读取文件步骤：</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">open</span> <span class="string">"DATA"</span>, <span class="string">"&lt;"</span>, <span class="string">"data.txt"</span> <span class="keyword">or</span> <span class="keyword">die</span> <span class="string">"can open the file!(<span class="variable">$!</span>)"</span>;</span><br><span class="line"><span class="keyword">while</span>(&lt;DATA&gt;)&#123;</span><br><span class="line">    <span class="keyword">chomp</span>;</span><br><span class="line">    <span class="comment">#do something;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>perl命令带参数， 存在数组@ARGV 里，</p>
+</li>
+<li>perl 使用switch要使用Switch 模块<br>来自为知笔记(Wiz)</li>
+</ol>
 
       
     </div>
