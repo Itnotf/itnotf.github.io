@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.xingxuchu.com/2015/12/12/Composer/</loc>
+    <lastmod>2016-05-08T06:58:30.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/03/17/Composer+Yii2.0%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2016-05-08T06:57:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2016-05-08T06:55:05.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.xingxuchu.com/2014/10/28/%E3%80%8APHP%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%E3%80%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2016-05-08T06:54:09.000Z</lastmod>
   </url>
@@ -57,11 +72,6 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/17/Composer+Yii2.0%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-31T08:25:01.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.xingxuchu.com/2015/03/16/Yii2.0%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2015-12-31T08:20:01.000Z</lastmod>
   </url>
@@ -72,18 +82,8 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/03/18/Mysql%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99/</loc>
-    <lastmod>2015-12-31T08:15:01.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.xingxuchu.com/2015/07/16/sublime%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2015-12-30T16:48:47.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2015-12-30T16:43:04.000Z</lastmod>
   </url>
   
   <url>
@@ -92,8 +92,8 @@
   </url>
   
   <url>
-    <loc>http://blog.xingxuchu.com/2015/12/12/Composer/</loc>
-    <lastmod>2015-12-30T16:30:01.000Z</lastmod>
+    <loc>http://blog.xingxuchu.com/2015/07/16/MarkDown%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2015-12-30T16:43:04.000Z</lastmod>
   </url>
   
   <url>
