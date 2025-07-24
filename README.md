@@ -2,7 +2,7 @@
 
 > `itnotf.github.io` 是我基于 Hexo 搭建的个人博客站点，部署在 GitHub Pages 上，记录一些技术笔记、想法碎片以及生活琐记。
 
-📍 **访问地址**：[blog.xingxuchu.com](http://blog.xingxuchu.com)
+📍 **访问地址**：[blog.itnotf.tech](http://blog.itnotf.tech)
 
 ---
 
