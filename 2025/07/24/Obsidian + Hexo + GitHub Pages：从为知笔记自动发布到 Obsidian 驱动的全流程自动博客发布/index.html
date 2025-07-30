@@ -1,0 +1,372 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布 | 这里没有鱼</title><meta name="author" content="60"><meta name="copyright" content="60"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="背景我最初（一看已是十年前）使用为知笔记（WizNote）记录日常，借助它的「发布到博客」功能，结合 Hexo 和 GitHub Pages，搭建了一个自动发布的博客系统。 这个博客也跟我的技术学习一样：一旦准备开始找工作就开始折腾，一旦工作找到了就处于半荒废状态了。 当然了，技术文章和生活思考偶尔还是会写一下的，只不过一直记在了 WizNote 上，没有对外发布。 随着接触到 Obsidian">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布">
+<meta property="og:url" content="https://itnotf.github.io/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/index.html">
+<meta property="og:site_name" content="这里没有鱼">
+<meta property="og:description" content="背景我最初（一看已是十年前）使用为知笔记（WizNote）记录日常，借助它的「发布到博客」功能，结合 Hexo 和 GitHub Pages，搭建了一个自动发布的博客系统。 这个博客也跟我的技术学习一样：一旦准备开始找工作就开始折腾，一旦工作找到了就处于半荒废状态了。 当然了，技术文章和生活思考偶尔还是会写一下的，只不过一直记在了 WizNote 上，没有对外发布。 随着接触到 Obsidian">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://avatars3.githubusercontent.com/u/11401215?v=3&s=460">
+<meta property="article:published_time" content="2025-07-24T15:38:00.000Z">
+<meta property="article:modified_time" content="2025-07-30T02:38:09.445Z">
+<meta property="article:author" content="60">
+<meta property="article:tag" content="Obsidian">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="技术&#x2F;博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://avatars3.githubusercontent.com/u/11401215?v=3&s=460"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布",
+  "url": "https://itnotf.github.io/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/",
+  "image": "https://avatars3.githubusercontent.com/u/11401215?v=3&s=460",
+  "datePublished": "2025-07-24T15:38:00.000Z",
+  "dateModified": "2025-07-30T02:38:09.445Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": 60,
+      "url": "https://itnotf.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://itnotf.github.io/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布',
+  isHighlightShrink: ,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="这里没有鱼" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://avatars3.githubusercontent.com/u/11401215?v=3&amp;s=460" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/favicon.ico" alt="Logo"><span class="site-name">这里没有鱼</span></a><a class="nav-page-title" href="/"><span class="site-name">Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-07-24T15:38:00.000Z" title="发表于 2025-07-24 23:38:00">2025-07-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-07-30T02:38:09.445Z" title="更新于 2025-07-30 10:38:09">2025-07-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/">技术笔记</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><hr>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>我最初（一看已是十年前）使用为知笔记（WizNote）记录日常，借助它的「发布到博客」功能，结合 Hexo 和 GitHub Pages，搭建了一个自动发布的博客系统。</p>
+<p>这个博客也跟我的技术学习一样：一旦准备开始找工作就开始折腾，一旦工作找到了就处于半荒废状态了。</p>
+<p>当然了，技术文章和生活思考偶尔还是会写一下的，只不过一直记在了 WizNote 上，没有对外发布。</p>
+<p>随着接触到 Obsidian ，我逐渐将记录主力从 WizNote 迁移到 Obsidian。发现 Obsdian 适合知识管理和结构化写作，并支持通过 Git 管理文件版本。</p>
+<p>因此，我决定重构博客发布流程，实现：</p>
+<ul>
+<li>所有笔记通过 Obsidian 编写和管理</li>
+<li>通过 Git 同步 Obsidian 内容</li>
+<li>自动发布特定目录下的笔记为博客（如 <code>50_Archives/博客发布</code> 目录）</li>
+<li>利用 GitHub Actions 实现一键发布到 GitHub Pages</li>
+</ul>
+<hr>
+<h2 id="原始方案（WizNote-方案）"><a href="#原始方案（WizNote-方案）" class="headerlink" title="原始方案（WizNote 方案）"></a>原始方案（WizNote 方案）</h2><blockquote>
+<p>✅ 优点：Wiz上编写博客比较方便，早期 Wiz 有插件可以点击一键发布</p>
+<p>❌ 缺点：Wiz笔记还是需要收费的；后面新版貌似没有插件了；需要本地部署一个服务，如果没有外网服务，就只能在内网触发发布；无法定制，格式支持有限</p>
+</blockquote>
+<p>架构如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">WizNote（点击发布）</span><br><span class="line">    ↓ 触发接口</span><br><span class="line">Hexo 本地生成页面</span><br><span class="line">    ↓ 自动执行 deploy</span><br><span class="line">GitHub Pages 展示博客</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="改进方案（Obsidian-GitHub-Actions-自动发布）"><a href="#改进方案（Obsidian-GitHub-Actions-自动发布）" class="headerlink" title="改进方案（Obsidian + GitHub Actions 自动发布）"></a>改进方案（Obsidian + GitHub Actions 自动发布）</h2><blockquote>
+<p>✅ 优点：免费、自动化、灵活、完全自控、与 Obsidian 紧密集成</p>
+<p>❌ 缺点：需要配置一次 GitHub Actions、Hexo、Secrets</p>
+</blockquote>
+<h3 id="核心思路"><a href="#核心思路" class="headerlink" title="核心思路"></a>核心思路</h3><p>将 Obsidian 的 <code>50_Archives/博客发布/</code> 目录作为博客内容源，通过 GitHub Action 自动触发 Hexo 构建和发布：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Obsidian</span><br><span class="line">    ↓ 自动同步到 GitHub 仓库 A（life-notes）</span><br><span class="line">GitHub Actions（life-notes/.github/workflows/publish.yml）</span><br><span class="line">    ↓ 拉取博客项目仓库 B（hexo-blog）</span><br><span class="line">    ↓ 将 50_Archives/博客发布/ 下笔记复制为 Hexo 文章</span><br><span class="line">    ↓ hexo g &amp;&amp; hexo d</span><br><span class="line">发布到 GitHub Pages 仓库 C（yourname.github.io）</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="实现步骤（含细节说明）"><a href="#实现步骤（含细节说明）" class="headerlink" title="实现步骤（含细节说明）"></a>实现步骤（含细节说明）</h2><h3 id="步骤-1：准备三个-GitHub-仓库"><a href="#步骤-1：准备三个-GitHub-仓库" class="headerlink" title="步骤 1：准备三个 GitHub 仓库"></a>步骤 1：准备三个 GitHub 仓库</h3><ul>
+<li><strong>仓库 A（life-notes）</strong>：存放 Obsidian 的所有笔记</li>
+<li><strong>仓库 B（hexo-blog）</strong>：Hexo 博客项目，含主题等</li>
+<li><strong>仓库 C（yourname.github.io）</strong>：用于部署 GitHub Pages（GitHub Pages 绑定到此仓库）</li>
+</ul>
+<h3 id="步骤-2：配置仓库-A（life-notes）"><a href="#步骤-2：配置仓库-A（life-notes）" class="headerlink" title="步骤 2：配置仓库 A（life-notes）"></a>步骤 2：配置仓库 A（life-notes）</h3><h4 id="a-创建目录结构"><a href="#a-创建目录结构" class="headerlink" title="a. 创建目录结构"></a>a. 创建目录结构</h4><p>在 Obsidian 仓库内增加 <code>blog/</code> 目录用于存放博客笔记。</p>
+<h4 id="b-自动同步-Obsidian-到-GitHub"><a href="#b-自动同步-Obsidian-到-GitHub" class="headerlink" title="b. 自动同步 Obsidian 到 GitHub"></a>b. 自动同步 Obsidian 到 GitHub</h4><ol>
+<li><p>安装 Obsidian Git 插件（Community plugins → Obsidian Git）</p>
+</li>
+<li><p>配置自动推送选项：</p>
+<ul>
+<li>打开设置 → Obsidian Git</li>
+<li>启用 <code>Auto pull on startup</code>、<code>Auto push on save</code></li>
+<li>填入 GitHub 仓库地址（需本地已有 <code>.git</code> 初始化）</li>
+</ul>
+</li>
+<li><p>输入 GitHub Token（需权限包括 repo）</p>
+</li>
+</ol>
+<h4 id="c-配置-GitHub-Secrets"><a href="#c-配置-GitHub-Secrets" class="headerlink" title="c. 配置 GitHub Secrets"></a>c. 配置 GitHub Secrets</h4><p>前往 life-notes 仓库 → Settings → Secrets → Actions：</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>DEPLOY_REPO</code></td>
+<td>Hexo deploy 仓库地址，如：<code>youname/youname.github.io</code></td>
+</tr>
+<tr>
+<td><code>DEPLOY_TOKEN</code></td>
+<td>GitHub Token（具有 push 权限）</td>
+</tr>
+</tbody></table>
+<h3 id="d：配置-GitHub-Actions"><a href="#d：配置-GitHub-Actions" class="headerlink" title="d：配置 GitHub Actions"></a>d：配置 GitHub Actions</h3><p>新建 <code>.github/workflows/publish.yml</code></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">Deploy</span> <span class="string">Hexo</span> <span class="string">Blog</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&#x27;50_Archives/博客发布/**&#x27;</span></span><br><span class="line">    <span class="attr">branches:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">main</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">build-deploy:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Clone</span> <span class="string">Obsidian</span> <span class="string">Notes</span> <span class="string">(life-notes</span> <span class="string">仓库)</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">actions/checkout@v3</span></span><br><span class="line"></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Set</span> <span class="string">up</span> <span class="string">Node.js</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">actions/setup-node@v3</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">node-version:</span> <span class="string">&#x27;18&#x27;</span></span><br><span class="line"></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Clone</span> <span class="string">Hexo</span> <span class="string">Blog</span> <span class="string">Repo</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          git clone https://github.com/yourname/hexo-blog.git blog-temp</span></span><br><span class="line"><span class="string">          # 这是我的主题，可以根据实际情况调整</span></span><br><span class="line"><span class="string">          git clone https://github.com/jerryc127/hexo-theme-butterfly.git blog-temp/themes/butterfly</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Clean</span> <span class="string">old</span> <span class="string">blog</span> <span class="string">posts</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          rm -rf blog-temp/source/_posts/*</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Sync</span> <span class="string">Blog</span> <span class="string">Notes</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          cp -r 50_Archives/博客发布/* blog-temp/source/_posts/</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Install</span> <span class="string">Dependencies</span> <span class="string">&amp;</span> <span class="string">Build</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          cd blog-temp</span></span><br><span class="line"><span class="string">          npm install</span></span><br><span class="line"><span class="string">          npx hexo clean</span></span><br><span class="line"><span class="string">          npx hexo generate</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span> <span class="string">to</span> <span class="string">GitHub</span> <span class="string">Pages</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          cd blog-temp/public</span></span><br><span class="line"><span class="string">          git init</span></span><br><span class="line"><span class="string">          git config user.name &quot;youername&quot;</span></span><br><span class="line"><span class="string">          git config user.email &quot;youremail.gmail.com&quot;</span></span><br><span class="line"><span class="string">          git checkout -b gh-pages</span></span><br><span class="line"><span class="string">          git remote add origin https://x-access-token:$&#123;&#123; secrets.DEPLOY_TOKEN &#125;&#125;@github.com/yourname/yourname.github.io.git</span></span><br><span class="line"><span class="string">          git add .</span></span><br><span class="line"><span class="string">          git commit -m &quot;🚀 Deploy at $(date &#x27;+%Y-%m-%d %H:%M:%S&#x27;)&quot;</span></span><br><span class="line"><span class="string">          git push --force origin gh-pages</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="步骤-3：配置-Hexo-博客仓库-B（hexo-blog）"><a href="#步骤-3：配置-Hexo-博客仓库-B（hexo-blog）" class="headerlink" title="步骤 3：配置 Hexo 博客仓库 B（hexo-blog）"></a>步骤 3：配置 Hexo 博客仓库 B（hexo-blog）</h3><h4 id="a-初始化-Hexo-项目"><a href="#a-初始化-Hexo-项目" class="headerlink" title="a. 初始化 Hexo 项目"></a>a. 初始化 Hexo 项目</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init .</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h4 id="b-配置Hexo主题"><a href="#b-配置Hexo主题" class="headerlink" title="b. 配置Hexo主题"></a>b. 配置Hexo主题</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># 此步骤省略，需要保证有 source/_posts 目录</span><br></pre></td></tr></table></figure>
+
+<h4 id="c-推送到Github仓库"><a href="#c-推送到Github仓库" class="headerlink" title="c. 推送到Github仓库"></a>c. 推送到Github仓库</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin https://github.com/yourname/hexo-blog.git</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;init&quot;</span></span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="步骤-4：配置-GitHub-Pages-仓库-C（yourname-github-io）"><a href="#步骤-4：配置-GitHub-Pages-仓库-C（yourname-github-io）" class="headerlink" title="步骤 4：配置 GitHub Pages 仓库 C（yourname.github.io）"></a>步骤 4：配置 GitHub Pages 仓库 C（yourname.github.io）</h3><p>这个仓库用于<strong>承载最终生成的博客 HTML 页面</strong>，是用户访问你博客时实际访问的地址，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://yourname.github.io/</span><br></pre></td></tr></table></figure>
+
+<h4 id="a-创建仓库"><a href="#a-创建仓库" class="headerlink" title="a. 创建仓库"></a>a. 创建仓库</h4><ol>
+<li>打开 GitHub，新建一个名为 <code>yourname.github.io</code> 的仓库（名字必须与用户名一致，GitHub Pages 才能识别为主域）</li>
+<li>不勾选初始化选项（README、LICENSE 等）</li>
+</ol>
+<h4 id="b-启用-GitHub-Pages-功能"><a href="#b-启用-GitHub-Pages-功能" class="headerlink" title="b. 启用 GitHub Pages 功能"></a>b. 启用 GitHub Pages 功能</h4><ol>
+<li><p>打开仓库 → <code>Settings</code> → <code>Pages</code></p>
+</li>
+<li><p>在 <strong>“Source”</strong> 处选择：</p>
+<ul>
+<li>分支：<code>gh-pages</code></li>
+<li>路径：<code>/ (root)</code></li>
+</ul>
+</li>
+<li><p>保存，稍等几秒，GitHub 会生成访问地址，如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://yourname.github.io/</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="c-首次部署验证"><a href="#c-首次部署验证" class="headerlink" title="c. 首次部署验证"></a>c. 首次部署验证</h4><p>完成 GitHub Actions 配置并推送一次笔记后，会触发自动构建流程。如果一切正常：</p>
+<ul>
+<li>GitHub Actions 会将 Hexo 生成的内容推送到 <code>gh-pages</code> 分支</li>
+<li>页面几分钟内会上线，你可访问上述网址查看效果</li>
+</ul>
+<h4 id="d-（可选）自定义域名"><a href="#d-（可选）自定义域名" class="headerlink" title="d. （可选）自定义域名"></a>d. （可选）自定义域名</h4><p>如你拥有自己的域名，可以在此仓库根目录添加 <code>CNAME</code> 文件，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog.myname.com</span><br></pre></td></tr></table></figure>
+
+<p>然后去你的域名管理平台设置 <code>CNAME</code> 解析，指向 <code>yourname.github.io</code>。</p>
+<h2 id="✍️-博客写作格式要求"><a href="#✍️-博客写作格式要求" class="headerlink" title="✍️ 博客写作格式要求"></a>✍️ 博客写作格式要求</h2><p>Hexo 使用 Markdown，但要求每篇文章前加入 <strong>YAML Front Matter</strong>，用于识别文章标题、时间、分类等。</p>
+<h3 id="✅-合法格式示例："><a href="#✅-合法格式示例：" class="headerlink" title="✅ 合法格式示例："></a>✅ 合法格式示例：</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的第一篇博客</span><br><span class="line">date: 2025-07-24 08:00:00</span><br><span class="line">tags: [Obsidian, Hexo]</span><br><span class="line"><span class="section">categories: 技术笔记</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">这是正文内容，可以包含代码块、图片、引用等。</span><br></pre></td></tr></table></figure>
+
+<h3 id="❗避免的问题："><a href="#❗避免的问题：" class="headerlink" title="❗避免的问题："></a>❗避免的问题：</h3><ul>
+<li>没有 <code>---</code> Front Matter（Hexo 不会识别）</li>
+<li>使用 Obsidian 特有语法（如 <code>![[链接]]</code>、Dataview 语句）</li>
+</ul>
+<hr>
+<h2 id="🔧-模版化写作（推荐做法）"><a href="#🔧-模版化写作（推荐做法）" class="headerlink" title="🔧 模版化写作（推荐做法）"></a>🔧 模版化写作（推荐做法）</h2><p>为提高效率并避免格式错误，推荐在 Obsidian 中使用模版插件（如 <a href="https://github.com/SilentVoid13/Templater">Templater</a>）实现博客模版写作。</p>
+<h3 id="✅-示例模版："><a href="#✅-示例模版：" class="headerlink" title="✅ 示例模版："></a>✅ 示例模版：</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123;title&#125;&#125;</span><br><span class="line">date: &#123;&#123;date:YYYY-MM-DD HH:mm:ss&#125;&#125;</span><br><span class="line">tags: [笔记]</span><br><span class="line"><span class="section">categories: 默认分类</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 简介</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 正文</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li>原始方案依赖 WizNote，适合初学者尝试；</li>
+<li>新方案基于 Obsidian + GitHub Action 更自动化、更可控；</li>
+<li>只需维护 Obsidian 中的 <code>50_Archives/博客发布/</code> 目录，即可持续写作和发布；</li>
+<li>自动同步 + 自动发布一气呵成，最大限度提升写作效率。</li>
+</ul>
+<h2 id="遗留问题"><a href="#遗留问题" class="headerlink" title="遗留问题"></a>遗留问题</h2><ol>
+<li>图片如何展示和同步？</li>
+<li>博客和笔记需要写在一起吗？</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://itnotf.github.io">60</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://itnotf.github.io/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/">https://itnotf.github.io/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://itnotf.github.io" target="_blank">这里没有鱼</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Obsidian/">Obsidian</a><a class="post-meta__tags" href="/tags/Hexo/">Hexo</a><a class="post-meta__tags" href="/tags/%E6%8A%80%E6%9C%AF-%E5%8D%9A%E5%AE%A2/">技术/博客</a></div><div class="post-share"><div class="social-share" data-image="https://avatars3.githubusercontent.com/u/11401215?v=3&amp;s=460" data-sites="x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://avatars3.githubusercontent.com/u/11401215?v=3&amp;s=460" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">60</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" href="https://github.com/Itnotf"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Itnotf" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:itnotf60@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%9F%E5%A7%8B%E6%96%B9%E6%A1%88%EF%BC%88WizNote-%E6%96%B9%E6%A1%88%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">原始方案（WizNote 方案）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%94%B9%E8%BF%9B%E6%96%B9%E6%A1%88%EF%BC%88Obsidian-GitHub-Actions-%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">改进方案（Obsidian + GitHub Actions 自动发布）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E6%80%9D%E8%B7%AF"><span class="toc-number">3.1.</span> <span class="toc-text">核心思路</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E6%AD%A5%E9%AA%A4%EF%BC%88%E5%90%AB%E7%BB%86%E8%8A%82%E8%AF%B4%E6%98%8E%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">实现步骤（含细节说明）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-1%EF%BC%9A%E5%87%86%E5%A4%87%E4%B8%89%E4%B8%AA-GitHub-%E4%BB%93%E5%BA%93"><span class="toc-number">4.1.</span> <span class="toc-text">步骤 1：准备三个 GitHub 仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-2%EF%BC%9A%E9%85%8D%E7%BD%AE%E4%BB%93%E5%BA%93-A%EF%BC%88life-notes%EF%BC%89"><span class="toc-number">4.2.</span> <span class="toc-text">步骤 2：配置仓库 A（life-notes）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">4.2.1.</span> <span class="toc-text">a. 创建目录结构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5-Obsidian-%E5%88%B0-GitHub"><span class="toc-number">4.2.2.</span> <span class="toc-text">b. 自动同步 Obsidian 到 GitHub</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-%E9%85%8D%E7%BD%AE-GitHub-Secrets"><span class="toc-number">4.2.3.</span> <span class="toc-text">c. 配置 GitHub Secrets</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#d%EF%BC%9A%E9%85%8D%E7%BD%AE-GitHub-Actions"><span class="toc-number">4.3.</span> <span class="toc-text">d：配置 GitHub Actions</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-3%EF%BC%9A%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2%E4%BB%93%E5%BA%93-B%EF%BC%88hexo-blog%EF%BC%89"><span class="toc-number">4.4.</span> <span class="toc-text">步骤 3：配置 Hexo 博客仓库 B（hexo-blog）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-%E5%88%9D%E5%A7%8B%E5%8C%96-Hexo-%E9%A1%B9%E7%9B%AE"><span class="toc-number">4.4.1.</span> <span class="toc-text">a. 初始化 Hexo 项目</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-%E9%85%8D%E7%BD%AEHexo%E4%B8%BB%E9%A2%98"><span class="toc-number">4.4.2.</span> <span class="toc-text">b. 配置Hexo主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-%E6%8E%A8%E9%80%81%E5%88%B0Github%E4%BB%93%E5%BA%93"><span class="toc-number">4.4.3.</span> <span class="toc-text">c. 推送到Github仓库</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-4%EF%BC%9A%E9%85%8D%E7%BD%AE-GitHub-Pages-%E4%BB%93%E5%BA%93-C%EF%BC%88yourname-github-io%EF%BC%89"><span class="toc-number">4.5.</span> <span class="toc-text">步骤 4：配置 GitHub Pages 仓库 C（yourname.github.io）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="toc-number">4.5.1.</span> <span class="toc-text">a. 创建仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-%E5%90%AF%E7%94%A8-GitHub-Pages-%E5%8A%9F%E8%83%BD"><span class="toc-number">4.5.2.</span> <span class="toc-text">b. 启用 GitHub Pages 功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-%E9%A6%96%E6%AC%A1%E9%83%A8%E7%BD%B2%E9%AA%8C%E8%AF%81"><span class="toc-number">4.5.3.</span> <span class="toc-text">c. 首次部署验证</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#d-%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D"><span class="toc-number">4.5.4.</span> <span class="toc-text">d. （可选）自定义域名</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%9C%8D%EF%B8%8F-%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E6%A0%BC%E5%BC%8F%E8%A6%81%E6%B1%82"><span class="toc-number">5.</span> <span class="toc-text">✍️ 博客写作格式要求</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%9C%85-%E5%90%88%E6%B3%95%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B%EF%BC%9A"><span class="toc-number">5.1.</span> <span class="toc-text">✅ 合法格式示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%9D%97%E9%81%BF%E5%85%8D%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%9A"><span class="toc-number">5.2.</span> <span class="toc-text">❗避免的问题：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%94%A7-%E6%A8%A1%E7%89%88%E5%8C%96%E5%86%99%E4%BD%9C%EF%BC%88%E6%8E%A8%E8%8D%90%E5%81%9A%E6%B3%95%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">🔧 模版化写作（推荐做法）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%9C%85-%E7%A4%BA%E4%BE%8B%E6%A8%A1%E7%89%88%EF%BC%9A"><span class="toc-number">6.1.</span> <span class="toc-text">✅ 示例模版：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">7.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%97%E7%95%99%E9%97%AE%E9%A2%98"><span class="toc-number">8.</span> <span class="toc-text">遗留问题</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/07/24/Obsidian%20+%20Hexo%20+%20GitHub%20Pages%EF%BC%9A%E4%BB%8E%E4%B8%BA%E7%9F%A5%E7%AC%94%E8%AE%B0%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E5%88%B0%20Obsidian%20%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%85%A8%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83/" title="Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布">Obsidian + Hexo + GitHub Pages：从为知笔记自动发布到 Obsidian 驱动的全流程自动博客发布</a><time datetime="2025-07-24T15:38:00.000Z" title="发表于 2025-07-24 23:38:00">2025-07-24</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By 60</span><span class="framework-info"><span>框架 </span><a href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css')
+    if (true) {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})()</script><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (true) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
